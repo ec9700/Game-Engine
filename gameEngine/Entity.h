@@ -17,7 +17,7 @@ public:
     glm::vec3 scale = glm::vec3(1,1,1);
     glm::vec3 rotation = glm::vec3(0,0,0);
     Texture texture = NULL;
-    //std::vector<Component> componentList;
+    std::vector<Component> componentList;
 
     Entity() {
 

@@ -8,9 +8,16 @@
 
 class Component {
 public:
-    virtual void initial() = 0;
-    virtual void update() = 0;
-    virtual void dispose() = 0;
+
+    //Change "{}" to "= 0;"
+    virtual void initial() {}
+    virtual void update() {}
+    virtual void dispose() {}
+
+    Component() {
+
+    }
+
 };
 
 

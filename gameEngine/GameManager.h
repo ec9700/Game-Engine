@@ -2,7 +2,7 @@
 // Created by subto on 3/18/2024.
 //
 
-/*#ifndef GAMELIB_GAMEMANAGER_H
+#ifndef GAMELIB_GAMEMANAGER_H
 #define GAMELIB_GAMEMANAGER_H
 
 
@@ -35,7 +35,7 @@ public:
             for(Component &component : entity.componentList) {
                 component.update();
             }
-            renderManager.render(entity,shaderCollection,);
+            //renderManager.render(entity,shaderCollection,);
         }
     }
 
@@ -43,4 +43,4 @@ public:
 };
 
 
-#endif //GAMELIB_GAMEMANAGER_H*/
+#endif //GAMELIB_GAMEMANAGER_H
