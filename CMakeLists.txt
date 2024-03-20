@@ -11,8 +11,8 @@ add_executable(GameLib main.cpp
         gameEngine/Shader.h
         stb_image.cpp
         stb_image.h
-        Texture.cpp
-        Texture.h
+        gameEngine/Texture.cpp
+        gameEngine/Texture.h
         gameEngine/RenderManager.cpp
         gameEngine/RenderManager.h
         gameEngine/Entity.cpp

@@ -3,7 +3,7 @@
 #include <GLFW/glfw3.h>
 #include <cmath>
 #include "STB/stb_image.h"
-#include "Texture.h"
+#include "gameEngine/Texture.h"
 #include "gameEngine/Entity.h"
 #include "gameEngine/RenderManager.h"
 #include <glm/glm.hpp>

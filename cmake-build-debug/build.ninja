@@ -84,12 +84,12 @@ build CMakeFiles/GameLib.dir/stb_image.cpp.obj: CXX_COMPILER__GameLib_unscanned_
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir
 
-build CMakeFiles/GameLib.dir/Texture.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/Texture.cpp || cmake_object_order_depends_target_GameLib
-  DEP_FILE = CMakeFiles\GameLib.dir\Texture.cpp.obj.d
+build CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/Texture.cpp || cmake_object_order_depends_target_GameLib
+  DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\Texture.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
-  OBJECT_FILE_DIR = CMakeFiles\GameLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine
 
 build CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/RenderManager.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\RenderManager.cpp.obj.d
@@ -127,7 +127,7 @@ build CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj: CXX_COMPILER__GameL
 #############################################
 # Link the executable GameLib.exe
 
-build GameLib.exe: CXX_EXECUTABLE_LINKER__GameLib_Debug CMakeFiles/GameLib.dir/main.cpp.obj CMakeFiles/GameLib.dir/glad.c.obj CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj CMakeFiles/GameLib.dir/stb_image.cpp.obj CMakeFiles/GameLib.dir/Texture.cpp.obj CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj | glfw-3.3.9/src/libglfw3.a C$:/Users/subto/CLionProjects/GameLib/lib/opengl32.lib || glfw-3.3.9/src/libglfw3.a
+build GameLib.exe: CXX_EXECUTABLE_LINKER__GameLib_Debug CMakeFiles/GameLib.dir/main.cpp.obj CMakeFiles/GameLib.dir/glad.c.obj CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj CMakeFiles/GameLib.dir/stb_image.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj | glfw-3.3.9/src/libglfw3.a C$:/Users/subto/CLionProjects/GameLib/lib/opengl32.lib || glfw-3.3.9/src/libglfw3.a
   FLAGS = -g
   LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  C:/Users/subto/CLionProjects/GameLib/lib/opengl32.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\GameLib.dir

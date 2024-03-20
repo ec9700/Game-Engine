@@ -6,10 +6,10 @@
 #define GAMELIB_TEXTURE_H
 
 
-#include <STB/stb_image.h>
+#include "STB/stb_image.h"
 
 #include <iostream>
-#include <glad/glad.h>
+#include "glad/glad.h"
 
 class Texture {
 

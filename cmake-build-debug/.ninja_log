@@ -3,7 +3,7 @@
 78	1732	7326413007684689	glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_thread.c.obj	4199af73c0dd0ac
 29	1301	7326413003344695	CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj	e0a4dba3c6710f1d
 925	1041	7326445880637199	GameLib.exe	b75c9b0c8e1d91c6
-1	155	7326451359041179	build.ninja	67df06bda4e0685c
+1	155	7326452916517736	build.ninja	67df06bda4e0685c
 42	1625	7326413006614676	glfw-3.3.9/src/CMakeFiles/glfw.dir/context.c.obj	ac57e1729e3781f2
 47	1727	7326413006844683	glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.obj	36c567f2cc0a3711
 11	1006	7326413000314704	CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj	d9bf5d926a993d1a
@@ -33,3 +33,8 @@
 35	124	7326412991604689	CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj	e526594ed83eb5df
 32	96	7326412991314682	CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj	86104406c53f506e
 17	1134	7326413000364676	CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj	54f143e28737cf99
+7	412	7326452925952917	CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj	63e04b8fc970eac6
+12	511	7326452926942918	CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj	e0a4dba3c6710f1d
+10	706	7326452928902909	CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj	91184e6f639df405
+4	1039	7326452932213127	CMakeFiles/GameLib.dir/main.cpp.obj	dc7c2b2dfc6bb235
+1039	1165	7326452933432926	GameLib.exe	8dce3d296940774a

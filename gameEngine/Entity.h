@@ -8,7 +8,7 @@
 
 #include <glm/vec3.hpp>
 #include <vector>
-#include "../Texture.h"
+#include "Texture.h"
 #include "Component.h"
 
 class Entity {
