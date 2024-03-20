@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/subto/Downloads/glfw-3.3.9/glfw-3.3.9/tests/CMakeLists.txt
+  inputlag.c
+  getopt.c
+  glad_gl.c
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file '..\src\Debug\glfw3.lib'

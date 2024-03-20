@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\subto\Downloads\glfw-3.3.9\glfw-3.3.9\build\CMakeFiles\5c087759808dfea6315df6f7fd45fa6d\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\subto\Downloads\glfw-3.3.9\glfw-3.3.9\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\subto\Downloads\glfw-3.3.9\glfw-3.3.9\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\subto\Downloads\glfw-3.3.9\glfw-3.3.9\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\subto\Downloads\glfw-3.3.9\glfw-3.3.9\build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FCAE9914-50D0-3290-9D2C-8D35CD34BC3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7B208592-B412-3506-A22D-C4DE92888AB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
