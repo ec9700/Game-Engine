@@ -1,17 +1,11 @@
 #include <iostream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <cmath>
 #include "STB/stb_image.h"
 #include "gameEngine/Texture.h"
 #include "gameEngine/Entity.h"
 #include "gameEngine/RenderManager.h"
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
 #include <vector>
-#include <direct.h>
-#include <filesystem>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
@@ -83,7 +77,7 @@ int main() {
 
     ShaderCollection shaderCollection(vertexShader,fragmentShader);
 
-
+    // x,y,z, r,g,b, texture corner x, texture corner y
     float vertices[] = {
             -0.5f, -0.5f, -0.5f, 1,0,0, 0, 0,
             0.5f, -0.5f, -0.5f, 0,1,0, 1, 0,
@@ -127,51 +121,6 @@ int main() {
             -0.5f,  0.5f, 0.5f, 1, 1, 0, 0, 0,
             -0.5f, 0.5f, -0.5f, 1, 0, 0, 0,1,
     };
-    /*unsigned int indices[] = {
-            0, 1, 3, 1, 2, 3,
-            4, 5, 7,5, 6, 7,
-            8, 9, 11,9, 10, 11,
-            12, 13, 15,13, 14, 15,
-    };*/
-
-    /*unsigned int EBO;
-    glGenBuffers(1, &EBO);
-
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
-
-    unsigned int VAO;
-    glGenVertexArrays(1, &VAO);
-
-    unsigned int VBO;
-    glGenBuffers(1, &VBO);
-
-    glBindVertexArray(VAO);
-
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
-
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3* sizeof(float)));
-    glEnableVertexAttribArray(1);
-
-    glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float)));
-    glEnableVertexAttribArray(2);
-
-    //Wire Frame
-    //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-
-    //Initialization of non OpenGL stuff
-
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-    glEnable(GL_DEPTH_TEST);*/
-
-    //Wire Frame
-    //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-    //std::cout << argv[0];
 
     std::string fileName = __FILE_NAME__;
 
@@ -186,7 +135,6 @@ int main() {
     renderManager.initialize(vertices,sizeof(vertices)); //<<<< HERE!!!!!!
 
     double lastTime = 0;
-    //glm::vec3 viewVec = glm::vec3(0,0,-3);
     Entity camera = Entity();
 
     //Entities
@@ -211,30 +159,36 @@ int main() {
             glfwSetWindowShouldClose(window, true);
         }
 
-        float moveSpeedMultiplier = camera.position.z / -3;
-        int moveSpeed = 5;
 
+        //Camera Look (KP = numpad)
+        int rotateSpeed = 90;
         if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS) {
-            camera.rotation.y -= 90 * deltaTime;
+            camera.rotation.y -= rotateSpeed * deltaTime;
         }
         if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS) {
-            camera.rotation.y += 90 * deltaTime;
+            camera.rotation.y += rotateSpeed * deltaTime;
         }
         if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS) {
-            camera.rotation.x -= 90 * deltaTime;
+            camera.rotation.x -= rotateSpeed * deltaTime;
         }
         if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS) {
-            camera.rotation.x += 90 * deltaTime;
+            camera.rotation.x += rotateSpeed * deltaTime;
         }
         if (glfwGetKey(window, GLFW_KEY_KP_1) == GLFW_PRESS) {
-            camera.rotation.z -= 90 * deltaTime;
+            camera.rotation.z -= rotateSpeed * deltaTime;
         }
         if (glfwGetKey(window, GLFW_KEY_KP_2) == GLFW_PRESS) {
-            camera.rotation.z += 90 * deltaTime;
+            camera.rotation.z += rotateSpeed * deltaTime;
+        }
+        //Reset rotation
+        if (glfwGetKey(window, GLFW_KEY_KP_9) == GLFW_PRESS) {
+            camera.rotation.x = 0;
+            camera.rotation.y = 0;
+            camera.rotation.z = 0;
         }
 
-        //glm::vec3 facedDirection = glm::normalize(camera.rotation);
-
+        //Camera Movement
+        int moveSpeed = 5;
         if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
             camera.position.x -= moveSpeed * deltaTime;
         }
@@ -253,21 +207,19 @@ int main() {
         if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {
             camera.position.y += moveSpeed * deltaTime;
         }
+        //Reset position
+        if (glfwGetKey(window, GLFW_KEY_P) == GLFW_PRESS) {
+            camera.position.x = 0;
+            camera.position.y = 0;
+            camera.position.z = 0;
+        }
 
         glClearColor(.2f, .2, .8, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        //entityVector[0].position.x += 2*deltaTime;
-
-        //camera.rotation.x -= 30*deltaTime;
-        //camera.rotation.y += 360*deltaTime;
-        //camera.rotation.z += 360*deltaTime;
 
         for (Entity &entity : entityVector) {
-            //entity.position.x += 2 * deltaTime;
-            //entity.scale.x += -2*deltaTime;
-            //entity.scale.z += -2*deltaTime;
 
             entity.rotation += 5*deltaTime*entity.position.y;
 
