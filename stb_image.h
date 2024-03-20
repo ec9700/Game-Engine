@@ -6,7 +6,7 @@
 #define GAMELIB_STB_IMAGE_H
 
 #define STB_IMAGE_IMPLEMENTATION
-#include "C:/Users/subto/OneDrive/Desktop/CLionLibs/include/STB/stb_image.h"
+#include "C:/Users/ck6100/Documents/Game-Engine/include/STB/stb_image.h"
 class stb_image {
 
 };
