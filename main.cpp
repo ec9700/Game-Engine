@@ -5,6 +5,8 @@
 #include "gameEngine/Texture.h"
 #include "gameEngine/Entity.h"
 #include "gameEngine/RenderManager.h"
+#include "gameEngine/GameManager.h"
+#include "gameEngine/Components/Spin.h"
 #include <vector>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
@@ -127,12 +129,16 @@ int main() {
     std::string relativePath = __FILE__;
     relativePath.erase(relativePath.size()-fileName.length(),fileName.length());
 
-
     Texture texture( relativePath.append("/Textures/thing.jpg").c_str() );
 
-    RenderManager renderManager = RenderManager();
 
-    renderManager.initialize(vertices,sizeof(vertices)); //<<<< HERE!!!!!!
+    RenderManager renderManager = RenderManager();
+    GameManager gameManager = GameManager();
+    gameManager.initial(vertices,sizeof(vertices));
+    gameManager.shaderCollection = &shaderCollection;
+
+
+    //renderManager.initialize(vertices,sizeof(vertices)); //<<<< HERE!!!!!!
 
     double lastTime = 0;
     Entity camera = Entity();
@@ -147,6 +153,9 @@ int main() {
         entity.position.y = -max/2 + i;
         entity.scale = glm::vec3(1,1,1);
         entityVector.push_back(entity);
+        Spin testComponent = Spin();
+        entity.componentVector.push_back(&testComponent);
+        gameManager.entityVector.push_back(entity);
     }
 
 
@@ -219,7 +228,8 @@ int main() {
         glClear(GL_COLOR_BUFFER_BIT);
 
 
-        for (Entity &entity : entityVector) {
+
+        /*for (Entity &entity : entityVector) {
 
             entity.rotation += 5*deltaTime*entity.position.y;
 
@@ -229,7 +239,9 @@ int main() {
 
             renderManager.render(entity, shaderCollection, windowWidth, windowHeight, window, camera);
 
-        }
+        }*/
+
+        gameManager.update(camera,windowWidth,windowHeight,window);
 
         glfwSwapBuffers(window);
         glfwPollEvents();

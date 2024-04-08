@@ -22,22 +22,14 @@ class GameManager {
 
 private:
     RenderManager renderManager;
+    double lastTime;
 public:
-    ShaderCollection shaderCollection;
-    std::vector<Entity> entityList;
+    ShaderCollection *shaderCollection;
+    std::vector<Entity> entityVector;
 
-    void initial() {
+    void initial(float (&vertices)[], int sizeOfVertices);
 
-    }
-
-    void update(Entity camera) {
-        for(Entity &entity : entityList) {
-            for(Component &component : entity.componentList) {
-                component.update();
-            }
-            //renderManager.render(entity,shaderCollection,);
-        }
-    }
+    void update(const Entity& camera, float windowWidth, float windowHeight, GLFWwindow* window);
 
 
 };
