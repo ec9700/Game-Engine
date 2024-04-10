@@ -10,7 +10,6 @@
 
 class Component {
 public:
-    //Change "{}" to "= 0;"
     virtual void initial(Entity parent) = 0;
     virtual void update(Entity &parent, double deltaTime) = 0;
     virtual void dispose(Entity parent) = 0;

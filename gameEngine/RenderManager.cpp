@@ -3,9 +3,13 @@
 //
 
 #include "RenderManager.h"
+#include "GameManager.h"
 
-void RenderManager::initialize(float (&vertices)[], int sizeOfVertices) {
+static unsigned int VAO;
+static unsigned int VBO;
+Entity* RenderManager::camera;
 
+void RenderManager::initialize() {
 
     glGenVertexArrays(1, &VAO);
 
@@ -14,8 +18,6 @@ void RenderManager::initialize(float (&vertices)[], int sizeOfVertices) {
     glBindVertexArray(VAO);
 
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
-
-    glBufferData(GL_ARRAY_BUFFER, sizeOfVertices, vertices, GL_STATIC_DRAW);
 
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
@@ -31,9 +33,14 @@ void RenderManager::initialize(float (&vertices)[], int sizeOfVertices) {
     glEnable(GL_DEPTH_TEST);
 }
 
-void RenderManager::render(const Entity &entity, ShaderCollection shaderCollection, float windowWidth, float windowHeight, GLFWwindow *window, const Entity &camera) const {
+void RenderManager::render(const Entity &entity, ShaderCollection shaderCollection, std::vector<float> vertices,unsigned long sizeOfVertices) {
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D, entity.texture.textureData);
+
+    int x = glfwGetTime()/2;
+    //Magic number: +900
+    //Explanation ^^^: If this number isn't added onto the vertices' size, it won't display all vertices. FIGURE OUT WHY!!!! 200 per triangle
+    glBufferData(GL_ARRAY_BUFFER, vertices.size()+900, vertices.data(), GL_STATIC_DRAW);
 
     shaderCollection.use();
 
@@ -51,14 +58,13 @@ void RenderManager::render(const Entity &entity, ShaderCollection shaderCollecti
     /*view = glm::lookAt(camera.position,
                        glm::vec3(0.0f, 0.0f, 0.0f),
                        glm::vec3(0.0f, 1.0f, 0.0f));*/
-    view = glm::rotate(view, glm::radians(camera.rotation.x), glm::vec3(1.0f, 0.0f, 0.0f));
-    view = glm::rotate(view, glm::radians(camera.rotation.y), glm::vec3(0.0f, 1.0f, 0.0f));
-    view = glm::rotate(view, glm::radians(camera.rotation.z), glm::vec3(0.0f, 0.0f, 1.0f));
-    view = glm::translate(view, camera.position);
-    view = glm::scale(view, camera.scale);
+    view = glm::rotate(view, glm::radians(camera->rotation.x), glm::vec3(1.0f, 0.0f, 0.0f));
+    view = glm::rotate(view, glm::radians(camera->rotation.y), glm::vec3(0.0f, 1.0f, 0.0f));
+    view = glm::rotate(view, glm::radians(camera->rotation.z), glm::vec3(0.0f, 0.0f, 1.0f));
+    view = glm::translate(view, camera->position);
+    view = glm::scale(view, camera->scale);
 
-
-    projection = glm::perspective(glm::radians(45.0f), (float)windowWidth / (float)windowHeight, 0.1f, 100.0f);
+    projection = glm::perspective(glm::radians(45.0f), (float)GameManager::window.windowWidth / (float)GameManager::window.windowHeight, 0.1f, 100.0f);
 
     //Spin
     //model = glm::rotate(model, (float)glfwGetTime() * glm::radians(50.0f), glm::vec3(0.5f, 1.0f, 0.01f));

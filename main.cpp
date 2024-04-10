@@ -7,12 +7,8 @@
 #include "gameEngine/RenderManager.h"
 #include "gameEngine/GameManager.h"
 #include "gameEngine/Components/Spin.h"
+#include "gameEngine/Components/RenderComponent.h"
 #include <vector>
-
-void framebuffer_size_callback(GLFWwindow* window, int width, int height)
-{
-    glViewport(0, 0, width, height);
-}
 
 const char* vertexShaderSource = "#version 330 core\n"
                                  "layout (location = 0) in vec3 aPos;\n"
@@ -43,8 +39,14 @@ const char* fragmentShaderSource = "#version 330 core\n"
                                    "FragColor = texture(texture,textureCoord) * vec4(color, 1.0);\n"
                                    "}";
 
+void framebuffer_size_callback(GLFWwindow* window, int width, int height)
+{
+    glViewport(0, 0, width, height);
+}
 
 int main() {
+
+
     const unsigned int windowWidth = 800;
     const unsigned int windowHeight = 600;
 
@@ -53,7 +55,7 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    GLFWwindow* window = glfwCreateWindow(800, 600, "Window", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(windowWidth, windowHeight, "Window", NULL, NULL);
 
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
@@ -72,6 +74,8 @@ int main() {
         return -1;
     }
 
+
+
     std::cout << "Hola Y'all\n";
 
     Shader vertexShader((char *) vertexShaderSource, GL_VERTEX_SHADER);
@@ -80,7 +84,7 @@ int main() {
     ShaderCollection shaderCollection(vertexShader,fragmentShader);
 
     // x,y,z, r,g,b, texture corner x, texture corner y
-    float vertices[] = {
+    std::vector<float> vertices = {
             -0.5f, -0.5f, -0.5f, 1,0,0, 0, 0,
             0.5f, -0.5f, -0.5f, 0,1,0, 1, 0,
             0.5f,  0.5f, -0.5f, 0,0,1, 1,1,
@@ -132,19 +136,19 @@ int main() {
     Texture texture( relativePath.append("/Textures/thing.jpg").c_str() );
 
 
-    RenderManager renderManager = RenderManager();
-    GameManager gameManager = GameManager();
-    gameManager.initial(vertices,sizeof(vertices));
-    gameManager.shaderCollection = &shaderCollection;
+    //RenderManager renderManager = RenderManager();
+    GameManager::initial(window);
+    GameManager::shaderCollection = &shaderCollection;
+
 
 
     //renderManager.initialize(vertices,sizeof(vertices)); //<<<< HERE!!!!!!
 
     double lastTime = 0;
     Entity camera = Entity();
+    RenderManager::camera = &camera;
 
     //Entities
-    std::vector<Entity> entityVector;
     int max = 100;
 
     for(int i=0; i<max; i++) {
@@ -152,45 +156,50 @@ int main() {
         entity.texture = texture;
         entity.position.y = -max/2 + i;
         entity.scale = glm::vec3(1,1,1);
-        entityVector.push_back(entity);
         Spin testComponent = Spin();
         entity.componentVector.push_back(&testComponent);
-        gameManager.entityVector.push_back(entity);
+
+        RenderComponent renderComponent = RenderComponent();
+        renderComponent.setShaderCollection(shaderCollection);
+        renderComponent.setVertices(vertices);
+        entity.componentVector.push_back(&renderComponent);
+
+        GameManager::entityVector.push_back(entity);
     }
 
 
-    while(!glfwWindowShouldClose(window)) {
+    while(!glfwWindowShouldClose(GameManager::window.windowInstance)) {
 
         double deltaTime = glfwGetTime() - lastTime;
         lastTime = glfwGetTime();
 
-        if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
-            glfwSetWindowShouldClose(window, true);
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
+            glfwSetWindowShouldClose(GameManager::window.windowInstance, true);
         }
 
 
         //Camera Look (KP = numpad)
         int rotateSpeed = 90;
-        if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_LEFT) == GLFW_PRESS) {
             camera.rotation.y -= rotateSpeed * deltaTime;
         }
-        if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_RIGHT) == GLFW_PRESS) {
             camera.rotation.y += rotateSpeed * deltaTime;
         }
-        if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_UP) == GLFW_PRESS) {
             camera.rotation.x -= rotateSpeed * deltaTime;
         }
-        if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_DOWN) == GLFW_PRESS) {
             camera.rotation.x += rotateSpeed * deltaTime;
         }
-        if (glfwGetKey(window, GLFW_KEY_KP_1) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_KP_1) == GLFW_PRESS) {
             camera.rotation.z -= rotateSpeed * deltaTime;
         }
-        if (glfwGetKey(window, GLFW_KEY_KP_2) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_KP_2) == GLFW_PRESS) {
             camera.rotation.z += rotateSpeed * deltaTime;
         }
         //Reset rotation
-        if (glfwGetKey(window, GLFW_KEY_KP_9) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_KP_9) == GLFW_PRESS) {
             camera.rotation.x = 0;
             camera.rotation.y = 0;
             camera.rotation.z = 0;
@@ -198,26 +207,26 @@ int main() {
 
         //Camera Movement
         int moveSpeed = 5;
-        if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_D) == GLFW_PRESS) {
             camera.position.x -= moveSpeed * deltaTime;
         }
-        if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_A) == GLFW_PRESS) {
             camera.position.x += moveSpeed * deltaTime;
         }
-        if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_W) == GLFW_PRESS) {
             camera.position.z += moveSpeed * deltaTime;
         }
-        if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_S) == GLFW_PRESS) {
             camera.position.z -= moveSpeed * deltaTime;
         }
-        if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_SPACE) == GLFW_PRESS) {
             camera.position.y -= moveSpeed * deltaTime;
         }
-        if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {
             camera.position.y += moveSpeed * deltaTime;
         }
         //Reset position
-        if (glfwGetKey(window, GLFW_KEY_P) == GLFW_PRESS) {
+        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_P) == GLFW_PRESS) {
             camera.position.x = 0;
             camera.position.y = 0;
             camera.position.z = 0;
@@ -241,15 +250,15 @@ int main() {
 
         }*/
 
-        gameManager.update(camera,windowWidth,windowHeight,window);
+        GameManager::update(camera);
 
-        glfwSwapBuffers(window);
+        glfwSwapBuffers(GameManager::window.windowInstance);
         glfwPollEvents();
 
 
     }
 
-    renderManager.dispose();
+    RenderManager::dispose();
 
 glfwTerminate();
 

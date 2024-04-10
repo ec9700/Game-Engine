@@ -5,20 +5,28 @@
 #include "GameManager.h"
 #include "Component.h"
 
-void GameManager::initial(float (&vertices)[], int sizeOfVertices) {
-    renderManager.initialize(vertices,sizeOfVertices);
+std::vector<Entity> GameManager::entityVector;
+ShaderCollection* GameManager::shaderCollection;
+Window GameManager::window;
+static double lastTime;
+
+void GameManager::initial(GLFWwindow *window) {
+
+    GameManager::window.initial();
+    GameManager::window.windowInstance = window;
+
+    RenderManager::initialize();
 }
 
-void GameManager::update(const Entity &camera, float windowWidth, float windowHeight, GLFWwindow *window) {
+void GameManager::update(const Entity &camera) {
 
     double deltaTime = glfwGetTime() - lastTime;
     lastTime = glfwGetTime();
-
     for(Entity &entity : entityVector) {
         for(Component *component : entity.componentVector) {
             component->update(entity,deltaTime);
         }
-        renderManager.render(entity,*shaderCollection,windowWidth,windowHeight,window,camera);
+        //RenderManager::render(entity,*shaderCollection,vertices,sizeOfVertices);
     }
 
 }

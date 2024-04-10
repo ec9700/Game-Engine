@@ -19,17 +19,20 @@
 class RenderManager {
 private:
     //unsigned static int EBO;
-    unsigned int VAO;
-    unsigned int VBO;
+
+    RenderManager() = default;
 
 
 
 public:
-    void initialize(float (&vertices)[], int sizeOfVertices);
+    static Entity *camera;
 
-    void render(const Entity& entity, ShaderCollection shaderCollection, float windowWidth, float windowHeight, GLFWwindow* window, const Entity& camera) const;
+    static void initialize();
 
-    void dispose();
+    //Original Parameter: float (&vertices)[] instead of float* vertices
+    static void render(const Entity &entity, ShaderCollection shaderCollection, std::vector<float> vertices,unsigned long sizeOfVertices);
+
+    static void dispose();
 
 
 };

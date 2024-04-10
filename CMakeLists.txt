@@ -24,7 +24,11 @@ add_executable(GameLib main.cpp
         gameEngine/Components/Spin.cpp
         gameEngine/Components/Spin.h
         gameEngine/Components/CameraControl.cpp
-        gameEngine/Components/CameraControl.h)
+        gameEngine/Components/CameraControl.h
+        gameEngine/Components/RenderComponent.cpp
+        gameEngine/Components/RenderComponent.h
+        gameEngine/Window.cpp
+        gameEngine/Window.h)
 
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")

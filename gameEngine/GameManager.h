@@ -13,6 +13,7 @@
 #include <GLFW/glfw3.h>
 #include <cmath>
 #include "STB/stb_image.h"
+#include "Window.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
@@ -21,16 +22,17 @@
 class GameManager {
 
 private:
-    RenderManager renderManager;
-    double lastTime;
+    //static double lastTime;
+    GameManager() = default;
 public:
-    ShaderCollection *shaderCollection;
-    std::vector<Entity> entityVector;
+    static ShaderCollection *shaderCollection;
+    static Window window;
+    static void initial(GLFWwindow* window);
 
-    void initial(float (&vertices)[], int sizeOfVertices);
+    static void update(const Entity& camera);
 
-    void update(const Entity& camera, float windowWidth, float windowHeight, GLFWwindow* window);
 
+    static std::vector<Entity> entityVector;
 
 };
 
