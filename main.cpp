@@ -6,6 +6,7 @@
 #include "gameEngine/Entity.h"
 #include "gameEngine/RenderManager.h"
 #include "gameEngine/inputManager.h"
+#include "gameEngine/inputManager.cpp"
 #include <vector>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
@@ -235,7 +236,15 @@ int main() {
         glfwSwapBuffers(window);
         glfwPollEvents();
 
-        //inputManager input=new inputManager;
+        std::cout << "womp";
+
+        auto* input = new inputManager(window);
+
+        bool gotSpace=input->getInputPressed(input->keyCodeSpace);
+
+        std::cout << gotSpace;
+
+        //_sleep(1);
     }
 
     renderManager.dispose();

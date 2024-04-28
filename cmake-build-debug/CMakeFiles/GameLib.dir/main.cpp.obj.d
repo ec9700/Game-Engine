@@ -368,4 +368,6 @@ CMakeFiles/GameLib.dir/main.cpp.obj: \
  C:\Users\carson\Documents\Game-Engine\gameEngine/ShaderCollection.h \
  C:\Users\carson\Documents\Game-Engine\gameEngine/Shader.h \
  C:\Users\carson\Documents\Game-Engine\gameEngine/Entity.h \
+ C:\Users\carson\Documents\Game-Engine\gameEngine/inputManager.h \
+ C:\Users\carson\Documents\Game-Engine\gameEngine/inputManager.cpp \
  C:\Users\carson\Documents\Game-Engine\gameEngine/inputManager.h
