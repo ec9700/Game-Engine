@@ -129,7 +129,7 @@ int main() {
     relativePath.erase(relativePath.size()-fileName.length(),fileName.length());
 
 
-    Texture texture( relativePath.append("/Textures/thing.jpg").c_str() );
+    Texture texture( "C:/Users/carson/Documents/Game-Engine/Textures/thing.jpg");
 
     RenderManager renderManager = RenderManager();
 
