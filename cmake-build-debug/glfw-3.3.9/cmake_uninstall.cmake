@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/ck6100/Documents/Game-Engine/cmake-build-debug/glfw-3.3.9/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/ck6100/Documents/Game-Engine/cmake-build-debug/glfw-3.3.9/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/glfw-3.3.9/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/carson/Documents/Game-Engine/cmake-build-debug/glfw-3.3.9/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/ck6100/Documents/Game-Engine/cmake-build-debug/glfw-3.3.9/install_manifest.txt" files)
+file(READ "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/glfw-3.3.9/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

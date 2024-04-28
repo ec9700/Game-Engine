@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ck6100\Documents\Game-Engine
+CMAKE_SOURCE_DIR = C:\Users\carson\Documents\Game-Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\carson\Documents\Game-Engine\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include glfw-3.3.9/tests/CMakeFiles/icon.dir/depend.make
@@ -70,33 +70,33 @@ include glfw-3.3.9/tests/CMakeFiles/icon.dir/flags.make
 
 glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.obj: glfw-3.3.9/tests/CMakeFiles/icon.dir/flags.make
 glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.obj: glfw-3.3.9/tests/CMakeFiles/icon.dir/includes_C.rsp
-glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.obj: C:/Users/ck6100/Documents/Game-Engine/glfw-3.3.9/tests/icon.c
+glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.obj: C:/Users/carson/Documents/Game-Engine/glfw-3.3.9/tests/icon.c
 glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.obj: glfw-3.3.9/tests/CMakeFiles/icon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.obj"
-	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.obj -MF CMakeFiles\icon.dir\icon.c.obj.d -o CMakeFiles\icon.dir\icon.c.obj -c C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\tests\icon.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.obj"
+	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.obj -MF CMakeFiles\icon.dir\icon.c.obj.d -o CMakeFiles\icon.dir\icon.c.obj -c C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\tests\icon.c
 
 glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/icon.dir/icon.c.i"
-	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\tests\icon.c > CMakeFiles\icon.dir\icon.c.i
+	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\tests\icon.c > CMakeFiles\icon.dir\icon.c.i
 
 glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/icon.dir/icon.c.s"
-	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\tests\icon.c -o CMakeFiles\icon.dir\icon.c.s
+	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\tests\icon.c -o CMakeFiles\icon.dir\icon.c.s
 
 glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj: glfw-3.3.9/tests/CMakeFiles/icon.dir/flags.make
 glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj: glfw-3.3.9/tests/CMakeFiles/icon.dir/includes_C.rsp
-glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj: C:/Users/ck6100/Documents/Game-Engine/glfw-3.3.9/deps/glad_gl.c
+glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj: C:/Users/carson/Documents/Game-Engine/glfw-3.3.9/deps/glad_gl.c
 glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj: glfw-3.3.9/tests/CMakeFiles/icon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj"
-	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\icon.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\icon.dir\__\deps\glad_gl.c.obj -c C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\deps\glad_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj"
+	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\icon.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\icon.dir\__\deps\glad_gl.c.obj -c C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\deps\glad_gl.c
 
 glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/icon.dir/__/deps/glad_gl.c.i"
-	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\deps\glad_gl.c > CMakeFiles\icon.dir\__\deps\glad_gl.c.i
+	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\deps\glad_gl.c > CMakeFiles\icon.dir\__\deps\glad_gl.c.i
 
 glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/icon.dir/__/deps/glad_gl.c.s"
-	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\deps\glad_gl.c -o CMakeFiles\icon.dir\__\deps\glad_gl.c.s
+	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\deps\glad_gl.c -o CMakeFiles\icon.dir\__\deps\glad_gl.c.s
 
 # Object files for target icon
 icon_OBJECTS = \
@@ -113,18 +113,18 @@ glfw-3.3.9/tests/icon.exe: glfw-3.3.9/src/libglfw3.a
 glfw-3.3.9/tests/icon.exe: glfw-3.3.9/tests/CMakeFiles/icon.dir/linkLibs.rsp
 glfw-3.3.9/tests/icon.exe: glfw-3.3.9/tests/CMakeFiles/icon.dir/objects1.rsp
 glfw-3.3.9/tests/icon.exe: glfw-3.3.9/tests/CMakeFiles/icon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable icon.exe"
-	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\icon.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable icon.exe"
+	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\icon.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw-3.3.9/tests/CMakeFiles/icon.dir/build: glfw-3.3.9/tests/icon.exe
 .PHONY : glfw-3.3.9/tests/CMakeFiles/icon.dir/build
 
 glfw-3.3.9/tests/CMakeFiles/icon.dir/clean:
-	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && $(CMAKE_COMMAND) -P CMakeFiles\icon.dir\cmake_clean.cmake
+	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && $(CMAKE_COMMAND) -P CMakeFiles\icon.dir\cmake_clean.cmake
 .PHONY : glfw-3.3.9/tests/CMakeFiles/icon.dir/clean
 
 glfw-3.3.9/tests/CMakeFiles/icon.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ck6100\Documents\Game-Engine C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\tests C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests\CMakeFiles\icon.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\carson\Documents\Game-Engine C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\tests C:\Users\carson\Documents\Game-Engine\cmake-build-debug C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests\CMakeFiles\icon.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw-3.3.9/tests/CMakeFiles/icon.dir/depend
 

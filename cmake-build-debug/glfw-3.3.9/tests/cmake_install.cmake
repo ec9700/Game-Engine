@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ck6100/Documents/Game-Engine/glfw-3.3.9/tests
+# Install script for directory: C:/Users/carson/Documents/Game-Engine/glfw-3.3.9/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

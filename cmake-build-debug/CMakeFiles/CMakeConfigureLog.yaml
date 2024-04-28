@@ -483,3 +483,180 @@ events:
         mingw32-make[1]: Leaving directory 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-710uvh'
         
       exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "glfw-3.3.9/CMakeLists.txt:110 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-74x6py"
+      binary: "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-74x6py"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/carson/Documents/Game-Engine/glfw-3.3.9/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-74x6py'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_555ed/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_555ed.dir\\build.make CMakeFiles/cmTC_555ed.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-74x6py'
+        Building C object CMakeFiles/cmTC_555ed.dir/CheckIncludeFile.c.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles\\cmTC_555ed.dir\\CheckIncludeFile.c.obj -c C:\\Users\\carson\\Documents\\Game-Engine\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-74x6py\\CheckIncludeFile.c
+        Linking C executable cmTC_555ed.exe
+        "C:\\Program Files\\JetBrains\\CLion 2023.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_555ed.dir\\link.txt --verbose=1
+        "C:\\Program Files\\JetBrains\\CLion 2023.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_555ed.dir/objects.a
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_555ed.dir/objects.a @CMakeFiles\\cmTC_555ed.dir\\objects1.rsp
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_555ed.dir/objects.a -Wl,--no-whole-archive -o cmTC_555ed.exe -Wl,--out-implib,libcmTC_555ed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_555ed.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-74x6py'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "glfw-3.3.9/CMakeLists.txt:111 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dud0b8"
+      binary: "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dud0b8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/carson/Documents/Game-Engine/glfw-3.3.9/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dud0b8'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_0f7cd/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0f7cd.dir\\build.make CMakeFiles/cmTC_0f7cd.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dud0b8'
+        Building C object CMakeFiles/cmTC_0f7cd.dir/CheckIncludeFile.c.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles\\cmTC_0f7cd.dir\\CheckIncludeFile.c.obj -c C:\\Users\\carson\\Documents\\Game-Engine\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dud0b8\\CheckIncludeFile.c
+        Linking C executable cmTC_0f7cd.exe
+        "C:\\Program Files\\JetBrains\\CLion 2023.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0f7cd.dir\\link.txt --verbose=1
+        "C:\\Program Files\\JetBrains\\CLion 2023.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_0f7cd.dir/objects.a
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_0f7cd.dir/objects.a @CMakeFiles\\cmTC_0f7cd.dir\\objects1.rsp
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_0f7cd.dir/objects.a -Wl,--no-whole-archive -o cmTC_0f7cd.exe -Wl,--out-implib,libcmTC_0f7cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_0f7cd.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dud0b8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "glfw-3.3.9/CMakeLists.txt:121 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_DEP"
+    directories:
+      source: "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hwfy1u"
+      binary: "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hwfy1u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/carson/Documents/Game-Engine/glfw-3.3.9/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_DEP"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hwfy1u'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_03fca/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_03fca.dir\\build.make CMakeFiles/cmTC_03fca.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hwfy1u'
+        Building C object CMakeFiles/cmTC_03fca.dir/src.c.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe -D_GLFW_HAS_DEP  -Wl,--nxcompat -fdiagnostics-color=always -o CMakeFiles\\cmTC_03fca.dir\\src.c.obj -c C:\\Users\\carson\\Documents\\Game-Engine\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-hwfy1u\\src.c
+        Linking C executable cmTC_03fca.exe
+        "C:\\Program Files\\JetBrains\\CLion 2023.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_03fca.dir\\link.txt --verbose=1
+        "C:\\Program Files\\JetBrains\\CLion 2023.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_03fca.dir/objects.a
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_03fca.dir/objects.a @CMakeFiles\\cmTC_03fca.dir\\objects1.rsp
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe  -Wl,--nxcompat -Wl,--whole-archive CMakeFiles\\cmTC_03fca.dir/objects.a -Wl,--no-whole-archive -o cmTC_03fca.exe -Wl,--out-implib,libcmTC_03fca.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_03fca.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hwfy1u'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "glfw-3.3.9/CMakeLists.txt:128 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_ASLR"
+    directories:
+      source: "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zs9d2x"
+      binary: "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zs9d2x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/carson/Documents/Game-Engine/glfw-3.3.9/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_ASLR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zs9d2x'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_6d6c6/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6d6c6.dir\\build.make CMakeFiles/cmTC_6d6c6.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zs9d2x'
+        Building C object CMakeFiles/cmTC_6d6c6.dir/src.c.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe -D_GLFW_HAS_ASLR  -Wl,--dynamicbase -fdiagnostics-color=always -o CMakeFiles\\cmTC_6d6c6.dir\\src.c.obj -c C:\\Users\\carson\\Documents\\Game-Engine\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-zs9d2x\\src.c
+        Linking C executable cmTC_6d6c6.exe
+        "C:\\Program Files\\JetBrains\\CLion 2023.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6d6c6.dir\\link.txt --verbose=1
+        "C:\\Program Files\\JetBrains\\CLion 2023.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_6d6c6.dir/objects.a
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_6d6c6.dir/objects.a @CMakeFiles\\cmTC_6d6c6.dir\\objects1.rsp
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe  -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\\cmTC_6d6c6.dir/objects.a -Wl,--no-whole-archive -o cmTC_6d6c6.exe -Wl,--out-implib,libcmTC_6d6c6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_6d6c6.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zs9d2x'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "glfw-3.3.9/CMakeLists.txt:135 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_64ASLR"
+    directories:
+      source: "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cbuy7n"
+      binary: "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cbuy7n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/carson/Documents/Game-Engine/glfw-3.3.9/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_64ASLR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cbuy7n'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.3.3/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_8595f/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8595f.dir\\build.make CMakeFiles/cmTC_8595f.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cbuy7n'
+        Building C object CMakeFiles/cmTC_8595f.dir/src.c.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -fdiagnostics-color=always -o CMakeFiles\\cmTC_8595f.dir\\src.c.obj -c C:\\Users\\carson\\Documents\\Game-Engine\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-cbuy7n\\src.c
+        Linking C executable cmTC_8595f.exe
+        "C:\\Program Files\\JetBrains\\CLion 2023.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8595f.dir\\link.txt --verbose=1
+        "C:\\Program Files\\JetBrains\\CLion 2023.3.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_8595f.dir/objects.a
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_8595f.dir/objects.a @CMakeFiles\\cmTC_8595f.dir\\objects1.rsp
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\gcc.exe  -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\\cmTC_8595f.dir/objects.a -Wl,--no-whole-archive -o cmTC_8595f.exe -Wl,--out-implib,libcmTC_8595f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_8595f.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/carson/Documents/Game-Engine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cbuy7n'
+        
+      exitCode: 0
+...
