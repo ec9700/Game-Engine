@@ -218,20 +218,20 @@ CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\gameEngine\GameManager.cpp -o CMakeFiles\GameLib.dir\gameEngine\GameManager.cpp.s
 
-CMakeFiles/GameLib.dir/input_manager.cpp.obj: CMakeFiles/GameLib.dir/flags.make
-CMakeFiles/GameLib.dir/input_manager.cpp.obj: CMakeFiles/GameLib.dir/includes_CXX.rsp
-CMakeFiles/GameLib.dir/input_manager.cpp.obj: C:/Users/carson/Documents/Game-Engine/input_manager.cpp
-CMakeFiles/GameLib.dir/input_manager.cpp.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GameLib.dir/input_manager.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/input_manager.cpp.obj -MF CMakeFiles\GameLib.dir\input_manager.cpp.obj.d -o CMakeFiles\GameLib.dir\input_manager.cpp.obj -c C:\Users\carson\Documents\Game-Engine\input_manager.cpp
+CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj: CMakeFiles/GameLib.dir/flags.make
+CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj: CMakeFiles/GameLib.dir/includes_CXX.rsp
+CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj: C:/Users/carson/Documents/Game-Engine/gameEngine/inputManager.cpp
+CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\inputManager.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\inputManager.cpp.obj -c C:\Users\carson\Documents\Game-Engine\gameEngine\inputManager.cpp
 
-CMakeFiles/GameLib.dir/input_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/input_manager.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carson\Documents\Game-Engine\input_manager.cpp > CMakeFiles\GameLib.dir\input_manager.cpp.i
+CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carson\Documents\Game-Engine\gameEngine\inputManager.cpp > CMakeFiles\GameLib.dir\gameEngine\inputManager.cpp.i
 
-CMakeFiles/GameLib.dir/input_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/input_manager.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\input_manager.cpp -o CMakeFiles\GameLib.dir\input_manager.cpp.s
+CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\gameEngine\inputManager.cpp -o CMakeFiles\GameLib.dir\gameEngine\inputManager.cpp.s
 
 # Object files for target GameLib
 GameLib_OBJECTS = \
@@ -245,7 +245,7 @@ GameLib_OBJECTS = \
 "CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj" \
 "CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj" \
 "CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj" \
-"CMakeFiles/GameLib.dir/input_manager.cpp.obj"
+"CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj"
 
 # External object files for target GameLib
 GameLib_EXTERNAL_OBJECTS =
@@ -260,7 +260,7 @@ GameLib.exe: CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj
 GameLib.exe: CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj
 GameLib.exe: CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj
 GameLib.exe: CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj
-GameLib.exe: CMakeFiles/GameLib.dir/input_manager.cpp.obj
+GameLib.exe: CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj
 GameLib.exe: CMakeFiles/GameLib.dir/build.make
 GameLib.exe: glfw-3.3.9/src/libglfw3.a
 GameLib.exe: C:/Users/carson/Documents/Game-Engine/lib/opengl32.lib

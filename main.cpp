@@ -5,6 +5,7 @@
 #include "gameEngine/Texture.h"
 #include "gameEngine/Entity.h"
 #include "gameEngine/RenderManager.h"
+#include "gameEngine/inputManager.h"
 #include <vector>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
@@ -234,7 +235,7 @@ int main() {
         glfwSwapBuffers(window);
         glfwPollEvents();
 
-
+        //inputManager input=new inputManager;
     }
 
     renderManager.dispose();

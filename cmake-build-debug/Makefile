@@ -757,6 +757,30 @@ gameEngine/Texture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.s
 .PHONY : gameEngine/Texture.cpp.s
 
+gameEngine/inputManager.obj: gameEngine/inputManager.cpp.obj
+.PHONY : gameEngine/inputManager.obj
+
+# target to build an object file
+gameEngine/inputManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj
+.PHONY : gameEngine/inputManager.cpp.obj
+
+gameEngine/inputManager.i: gameEngine/inputManager.cpp.i
+.PHONY : gameEngine/inputManager.i
+
+# target to preprocess a source file
+gameEngine/inputManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.i
+.PHONY : gameEngine/inputManager.cpp.i
+
+gameEngine/inputManager.s: gameEngine/inputManager.cpp.s
+.PHONY : gameEngine/inputManager.s
+
+# target to generate assembly for a file
+gameEngine/inputManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.s
+.PHONY : gameEngine/inputManager.cpp.s
+
 glad.obj: glad.c.obj
 .PHONY : glad.obj
 
@@ -780,30 +804,6 @@ glad.s: glad.c.s
 glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/glad.c.s
 .PHONY : glad.c.s
-
-input_manager.obj: input_manager.cpp.obj
-.PHONY : input_manager.obj
-
-# target to build an object file
-input_manager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/input_manager.cpp.obj
-.PHONY : input_manager.cpp.obj
-
-input_manager.i: input_manager.cpp.i
-.PHONY : input_manager.i
-
-# target to preprocess a source file
-input_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/input_manager.cpp.i
-.PHONY : input_manager.cpp.i
-
-input_manager.s: input_manager.cpp.s
-.PHONY : input_manager.s
-
-# target to generate assembly for a file
-input_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/input_manager.cpp.s
-.PHONY : input_manager.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -919,12 +919,12 @@ help:
 	@echo ... gameEngine/Texture.obj
 	@echo ... gameEngine/Texture.i
 	@echo ... gameEngine/Texture.s
+	@echo ... gameEngine/inputManager.obj
+	@echo ... gameEngine/inputManager.i
+	@echo ... gameEngine/inputManager.s
 	@echo ... glad.obj
 	@echo ... glad.i
 	@echo ... glad.s
-	@echo ... input_manager.obj
-	@echo ... input_manager.i
-	@echo ... input_manager.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
