@@ -781,6 +781,30 @@ glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/glad.c.s
 .PHONY : glad.c.s
 
+input_manager.obj: input_manager.cpp.obj
+.PHONY : input_manager.obj
+
+# target to build an object file
+input_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/input_manager.cpp.obj
+.PHONY : input_manager.cpp.obj
+
+input_manager.i: input_manager.cpp.i
+.PHONY : input_manager.i
+
+# target to preprocess a source file
+input_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/input_manager.cpp.i
+.PHONY : input_manager.cpp.i
+
+input_manager.s: input_manager.cpp.s
+.PHONY : input_manager.s
+
+# target to generate assembly for a file
+input_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/input_manager.cpp.s
+.PHONY : input_manager.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -898,6 +922,9 @@ help:
 	@echo ... glad.obj
 	@echo ... glad.i
 	@echo ... glad.s
+	@echo ... input_manager.obj
+	@echo ... input_manager.i
+	@echo ... input_manager.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
