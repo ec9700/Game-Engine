@@ -25,7 +25,7 @@ class inputManager {
         }
         bool getInputPressed(int keyCode){
             bool returnValue=glfwGetKey(window,keyCode)==GLFW_PRESS;
-            if(glfwGetKey(window,keyCode)==GLFW_RELEASE)
+            if(getInputReleased(keyCode))
             {
                 keysHeld[keyCode]=false;
             }
@@ -34,7 +34,7 @@ class inputManager {
                 returnValue=false;
             }
             else {
-                keysHeld[keyCode] = returnValue;
+                keysHeld[keyCode] = true;
             }
             return returnValue;
         }
