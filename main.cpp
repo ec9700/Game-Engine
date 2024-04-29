@@ -138,6 +138,7 @@ int main() {
 
     double lastTime = 0;
     Entity camera = Entity();
+    camera.position.z=-10;
 
     //Entities
     std::vector<Entity> entityVector;
