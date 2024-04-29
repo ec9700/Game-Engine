@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\carson\Documents\Game-Engine
+CMAKE_SOURCE_DIR = C:\Users\ck6100\Documents\Game-Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\carson\Documents\Game-Engine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include glfw-3.3.9/tests/CMakeFiles/gamma.dir/depend.make
@@ -70,33 +70,33 @@ include glfw-3.3.9/tests/CMakeFiles/gamma.dir/flags.make
 
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.obj: glfw-3.3.9/tests/CMakeFiles/gamma.dir/flags.make
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.obj: glfw-3.3.9/tests/CMakeFiles/gamma.dir/includes_C.rsp
-glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.obj: C:/Users/carson/Documents/Game-Engine/glfw-3.3.9/tests/gamma.c
+glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.obj: C:/Users/ck6100/Documents/Game-Engine/glfw-3.3.9/tests/gamma.c
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.obj: glfw-3.3.9/tests/CMakeFiles/gamma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.obj"
-	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.obj -MF CMakeFiles\gamma.dir\gamma.c.obj.d -o CMakeFiles\gamma.dir\gamma.c.obj -c C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\tests\gamma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.obj"
+	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.obj -MF CMakeFiles\gamma.dir\gamma.c.obj.d -o CMakeFiles\gamma.dir\gamma.c.obj -c C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\tests\gamma.c
 
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/gamma.dir/gamma.c.i"
-	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\tests\gamma.c > CMakeFiles\gamma.dir\gamma.c.i
+	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\tests\gamma.c > CMakeFiles\gamma.dir\gamma.c.i
 
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/gamma.dir/gamma.c.s"
-	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\tests\gamma.c -o CMakeFiles\gamma.dir\gamma.c.s
+	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\tests\gamma.c -o CMakeFiles\gamma.dir\gamma.c.s
 
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj: glfw-3.3.9/tests/CMakeFiles/gamma.dir/flags.make
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj: glfw-3.3.9/tests/CMakeFiles/gamma.dir/includes_C.rsp
-glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj: C:/Users/carson/Documents/Game-Engine/glfw-3.3.9/deps/glad_gl.c
+glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj: C:/Users/ck6100/Documents/Game-Engine/glfw-3.3.9/deps/glad_gl.c
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj: glfw-3.3.9/tests/CMakeFiles/gamma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj"
-	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\gamma.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\gamma.dir\__\deps\glad_gl.c.obj -c C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\deps\glad_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj"
+	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\gamma.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\gamma.dir\__\deps\glad_gl.c.obj -c C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\deps\glad_gl.c
 
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/gamma.dir/__/deps/glad_gl.c.i"
-	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\deps\glad_gl.c > CMakeFiles\gamma.dir\__\deps\glad_gl.c.i
+	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\deps\glad_gl.c > CMakeFiles\gamma.dir\__\deps\glad_gl.c.i
 
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/gamma.dir/__/deps/glad_gl.c.s"
-	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\deps\glad_gl.c -o CMakeFiles\gamma.dir\__\deps\glad_gl.c.s
+	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\deps\glad_gl.c -o CMakeFiles\gamma.dir\__\deps\glad_gl.c.s
 
 # Object files for target gamma
 gamma_OBJECTS = \
@@ -113,18 +113,18 @@ glfw-3.3.9/tests/gamma.exe: glfw-3.3.9/src/libglfw3.a
 glfw-3.3.9/tests/gamma.exe: glfw-3.3.9/tests/CMakeFiles/gamma.dir/linkLibs.rsp
 glfw-3.3.9/tests/gamma.exe: glfw-3.3.9/tests/CMakeFiles/gamma.dir/objects1.rsp
 glfw-3.3.9/tests/gamma.exe: glfw-3.3.9/tests/CMakeFiles/gamma.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gamma.exe"
-	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gamma.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gamma.exe"
+	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gamma.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/build: glfw-3.3.9/tests/gamma.exe
 .PHONY : glfw-3.3.9/tests/CMakeFiles/gamma.dir/build
 
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/clean:
-	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && $(CMAKE_COMMAND) -P CMakeFiles\gamma.dir\cmake_clean.cmake
+	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests && $(CMAKE_COMMAND) -P CMakeFiles\gamma.dir\cmake_clean.cmake
 .PHONY : glfw-3.3.9/tests/CMakeFiles/gamma.dir/clean
 
 glfw-3.3.9/tests/CMakeFiles/gamma.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\carson\Documents\Game-Engine C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\tests C:\Users\carson\Documents\Game-Engine\cmake-build-debug C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests\CMakeFiles\gamma.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ck6100\Documents\Game-Engine C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\tests C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\tests\CMakeFiles\gamma.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw-3.3.9/tests/CMakeFiles/gamma.dir/depend
 

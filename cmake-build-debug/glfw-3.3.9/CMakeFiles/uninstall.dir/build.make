@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\carson\Documents\Game-Engine
+CMAKE_SOURCE_DIR = C:\Users\ck6100\Documents\Game-Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\carson\Documents\Game-Engine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -66,7 +66,7 @@ include glfw-3.3.9/CMakeFiles/uninstall.dir/compiler_depend.make
 include glfw-3.3.9/CMakeFiles/uninstall.dir/progress.make
 
 glfw-3.3.9/CMakeFiles/uninstall:
-	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9 && "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/carson/Documents/Game-Engine/cmake-build-debug/glfw-3.3.9/cmake_uninstall.cmake
+	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9 && "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/ck6100/Documents/Game-Engine/cmake-build-debug/glfw-3.3.9/cmake_uninstall.cmake
 
 uninstall: glfw-3.3.9/CMakeFiles/uninstall
 uninstall: glfw-3.3.9/CMakeFiles/uninstall.dir/build.make
@@ -77,10 +77,10 @@ glfw-3.3.9/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : glfw-3.3.9/CMakeFiles/uninstall.dir/build
 
 glfw-3.3.9/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9 && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9 && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : glfw-3.3.9/CMakeFiles/uninstall.dir/clean
 
 glfw-3.3.9/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\carson\Documents\Game-Engine C:\Users\carson\Documents\Game-Engine\glfw-3.3.9 C:\Users\carson\Documents\Game-Engine\cmake-build-debug C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9 C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ck6100\Documents\Game-Engine C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9 C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9 C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw-3.3.9/CMakeFiles/uninstall.dir/depend
 

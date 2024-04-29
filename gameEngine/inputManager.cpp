@@ -4,9 +4,12 @@
 
 #include "inputManager.h"
 #include "GLFW/glfw3.h"
+#include <iostream>
+#include <list>
 class inputManager {
     private:
         GLFWwindow* window;
+        bool keysHeld[222];
     public:
         int keyCodeSpace=32;
 
@@ -17,7 +20,25 @@ class inputManager {
         int getKeyCode(char character){
             return (int)character;
         }
-        bool getInputPressed(int keyCode){
+        bool getInput(int keyCode){
             return glfwGetKey(window,keyCode)==GLFW_PRESS;
+        }
+        bool getInputPressed(int keyCode){
+            bool returnValue=glfwGetKey(window,keyCode)==GLFW_PRESS;
+            if(glfwGetKey(window,keyCode)==GLFW_RELEASE)
+            {
+                keysHeld[keyCode]=false;
+            }
+            if(keysHeld[keyCode])
+            {
+                returnValue=false;
+            }
+            else {
+                keysHeld[keyCode] = returnValue;
+            }
+            return returnValue;
+        }
+        bool getInputReleased(int keyCode){
+            return glfwGetKey(window,keyCode)==GLFW_RELEASE;
         }
 }; // inputManager

@@ -130,7 +130,7 @@ int main() {
     relativePath.erase(relativePath.size()-fileName.length(),fileName.length());
 
 
-    Texture texture( "C:/Users/carson/Documents/Game-Engine/Textures/thing.jpg");
+    Texture texture("C:/Users/ck6100/Documents/Game-Engine/Textures/thing.jpg");
 
     RenderManager renderManager = RenderManager();
 
@@ -156,6 +156,8 @@ int main() {
 
         double deltaTime = glfwGetTime() - lastTime;
         lastTime = glfwGetTime();
+
+        auto* input = new inputManager(window);
 
         if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
             glfwSetWindowShouldClose(window, true);
@@ -203,7 +205,7 @@ int main() {
         if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
             camera.position.z -= moveSpeed * deltaTime;
         }
-        if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
+        if (input->getInputPressed(input->keyCodeSpace)) {
             camera.position.y -= moveSpeed * deltaTime;
         }
         if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {
@@ -233,18 +235,12 @@ int main() {
 
         }
 
+
+
         glfwSwapBuffers(window);
         glfwPollEvents();
 
-        std::cout << "womp";
-
-        auto* input = new inputManager(window);
-
-        bool gotSpace=input->getInputPressed(input->keyCodeSpace);
-
-        std::cout << gotSpace;
-
-        //_sleep(1);
+        _sleep(1);
     }
 
     renderManager.dispose();

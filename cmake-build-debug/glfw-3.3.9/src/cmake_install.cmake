@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/carson/Documents/Game-Engine/glfw-3.3.9/src
+# Install script for directory: C:/Users/ck6100/Documents/Game-Engine/glfw-3.3.9/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/glfw-3.3.9/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/ck6100/Documents/Game-Engine/cmake-build-debug/glfw-3.3.9/src/libglfw3.a")
 endif()
 

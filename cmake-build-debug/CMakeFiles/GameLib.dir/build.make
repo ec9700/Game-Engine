@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\carson\Documents\Game-Engine
+CMAKE_SOURCE_DIR = C:\Users\ck6100\Documents\Game-Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\carson\Documents\Game-Engine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GameLib.dir/depend.make
@@ -70,168 +70,168 @@ include CMakeFiles/GameLib.dir/flags.make
 
 CMakeFiles/GameLib.dir/main.cpp.obj: CMakeFiles/GameLib.dir/flags.make
 CMakeFiles/GameLib.dir/main.cpp.obj: CMakeFiles/GameLib.dir/includes_CXX.rsp
-CMakeFiles/GameLib.dir/main.cpp.obj: C:/Users/carson/Documents/Game-Engine/main.cpp
+CMakeFiles/GameLib.dir/main.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/main.cpp
 CMakeFiles/GameLib.dir/main.cpp.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GameLib.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/main.cpp.obj -MF CMakeFiles\GameLib.dir\main.cpp.obj.d -o CMakeFiles\GameLib.dir\main.cpp.obj -c C:\Users\carson\Documents\Game-Engine\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GameLib.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/main.cpp.obj -MF CMakeFiles\GameLib.dir\main.cpp.obj.d -o CMakeFiles\GameLib.dir\main.cpp.obj -c C:\Users\ck6100\Documents\Game-Engine\main.cpp
 
 CMakeFiles/GameLib.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carson\Documents\Game-Engine\main.cpp > CMakeFiles\GameLib.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\main.cpp > CMakeFiles\GameLib.dir\main.cpp.i
 
 CMakeFiles/GameLib.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\main.cpp -o CMakeFiles\GameLib.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\main.cpp -o CMakeFiles\GameLib.dir\main.cpp.s
 
 CMakeFiles/GameLib.dir/glad.c.obj: CMakeFiles/GameLib.dir/flags.make
 CMakeFiles/GameLib.dir/glad.c.obj: CMakeFiles/GameLib.dir/includes_C.rsp
-CMakeFiles/GameLib.dir/glad.c.obj: C:/Users/carson/Documents/Game-Engine/glad.c
+CMakeFiles/GameLib.dir/glad.c.obj: C:/Users/ck6100/Documents/Game-Engine/glad.c
 CMakeFiles/GameLib.dir/glad.c.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/GameLib.dir/glad.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GameLib.dir/glad.c.obj -MF CMakeFiles\GameLib.dir\glad.c.obj.d -o CMakeFiles\GameLib.dir\glad.c.obj -c C:\Users\carson\Documents\Game-Engine\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/GameLib.dir/glad.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GameLib.dir/glad.c.obj -MF CMakeFiles\GameLib.dir\glad.c.obj.d -o CMakeFiles\GameLib.dir\glad.c.obj -c C:\Users\ck6100\Documents\Game-Engine\glad.c
 
 CMakeFiles/GameLib.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GameLib.dir/glad.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carson\Documents\Game-Engine\glad.c > CMakeFiles\GameLib.dir\glad.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\glad.c > CMakeFiles\GameLib.dir\glad.c.i
 
 CMakeFiles/GameLib.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GameLib.dir/glad.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\carson\Documents\Game-Engine\glad.c -o CMakeFiles\GameLib.dir\glad.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\glad.c -o CMakeFiles\GameLib.dir\glad.c.s
 
 CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj: CMakeFiles/GameLib.dir/flags.make
 CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj: CMakeFiles/GameLib.dir/includes_CXX.rsp
-CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj: C:/Users/carson/Documents/Game-Engine/gameEngine/ShaderCollection.cpp
+CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/gameEngine/ShaderCollection.cpp
 CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\ShaderCollection.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\ShaderCollection.cpp.obj -c C:\Users\carson\Documents\Game-Engine\gameEngine\ShaderCollection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\ShaderCollection.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\ShaderCollection.cpp.obj -c C:\Users\ck6100\Documents\Game-Engine\gameEngine\ShaderCollection.cpp
 
 CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carson\Documents\Game-Engine\gameEngine\ShaderCollection.cpp > CMakeFiles\GameLib.dir\gameEngine\ShaderCollection.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\gameEngine\ShaderCollection.cpp > CMakeFiles\GameLib.dir\gameEngine\ShaderCollection.cpp.i
 
 CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\gameEngine\ShaderCollection.cpp -o CMakeFiles\GameLib.dir\gameEngine\ShaderCollection.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\gameEngine\ShaderCollection.cpp -o CMakeFiles\GameLib.dir\gameEngine\ShaderCollection.cpp.s
 
 CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj: CMakeFiles/GameLib.dir/flags.make
 CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj: CMakeFiles/GameLib.dir/includes_CXX.rsp
-CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj: C:/Users/carson/Documents/Game-Engine/gameEngine/Shader.cpp
+CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/gameEngine/Shader.cpp
 CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\Shader.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\Shader.cpp.obj -c C:\Users\carson\Documents\Game-Engine\gameEngine\Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\Shader.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\Shader.cpp.obj -c C:\Users\ck6100\Documents\Game-Engine\gameEngine\Shader.cpp
 
 CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carson\Documents\Game-Engine\gameEngine\Shader.cpp > CMakeFiles\GameLib.dir\gameEngine\Shader.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\gameEngine\Shader.cpp > CMakeFiles\GameLib.dir\gameEngine\Shader.cpp.i
 
 CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\gameEngine\Shader.cpp -o CMakeFiles\GameLib.dir\gameEngine\Shader.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\gameEngine\Shader.cpp -o CMakeFiles\GameLib.dir\gameEngine\Shader.cpp.s
 
 CMakeFiles/GameLib.dir/stb_image.cpp.obj: CMakeFiles/GameLib.dir/flags.make
 CMakeFiles/GameLib.dir/stb_image.cpp.obj: CMakeFiles/GameLib.dir/includes_CXX.rsp
-CMakeFiles/GameLib.dir/stb_image.cpp.obj: C:/Users/carson/Documents/Game-Engine/stb_image.cpp
+CMakeFiles/GameLib.dir/stb_image.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/stb_image.cpp
 CMakeFiles/GameLib.dir/stb_image.cpp.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GameLib.dir/stb_image.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/stb_image.cpp.obj -MF CMakeFiles\GameLib.dir\stb_image.cpp.obj.d -o CMakeFiles\GameLib.dir\stb_image.cpp.obj -c C:\Users\carson\Documents\Game-Engine\stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GameLib.dir/stb_image.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/stb_image.cpp.obj -MF CMakeFiles\GameLib.dir\stb_image.cpp.obj.d -o CMakeFiles\GameLib.dir\stb_image.cpp.obj -c C:\Users\ck6100\Documents\Game-Engine\stb_image.cpp
 
 CMakeFiles/GameLib.dir/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/stb_image.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carson\Documents\Game-Engine\stb_image.cpp > CMakeFiles\GameLib.dir\stb_image.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\stb_image.cpp > CMakeFiles\GameLib.dir\stb_image.cpp.i
 
 CMakeFiles/GameLib.dir/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/stb_image.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\stb_image.cpp -o CMakeFiles\GameLib.dir\stb_image.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\stb_image.cpp -o CMakeFiles\GameLib.dir\stb_image.cpp.s
 
 CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj: CMakeFiles/GameLib.dir/flags.make
 CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj: CMakeFiles/GameLib.dir/includes_CXX.rsp
-CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj: C:/Users/carson/Documents/Game-Engine/gameEngine/Texture.cpp
+CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/gameEngine/Texture.cpp
 CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\Texture.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\Texture.cpp.obj -c C:\Users\carson\Documents\Game-Engine\gameEngine\Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\Texture.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\Texture.cpp.obj -c C:\Users\ck6100\Documents\Game-Engine\gameEngine\Texture.cpp
 
 CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carson\Documents\Game-Engine\gameEngine\Texture.cpp > CMakeFiles\GameLib.dir\gameEngine\Texture.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\gameEngine\Texture.cpp > CMakeFiles\GameLib.dir\gameEngine\Texture.cpp.i
 
 CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\gameEngine\Texture.cpp -o CMakeFiles\GameLib.dir\gameEngine\Texture.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\gameEngine\Texture.cpp -o CMakeFiles\GameLib.dir\gameEngine\Texture.cpp.s
 
 CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj: CMakeFiles/GameLib.dir/flags.make
 CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj: CMakeFiles/GameLib.dir/includes_CXX.rsp
-CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj: C:/Users/carson/Documents/Game-Engine/gameEngine/RenderManager.cpp
+CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/gameEngine/RenderManager.cpp
 CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\RenderManager.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\RenderManager.cpp.obj -c C:\Users\carson\Documents\Game-Engine\gameEngine\RenderManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\RenderManager.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\RenderManager.cpp.obj -c C:\Users\ck6100\Documents\Game-Engine\gameEngine\RenderManager.cpp
 
 CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carson\Documents\Game-Engine\gameEngine\RenderManager.cpp > CMakeFiles\GameLib.dir\gameEngine\RenderManager.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\gameEngine\RenderManager.cpp > CMakeFiles\GameLib.dir\gameEngine\RenderManager.cpp.i
 
 CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\gameEngine\RenderManager.cpp -o CMakeFiles\GameLib.dir\gameEngine\RenderManager.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\gameEngine\RenderManager.cpp -o CMakeFiles\GameLib.dir\gameEngine\RenderManager.cpp.s
 
 CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj: CMakeFiles/GameLib.dir/flags.make
 CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj: CMakeFiles/GameLib.dir/includes_CXX.rsp
-CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj: C:/Users/carson/Documents/Game-Engine/gameEngine/Entity.cpp
+CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/gameEngine/Entity.cpp
 CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\Entity.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\Entity.cpp.obj -c C:\Users\carson\Documents\Game-Engine\gameEngine\Entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\Entity.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\Entity.cpp.obj -c C:\Users\ck6100\Documents\Game-Engine\gameEngine\Entity.cpp
 
 CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carson\Documents\Game-Engine\gameEngine\Entity.cpp > CMakeFiles\GameLib.dir\gameEngine\Entity.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\gameEngine\Entity.cpp > CMakeFiles\GameLib.dir\gameEngine\Entity.cpp.i
 
 CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\gameEngine\Entity.cpp -o CMakeFiles\GameLib.dir\gameEngine\Entity.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\gameEngine\Entity.cpp -o CMakeFiles\GameLib.dir\gameEngine\Entity.cpp.s
 
 CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj: CMakeFiles/GameLib.dir/flags.make
 CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj: CMakeFiles/GameLib.dir/includes_CXX.rsp
-CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj: C:/Users/carson/Documents/Game-Engine/gameEngine/Component.cpp
+CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/gameEngine/Component.cpp
 CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\Component.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\Component.cpp.obj -c C:\Users\carson\Documents\Game-Engine\gameEngine\Component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\Component.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\Component.cpp.obj -c C:\Users\ck6100\Documents\Game-Engine\gameEngine\Component.cpp
 
 CMakeFiles/GameLib.dir/gameEngine/Component.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/gameEngine/Component.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carson\Documents\Game-Engine\gameEngine\Component.cpp > CMakeFiles\GameLib.dir\gameEngine\Component.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\gameEngine\Component.cpp > CMakeFiles\GameLib.dir\gameEngine\Component.cpp.i
 
 CMakeFiles/GameLib.dir/gameEngine/Component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/gameEngine/Component.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\gameEngine\Component.cpp -o CMakeFiles\GameLib.dir\gameEngine\Component.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\gameEngine\Component.cpp -o CMakeFiles\GameLib.dir\gameEngine\Component.cpp.s
 
 CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj: CMakeFiles/GameLib.dir/flags.make
 CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj: CMakeFiles/GameLib.dir/includes_CXX.rsp
-CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj: C:/Users/carson/Documents/Game-Engine/gameEngine/GameManager.cpp
+CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/gameEngine/GameManager.cpp
 CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\GameManager.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\GameManager.cpp.obj -c C:\Users\carson\Documents\Game-Engine\gameEngine\GameManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\GameManager.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\GameManager.cpp.obj -c C:\Users\ck6100\Documents\Game-Engine\gameEngine\GameManager.cpp
 
 CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carson\Documents\Game-Engine\gameEngine\GameManager.cpp > CMakeFiles\GameLib.dir\gameEngine\GameManager.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\gameEngine\GameManager.cpp > CMakeFiles\GameLib.dir\gameEngine\GameManager.cpp.i
 
 CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\gameEngine\GameManager.cpp -o CMakeFiles\GameLib.dir\gameEngine\GameManager.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\gameEngine\GameManager.cpp -o CMakeFiles\GameLib.dir\gameEngine\GameManager.cpp.s
 
 CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj: CMakeFiles/GameLib.dir/flags.make
 CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj: CMakeFiles/GameLib.dir/includes_CXX.rsp
-CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj: C:/Users/carson/Documents/Game-Engine/gameEngine/inputManager.cpp
+CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.cpp
 CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj: CMakeFiles/GameLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\inputManager.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\inputManager.cpp.obj -c C:\Users\carson\Documents\Game-Engine\gameEngine\inputManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj -MF CMakeFiles\GameLib.dir\gameEngine\inputManager.cpp.obj.d -o CMakeFiles\GameLib.dir\gameEngine\inputManager.cpp.obj -c C:\Users\ck6100\Documents\Game-Engine\gameEngine\inputManager.cpp
 
 CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carson\Documents\Game-Engine\gameEngine\inputManager.cpp > CMakeFiles\GameLib.dir\gameEngine\inputManager.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ck6100\Documents\Game-Engine\gameEngine\inputManager.cpp > CMakeFiles\GameLib.dir\gameEngine\inputManager.cpp.i
 
 CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carson\Documents\Game-Engine\gameEngine\inputManager.cpp -o CMakeFiles\GameLib.dir\gameEngine\inputManager.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ck6100\Documents\Game-Engine\gameEngine\inputManager.cpp -o CMakeFiles\GameLib.dir\gameEngine\inputManager.cpp.s
 
 # Object files for target GameLib
 GameLib_OBJECTS = \
@@ -263,11 +263,11 @@ GameLib.exe: CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj
 GameLib.exe: CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj
 GameLib.exe: CMakeFiles/GameLib.dir/build.make
 GameLib.exe: glfw-3.3.9/src/libglfw3.a
-GameLib.exe: C:/Users/carson/Documents/Game-Engine/lib/opengl32.lib
+GameLib.exe: C:/Users/ck6100/Documents/Game-Engine/lib/opengl32.lib
 GameLib.exe: CMakeFiles/GameLib.dir/linkLibs.rsp
 GameLib.exe: CMakeFiles/GameLib.dir/objects1.rsp
 GameLib.exe: CMakeFiles/GameLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable GameLib.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable GameLib.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GameLib.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -279,6 +279,6 @@ CMakeFiles/GameLib.dir/clean:
 .PHONY : CMakeFiles/GameLib.dir/clean
 
 CMakeFiles/GameLib.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\carson\Documents\Game-Engine C:\Users\carson\Documents\Game-Engine C:\Users\carson\Documents\Game-Engine\cmake-build-debug C:\Users\carson\Documents\Game-Engine\cmake-build-debug C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles\GameLib.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ck6100\Documents\Game-Engine C:\Users\ck6100\Documents\Game-Engine C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles\GameLib.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/GameLib.dir/depend
 

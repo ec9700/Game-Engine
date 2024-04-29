@@ -11,7 +11,7 @@ C_FLAGS = -g -std=gnu99 -fdiagnostics-color=always
 
 RC_DEFINES = 
 
-RC_INCLUDES = -I C:\Users\carson\Documents\Game-Engine\include -I C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\deps -I C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\include
+RC_INCLUDES = -I C:\Users\ck6100\Documents\Game-Engine\include -I C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\deps -I C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\include
 
 RC_FLAGS = 
 
