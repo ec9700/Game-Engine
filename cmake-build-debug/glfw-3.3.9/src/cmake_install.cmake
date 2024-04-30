@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src
+# Install script for directory: C:/Users/pr2200/Documents/GitHub/Game-Engine/glfw-3.3.9/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/pr2200/Documents/GitHub/Game-Engine/cmake-build-debug/glfw-3.3.9/src/libglfw3.a")
 endif()
 

@@ -28,7 +28,9 @@ add_executable(GameLib main.cpp
         gameEngine/Components/RenderComponent.cpp
         gameEngine/Components/RenderComponent.h
         gameEngine/Window.cpp
-        gameEngine/Window.h)
+        gameEngine/Window.h
+        gameEngine/SoundManager.cpp
+        gameEngine/SoundManager.h)
 
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")
