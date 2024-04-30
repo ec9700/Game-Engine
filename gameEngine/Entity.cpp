@@ -6,6 +6,8 @@
 #include "Component.h"
 #include "VectorMethods.h"
 
+ComplexPool Entity::pool;
+
 Entity* Entity::newEntity() {
     Entity* entity = pool.get<Entity>();
     GameManager::entityVector.push_back(entity);

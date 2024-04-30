@@ -15,7 +15,7 @@ protected:
     virtual void update(Entity &parent, double& deltaTime) = 0;
     virtual void reset(Entity& parent) = 0;
 
-    virtual ~Component();
+    virtual ~Component() = default;
 
     Component() = default;
 
