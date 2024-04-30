@@ -7,7 +7,7 @@
 #include "VectorMethods.h"
 
 Entity* Entity::newEntity() {
-    Entity* entity = pool.get<Entity*>();
+    Entity* entity = pool.get<Entity>();
     GameManager::entityVector.push_back(entity);
     return entity;
 }

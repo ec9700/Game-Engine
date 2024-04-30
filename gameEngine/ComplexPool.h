@@ -13,7 +13,7 @@ private:
     std::unordered_map<std::type_info,ObjectPool<std::any>*> poolMap;
 public:
     template<typename T>
-    T get() {
+    T* get() {
         //Make sure this can return null
         ObjectPool<T>* objectPool = std::any_cast<ObjectPool<T>*>(poolMap[typeid(T)]);
         if(objectPool == nullptr) objectPool = new ObjectPool<T>;

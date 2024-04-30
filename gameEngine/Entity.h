@@ -32,7 +32,7 @@ public:
 
     template<typename T>
     T* addComponent() {
-        T* component = pool.get<T*>();
+        T* component = pool.get<T>();
         componentVector.push_back(component);
         return component;
     }

@@ -36,9 +36,8 @@ public:
         return L>0 && usedObjects.size()+pooledObjects.size()<L;
     }
 
-    template<class name>
     T* get() {
-        if(canGetFromPool()) throw;
+        if(!canGetFromPool()) throw;
         if(pooledObjects.empty()) pooledObjects.push_back(new T);
         T* object = pooledObjects[0];
         VectorMethods::removeObjectAt(pooledObjects,0);
