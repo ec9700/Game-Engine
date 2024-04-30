@@ -169,7 +169,7 @@ int main() {
 
 
     while(!glfwWindowShouldClose(GameManager::window.windowInstance)) {
-
+        _sleep(1); //Ignore that this is deprecated, temporary fix for limiting frames
         double deltaTime = glfwGetTime() - lastTime;
         lastTime = glfwGetTime();
 
