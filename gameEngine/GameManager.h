@@ -18,21 +18,25 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <vector>
+class Entity;
+
 
 class GameManager {
 
 private:
     //static double lastTime;
     GameManager() = default;
+    static std::vector<Entity*> entityVector;
 public:
     static ShaderCollection *shaderCollection;
     static Window window;
     static void initial(GLFWwindow* window);
 
-    static void update(const Entity& camera);
+    static void update();
 
+    static void dispose();
 
-    static std::vector<Entity> entityVector;
+    friend Entity;
 
 };
 

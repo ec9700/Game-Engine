@@ -8,6 +8,7 @@
 #include "gameEngine/GameManager.h"
 #include "gameEngine/Components/Spin.h"
 #include "gameEngine/Components/RenderComponent.h"
+#include "gameEngine/Components/CameraControl.h"
 #include <vector>
 
 const char* vertexShaderSource = "#version 330 core\n"
@@ -145,30 +146,28 @@ int main() {
     //renderManager.initialize(vertices,sizeof(vertices)); //<<<< HERE!!!!!!
 
     double lastTime = 0;
-    Entity camera = Entity();
-    RenderManager::camera = &camera;
+    Entity* camera = Entity::newEntity();
+    RenderManager::camera = camera;
+    camera->addComponent<CameraControl>();
 
     //Entities
     int max = 100;
 
     for(int i=0; i<max; i++) {
-        Entity entity;
-        entity.texture = texture;
-        entity.position.y = -max/2 + i;
-        entity.scale = glm::vec3(1,1,1);
-        Spin testComponent = Spin();
-        entity.componentVector.push_back(&testComponent);
+        Entity* entity = Entity::newEntity(); //fixme Figure out how to create new entity
+        entity->texture = texture;
+        entity->position.y = -max/2 + i;
+        entity->scale = glm::vec3(1,1,1);
+        entity->addComponent<Spin>();
 
-        RenderComponent renderComponent = RenderComponent();
-        renderComponent.setShaderCollection(shaderCollection);
-        renderComponent.setVertices(vertices);
-        entity.componentVector.push_back(&renderComponent);
-
-        GameManager::entityVector.push_back(entity);
+        RenderComponent* renderComponent = entity->addComponent<RenderComponent>();
+        renderComponent->setShaderCollection(shaderCollection);
+        renderComponent->setVertices(vertices);
     }
 
-
+    //unsigned long frameCount;
     while(!glfwWindowShouldClose(GameManager::window.windowInstance)) {
+        _sleep(1); //Temporary to improve computer performance (ignore that it is deprecated)
 
         double deltaTime = glfwGetTime() - lastTime;
         lastTime = glfwGetTime();
@@ -177,80 +176,7 @@ int main() {
             glfwSetWindowShouldClose(GameManager::window.windowInstance, true);
         }
 
-
-        //Camera Look (KP = numpad)
-        int rotateSpeed = 90;
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_LEFT) == GLFW_PRESS) {
-            camera.rotation.y -= rotateSpeed * deltaTime;
-        }
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_RIGHT) == GLFW_PRESS) {
-            camera.rotation.y += rotateSpeed * deltaTime;
-        }
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_UP) == GLFW_PRESS) {
-            camera.rotation.x -= rotateSpeed * deltaTime;
-        }
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_DOWN) == GLFW_PRESS) {
-            camera.rotation.x += rotateSpeed * deltaTime;
-        }
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_KP_1) == GLFW_PRESS) {
-            camera.rotation.z -= rotateSpeed * deltaTime;
-        }
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_KP_2) == GLFW_PRESS) {
-            camera.rotation.z += rotateSpeed * deltaTime;
-        }
-        //Reset rotation
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_KP_9) == GLFW_PRESS) {
-            camera.rotation.x = 0;
-            camera.rotation.y = 0;
-            camera.rotation.z = 0;
-        }
-
-        //Camera Movement
-        int moveSpeed = 5;
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_D) == GLFW_PRESS) {
-            camera.position.x -= moveSpeed * deltaTime;
-        }
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_A) == GLFW_PRESS) {
-            camera.position.x += moveSpeed * deltaTime;
-        }
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_W) == GLFW_PRESS) {
-            camera.position.z += moveSpeed * deltaTime;
-        }
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_S) == GLFW_PRESS) {
-            camera.position.z -= moveSpeed * deltaTime;
-        }
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_SPACE) == GLFW_PRESS) {
-            camera.position.y -= moveSpeed * deltaTime;
-        }
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {
-            camera.position.y += moveSpeed * deltaTime;
-        }
-        //Reset position
-        if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_P) == GLFW_PRESS) {
-            camera.position.x = 0;
-            camera.position.y = 0;
-            camera.position.z = 0;
-        }
-
-        glClearColor(.2f, .2, .8, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-        glClear(GL_COLOR_BUFFER_BIT);
-
-
-
-        /*for (Entity &entity : entityVector) {
-
-            entity.rotation += 5*deltaTime*entity.position.y;
-
-            //entity.scale += 1*deltaTime;
-
-            //entity.position.x += 1*deltaTime;
-
-            renderManager.render(entity, shaderCollection, windowWidth, windowHeight, window, camera);
-
-        }*/
-
-        GameManager::update(camera);
+        GameManager::update();
 
         glfwSwapBuffers(GameManager::window.windowInstance);
         glfwPollEvents();
@@ -258,9 +184,9 @@ int main() {
 
     }
 
-    RenderManager::dispose();
+    glfwTerminate();
+    GameManager::dispose();
 
-glfwTerminate();
 
 return 0;
 }

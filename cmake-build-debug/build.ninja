@@ -55,6 +55,8 @@ build CMakeFiles/GameLib.dir/main.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/glad.c.obj: C_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glad.c || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\glad.c.obj.d
@@ -62,6 +64,8 @@ build CMakeFiles/GameLib.dir/glad.c.obj: C_COMPILER__GameLib_unscanned_Debug C$:
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/ShaderCollection.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\ShaderCollection.cpp.obj.d
@@ -69,6 +73,8 @@ build CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj: CXX_COMPILER__
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/Shader.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\Shader.cpp.obj.d
@@ -76,6 +82,8 @@ build CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj: CXX_COMPILER__GameLib_un
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/stb_image.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/stb_image.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\stb_image.cpp.obj.d
@@ -83,6 +91,8 @@ build CMakeFiles/GameLib.dir/stb_image.cpp.obj: CXX_COMPILER__GameLib_unscanned_
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/Texture.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\Texture.cpp.obj.d
@@ -90,6 +100,8 @@ build CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj: CXX_COMPILER__GameLib_u
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/RenderManager.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\RenderManager.cpp.obj.d
@@ -97,6 +109,8 @@ build CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj: CXX_COMPILER__Gam
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/Entity.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\Entity.cpp.obj.d
@@ -104,6 +118,8 @@ build CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj: CXX_COMPILER__GameLib_un
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/Component.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\Component.cpp.obj.d
@@ -111,6 +127,8 @@ build CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj: CXX_COMPILER__GameLib
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/GameManager.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\GameManager.cpp.obj.d
@@ -118,6 +136,8 @@ build CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj: CXX_COMPILER__GameL
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/gameEngine/Components/Spin.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/Components/Spin.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\Components\Spin.cpp.obj.d
@@ -125,6 +145,8 @@ build CMakeFiles/GameLib.dir/gameEngine/Components/Spin.cpp.obj: CXX_COMPILER__G
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine\Components
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/gameEngine/Components/CameraControl.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/Components/CameraControl.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\Components\CameraControl.cpp.obj.d
@@ -132,6 +154,8 @@ build CMakeFiles/GameLib.dir/gameEngine/Components/CameraControl.cpp.obj: CXX_CO
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine\Components
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/gameEngine/Components/RenderComponent.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/Components/RenderComponent.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\Components\RenderComponent.cpp.obj.d
@@ -139,6 +163,8 @@ build CMakeFiles/GameLib.dir/gameEngine/Components/RenderComponent.cpp.obj: CXX_
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine\Components
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 build CMakeFiles/GameLib.dir/gameEngine/Window.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/Window.cpp || cmake_object_order_depends_target_GameLib
   DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\Window.cpp.obj.d
@@ -146,6 +172,26 @@ build CMakeFiles/GameLib.dir/gameEngine/Window.cpp.obj: CXX_COMPILER__GameLib_un
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
   OBJECT_DIR = CMakeFiles\GameLib.dir
   OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
+
+build CMakeFiles/GameLib.dir/gameEngine/VectorMethods.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/VectorMethods.cpp || cmake_object_order_depends_target_GameLib
+  DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\VectorMethods.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = CMakeFiles\GameLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
+
+build CMakeFiles/GameLib.dir/gameEngine/ObjectPool.cpp.obj: CXX_COMPILER__GameLib_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/gameEngine/ObjectPool.cpp || cmake_object_order_depends_target_GameLib
+  DEP_FILE = CMakeFiles\GameLib.dir\gameEngine\ObjectPool.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = CMakeFiles\GameLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\GameLib.dir\gameEngine
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
+  TARGET_PDB = GameLib.pdb
 
 
 # =============================================================================
@@ -155,15 +201,16 @@ build CMakeFiles/GameLib.dir/gameEngine/Window.cpp.obj: CXX_COMPILER__GameLib_un
 #############################################
 # Link the executable GameLib.exe
 
-build GameLib.exe: CXX_EXECUTABLE_LINKER__GameLib_Debug CMakeFiles/GameLib.dir/main.cpp.obj CMakeFiles/GameLib.dir/glad.c.obj CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj CMakeFiles/GameLib.dir/stb_image.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Components/Spin.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Components/CameraControl.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Components/RenderComponent.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Window.cpp.obj | glfw-3.3.9/src/libglfw3.a C$:/Users/subto/CLionProjects/GameLib/lib/opengl32.lib || glfw-3.3.9/src/libglfw3.a
+build GameLib.exe: CXX_EXECUTABLE_LINKER__GameLib_Debug CMakeFiles/GameLib.dir/main.cpp.obj CMakeFiles/GameLib.dir/glad.c.obj CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Shader.cpp.obj CMakeFiles/GameLib.dir/stb_image.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj CMakeFiles/GameLib.dir/gameEngine/RenderManager.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Entity.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Component.cpp.obj CMakeFiles/GameLib.dir/gameEngine/GameManager.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Components/Spin.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Components/CameraControl.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Components/RenderComponent.cpp.obj CMakeFiles/GameLib.dir/gameEngine/Window.cpp.obj CMakeFiles/GameLib.dir/gameEngine/VectorMethods.cpp.obj CMakeFiles/GameLib.dir/gameEngine/ObjectPool.cpp.obj | glfw-3.3.9/src/libglfw3.a C$:/Users/subto/CLionProjects/GameLib/lib/opengl32.lib || glfw-3.3.9/src/libglfw3.a
   FLAGS = -g
   LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  C:/Users/subto/CLionProjects/GameLib/lib/opengl32.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\GameLib.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\GameLib.dir\
   TARGET_FILE = GameLib.exe
   TARGET_IMPLIB = libGameLib.dll.a
-  TARGET_PDB = GameLib.exe.dbg
+  TARGET_PDB = GameLib.pdb
 
 
 #############################################
@@ -340,6 +387,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscann
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -348,6 +397,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -356,6 +407,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -364,6 +417,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscann
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -372,6 +427,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanne
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -380,6 +437,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanne
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -388,6 +447,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unsc
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -396,6 +457,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -404,6 +467,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_u
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -412,6 +477,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unsc
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -420,6 +487,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_un
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -428,6 +497,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_un
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -436,6 +507,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_uns
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -444,6 +517,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_uns
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 build glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
@@ -452,6 +527,8 @@ build glfw-3.3.9/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_
   INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src -IC:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/src
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 
 # =============================================================================
@@ -466,8 +543,9 @@ build glfw-3.3.9/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug glfw-3.3.9/
   OBJECT_DIR = glfw-3.3.9\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_FILE = glfw-3.3.9\src\libglfw3.a
-  TARGET_PDB = glfw3.a.dbg
+  TARGET_PDB = glfw-3.3.9\src\libglfw3.pdb
 
 
 #############################################
@@ -543,17 +621,1816 @@ build glfw-3.3.9/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}glfw-3.3
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target boing
+
+
+#############################################
+# Order-only phony target for boing
+
+build cmake_object_order_depends_target_boing: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/examples/CMakeFiles/boing.dir/boing.c.obj: C_COMPILER__boing_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/boing.c || cmake_object_order_depends_target_boing
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\boing.dir\boing.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\boing.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\boing.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\boing.dir\
+  TARGET_PDB = glfw-3.3.9\examples\boing.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/boing.dir/glfw.rc.obj: RC_COMPILER__boing_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/glfw.rc || cmake_object_order_depends_target_boing
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\boing.dir\glfw.rc.obj.d
+  INCLUDES = -I C:/Users/subto/CLionProjects/GameLib/include -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\boing.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\boing.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\boing.dir\
+  TARGET_PDB = glfw-3.3.9\examples\boing.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj: C_COMPILER__boing_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_boing
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\boing.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\boing.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\boing.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\boing.dir\
+  TARGET_PDB = glfw-3.3.9\examples\boing.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target boing
+
+
+#############################################
+# Link the executable glfw-3.3.9\examples\boing.exe
+
+build glfw-3.3.9/examples/boing.exe: C_EXECUTABLE_LINKER__boing_Debug glfw-3.3.9/examples/CMakeFiles/boing.dir/boing.c.obj glfw-3.3.9/examples/CMakeFiles/boing.dir/glfw.rc.obj glfw-3.3.9/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\boing.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\boing.dir\
+  TARGET_FILE = glfw-3.3.9\examples\boing.exe
+  TARGET_IMPLIB = glfw-3.3.9\examples\libboing.dll.a
+  TARGET_PDB = glfw-3.3.9\examples\boing.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gears
+
+
+#############################################
+# Order-only phony target for gears
+
+build cmake_object_order_depends_target_gears: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/examples/CMakeFiles/gears.dir/gears.c.obj: C_COMPILER__gears_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/gears.c || cmake_object_order_depends_target_gears
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\gears.dir\gears.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\gears.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\gears.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\gears.dir\
+  TARGET_PDB = glfw-3.3.9\examples\gears.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/gears.dir/glfw.rc.obj: RC_COMPILER__gears_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/glfw.rc || cmake_object_order_depends_target_gears
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\gears.dir\glfw.rc.obj.d
+  INCLUDES = -I C:/Users/subto/CLionProjects/GameLib/include -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\gears.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\gears.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\gears.dir\
+  TARGET_PDB = glfw-3.3.9\examples\gears.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.obj: C_COMPILER__gears_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_gears
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\gears.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\gears.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\gears.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\gears.dir\
+  TARGET_PDB = glfw-3.3.9\examples\gears.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gears
+
+
+#############################################
+# Link the executable glfw-3.3.9\examples\gears.exe
+
+build glfw-3.3.9/examples/gears.exe: C_EXECUTABLE_LINKER__gears_Debug glfw-3.3.9/examples/CMakeFiles/gears.dir/gears.c.obj glfw-3.3.9/examples/CMakeFiles/gears.dir/glfw.rc.obj glfw-3.3.9/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\gears.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\gears.dir\
+  TARGET_FILE = glfw-3.3.9\examples\gears.exe
+  TARGET_IMPLIB = glfw-3.3.9\examples\libgears.dll.a
+  TARGET_PDB = glfw-3.3.9\examples\gears.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target heightmap
+
+
+#############################################
+# Order-only phony target for heightmap
+
+build cmake_object_order_depends_target_heightmap: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/examples/CMakeFiles/heightmap.dir/heightmap.c.obj: C_COMPILER__heightmap_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/heightmap.c || cmake_object_order_depends_target_heightmap
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\heightmap.dir\heightmap.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\heightmap.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\heightmap.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\heightmap.dir\
+  TARGET_PDB = glfw-3.3.9\examples\heightmap.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/heightmap.dir/glfw.rc.obj: RC_COMPILER__heightmap_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/glfw.rc || cmake_object_order_depends_target_heightmap
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\heightmap.dir\glfw.rc.obj.d
+  INCLUDES = -I C:/Users/subto/CLionProjects/GameLib/include -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\heightmap.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\heightmap.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\heightmap.dir\
+  TARGET_PDB = glfw-3.3.9\examples\heightmap.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.obj: C_COMPILER__heightmap_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_heightmap
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\heightmap.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\heightmap.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\heightmap.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\heightmap.dir\
+  TARGET_PDB = glfw-3.3.9\examples\heightmap.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target heightmap
+
+
+#############################################
+# Link the executable glfw-3.3.9\examples\heightmap.exe
+
+build glfw-3.3.9/examples/heightmap.exe: C_EXECUTABLE_LINKER__heightmap_Debug glfw-3.3.9/examples/CMakeFiles/heightmap.dir/heightmap.c.obj glfw-3.3.9/examples/CMakeFiles/heightmap.dir/glfw.rc.obj glfw-3.3.9/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\heightmap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\heightmap.dir\
+  TARGET_FILE = glfw-3.3.9\examples\heightmap.exe
+  TARGET_IMPLIB = glfw-3.3.9\examples\libheightmap.dll.a
+  TARGET_PDB = glfw-3.3.9\examples\heightmap.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target offscreen
+
+
+#############################################
+# Order-only phony target for offscreen
+
+build cmake_object_order_depends_target_offscreen: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/examples/CMakeFiles/offscreen.dir/offscreen.c.obj: C_COMPILER__offscreen_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/offscreen.c || cmake_object_order_depends_target_offscreen
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\offscreen.dir\offscreen.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\offscreen.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\offscreen.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\offscreen.dir\
+  TARGET_PDB = glfw-3.3.9\examples\offscreen.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/offscreen.dir/glfw.rc.obj: RC_COMPILER__offscreen_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/glfw.rc || cmake_object_order_depends_target_offscreen
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\offscreen.dir\glfw.rc.obj.d
+  INCLUDES = -I C:/Users/subto/CLionProjects/GameLib/include -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\offscreen.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\offscreen.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\offscreen.dir\
+  TARGET_PDB = glfw-3.3.9\examples\offscreen.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.obj: C_COMPILER__offscreen_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_offscreen
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\offscreen.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\offscreen.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\offscreen.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\offscreen.dir\
+  TARGET_PDB = glfw-3.3.9\examples\offscreen.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target offscreen
+
+
+#############################################
+# Link the executable glfw-3.3.9\examples\offscreen.exe
+
+build glfw-3.3.9/examples/offscreen.exe: C_EXECUTABLE_LINKER__offscreen_Debug glfw-3.3.9/examples/CMakeFiles/offscreen.dir/offscreen.c.obj glfw-3.3.9/examples/CMakeFiles/offscreen.dir/glfw.rc.obj glfw-3.3.9/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\offscreen.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\offscreen.dir\
+  TARGET_FILE = glfw-3.3.9\examples\offscreen.exe
+  TARGET_IMPLIB = glfw-3.3.9\examples\liboffscreen.dll.a
+  TARGET_PDB = glfw-3.3.9\examples\offscreen.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target particles
+
+
+#############################################
+# Order-only phony target for particles
+
+build cmake_object_order_depends_target_particles: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/examples/CMakeFiles/particles.dir/particles.c.obj: C_COMPILER__particles_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/particles.c || cmake_object_order_depends_target_particles
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\particles.dir\particles.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\particles.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\particles.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\particles.dir\
+  TARGET_PDB = glfw-3.3.9\examples\particles.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/particles.dir/glfw.rc.obj: RC_COMPILER__particles_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/glfw.rc || cmake_object_order_depends_target_particles
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\particles.dir\glfw.rc.obj.d
+  INCLUDES = -I C:/Users/subto/CLionProjects/GameLib/include -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\particles.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\particles.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\particles.dir\
+  TARGET_PDB = glfw-3.3.9\examples\particles.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj: C_COMPILER__particles_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/tinycthread.c || cmake_object_order_depends_target_particles
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\particles.dir\__\deps\tinycthread.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\particles.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\particles.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\particles.dir\
+  TARGET_PDB = glfw-3.3.9\examples\particles.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj: C_COMPILER__particles_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/getopt.c || cmake_object_order_depends_target_particles
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\particles.dir\__\deps\getopt.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\particles.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\particles.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\particles.dir\
+  TARGET_PDB = glfw-3.3.9\examples\particles.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj: C_COMPILER__particles_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_particles
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\particles.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\particles.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\particles.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\particles.dir\
+  TARGET_PDB = glfw-3.3.9\examples\particles.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target particles
+
+
+#############################################
+# Link the executable glfw-3.3.9\examples\particles.exe
+
+build glfw-3.3.9/examples/particles.exe: C_EXECUTABLE_LINKER__particles_Debug glfw-3.3.9/examples/CMakeFiles/particles.dir/particles.c.obj glfw-3.3.9/examples/CMakeFiles/particles.dir/glfw.rc.obj glfw-3.3.9/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj glfw-3.3.9/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj glfw-3.3.9/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\particles.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\particles.dir\
+  TARGET_FILE = glfw-3.3.9\examples\particles.exe
+  TARGET_IMPLIB = glfw-3.3.9\examples\libparticles.dll.a
+  TARGET_PDB = glfw-3.3.9\examples\particles.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sharing
+
+
+#############################################
+# Order-only phony target for sharing
+
+build cmake_object_order_depends_target_sharing: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/examples/CMakeFiles/sharing.dir/sharing.c.obj: C_COMPILER__sharing_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/sharing.c || cmake_object_order_depends_target_sharing
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\sharing.dir\sharing.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\sharing.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\sharing.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\sharing.dir\
+  TARGET_PDB = glfw-3.3.9\examples\sharing.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/sharing.dir/glfw.rc.obj: RC_COMPILER__sharing_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/glfw.rc || cmake_object_order_depends_target_sharing
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\sharing.dir\glfw.rc.obj.d
+  INCLUDES = -I C:/Users/subto/CLionProjects/GameLib/include -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\sharing.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\sharing.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\sharing.dir\
+  TARGET_PDB = glfw-3.3.9\examples\sharing.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj: C_COMPILER__sharing_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_sharing
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\sharing.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\sharing.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\sharing.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\sharing.dir\
+  TARGET_PDB = glfw-3.3.9\examples\sharing.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sharing
+
+
+#############################################
+# Link the executable glfw-3.3.9\examples\sharing.exe
+
+build glfw-3.3.9/examples/sharing.exe: C_EXECUTABLE_LINKER__sharing_Debug glfw-3.3.9/examples/CMakeFiles/sharing.dir/sharing.c.obj glfw-3.3.9/examples/CMakeFiles/sharing.dir/glfw.rc.obj glfw-3.3.9/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\sharing.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\sharing.dir\
+  TARGET_FILE = glfw-3.3.9\examples\sharing.exe
+  TARGET_IMPLIB = glfw-3.3.9\examples\libsharing.dll.a
+  TARGET_PDB = glfw-3.3.9\examples\sharing.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target simple
+
+
+#############################################
+# Order-only phony target for simple
+
+build cmake_object_order_depends_target_simple: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/examples/CMakeFiles/simple.dir/simple.c.obj: C_COMPILER__simple_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/simple.c || cmake_object_order_depends_target_simple
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\simple.dir\simple.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\simple.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\simple.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\simple.dir\
+  TARGET_PDB = glfw-3.3.9\examples\simple.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/simple.dir/glfw.rc.obj: RC_COMPILER__simple_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/glfw.rc || cmake_object_order_depends_target_simple
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\simple.dir\glfw.rc.obj.d
+  INCLUDES = -I C:/Users/subto/CLionProjects/GameLib/include -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\simple.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\simple.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\simple.dir\
+  TARGET_PDB = glfw-3.3.9\examples\simple.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj: C_COMPILER__simple_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_simple
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\simple.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\simple.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\simple.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\simple.dir\
+  TARGET_PDB = glfw-3.3.9\examples\simple.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target simple
+
+
+#############################################
+# Link the executable glfw-3.3.9\examples\simple.exe
+
+build glfw-3.3.9/examples/simple.exe: C_EXECUTABLE_LINKER__simple_Debug glfw-3.3.9/examples/CMakeFiles/simple.dir/simple.c.obj glfw-3.3.9/examples/CMakeFiles/simple.dir/glfw.rc.obj glfw-3.3.9/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\simple.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\simple.dir\
+  TARGET_FILE = glfw-3.3.9\examples\simple.exe
+  TARGET_IMPLIB = glfw-3.3.9\examples\libsimple.dll.a
+  TARGET_PDB = glfw-3.3.9\examples\simple.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target splitview
+
+
+#############################################
+# Order-only phony target for splitview
+
+build cmake_object_order_depends_target_splitview: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/examples/CMakeFiles/splitview.dir/splitview.c.obj: C_COMPILER__splitview_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/splitview.c || cmake_object_order_depends_target_splitview
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\splitview.dir\splitview.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\splitview.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\splitview.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\splitview.dir\
+  TARGET_PDB = glfw-3.3.9\examples\splitview.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/splitview.dir/glfw.rc.obj: RC_COMPILER__splitview_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/glfw.rc || cmake_object_order_depends_target_splitview
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\splitview.dir\glfw.rc.obj.d
+  INCLUDES = -I C:/Users/subto/CLionProjects/GameLib/include -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\splitview.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\splitview.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\splitview.dir\
+  TARGET_PDB = glfw-3.3.9\examples\splitview.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.obj: C_COMPILER__splitview_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_splitview
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\splitview.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\splitview.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\splitview.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\splitview.dir\
+  TARGET_PDB = glfw-3.3.9\examples\splitview.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target splitview
+
+
+#############################################
+# Link the executable glfw-3.3.9\examples\splitview.exe
+
+build glfw-3.3.9/examples/splitview.exe: C_EXECUTABLE_LINKER__splitview_Debug glfw-3.3.9/examples/CMakeFiles/splitview.dir/splitview.c.obj glfw-3.3.9/examples/CMakeFiles/splitview.dir/glfw.rc.obj glfw-3.3.9/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\splitview.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\splitview.dir\
+  TARGET_FILE = glfw-3.3.9\examples\splitview.exe
+  TARGET_IMPLIB = glfw-3.3.9\examples\libsplitview.dll.a
+  TARGET_PDB = glfw-3.3.9\examples\splitview.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target wave
+
+
+#############################################
+# Order-only phony target for wave
+
+build cmake_object_order_depends_target_wave: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/examples/CMakeFiles/wave.dir/wave.c.obj: C_COMPILER__wave_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/wave.c || cmake_object_order_depends_target_wave
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\wave.dir\wave.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\wave.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\wave.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\wave.dir\
+  TARGET_PDB = glfw-3.3.9\examples\wave.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/wave.dir/glfw.rc.obj: RC_COMPILER__wave_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/glfw.rc || cmake_object_order_depends_target_wave
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\wave.dir\glfw.rc.obj.d
+  INCLUDES = -I C:/Users/subto/CLionProjects/GameLib/include -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -I C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\wave.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\wave.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\wave.dir\
+  TARGET_PDB = glfw-3.3.9\examples\wave.pdb
+
+build glfw-3.3.9/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.obj: C_COMPILER__wave_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_wave
+  DEP_FILE = glfw-3.3.9\examples\CMakeFiles\wave.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\wave.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\examples\CMakeFiles\wave.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\wave.dir\
+  TARGET_PDB = glfw-3.3.9\examples\wave.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wave
+
+
+#############################################
+# Link the executable glfw-3.3.9\examples\wave.exe
+
+build glfw-3.3.9/examples/wave.exe: C_EXECUTABLE_LINKER__wave_Debug glfw-3.3.9/examples/CMakeFiles/wave.dir/wave.c.obj glfw-3.3.9/examples/CMakeFiles/wave.dir/glfw.rc.obj glfw-3.3.9/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\examples\CMakeFiles\wave.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\examples\CMakeFiles\wave.dir\
+  TARGET_FILE = glfw-3.3.9\examples\wave.exe
+  TARGET_IMPLIB = glfw-3.3.9\examples\libwave.dll.a
+  TARGET_PDB = glfw-3.3.9\examples\wave.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build glfw-3.3.9/examples/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\subto\CLionProjects\GameLib\cmake-build-debug\glfw-3.3.9\examples && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build glfw-3.3.9/examples/edit_cache: phony glfw-3.3.9/examples/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build glfw-3.3.9/examples/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\subto\CLionProjects\GameLib\cmake-build-debug\glfw-3.3.9\examples && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\subto\CLionProjects\GameLib -BC:\Users\subto\CLionProjects\GameLib\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build glfw-3.3.9/examples/rebuild_cache: phony glfw-3.3.9/examples/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build glfw-3.3.9/examples/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build glfw-3.3.9/examples/CMakeFiles/install.util: CUSTOM_COMMAND glfw-3.3.9/examples/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\subto\CLionProjects\GameLib\cmake-build-debug\glfw-3.3.9\examples && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build glfw-3.3.9/examples/install: phony glfw-3.3.9/examples/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build glfw-3.3.9/examples/CMakeFiles/install/local.util: CUSTOM_COMMAND glfw-3.3.9/examples/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\subto\CLionProjects\GameLib\cmake-build-debug\glfw-3.3.9\examples && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build glfw-3.3.9/examples/install/local: phony glfw-3.3.9/examples/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build glfw-3.3.9/examples/CMakeFiles/install/strip.util: CUSTOM_COMMAND glfw-3.3.9/examples/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\subto\CLionProjects\GameLib\cmake-build-debug\glfw-3.3.9\examples && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build glfw-3.3.9/examples/install/strip: phony glfw-3.3.9/examples/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target clipboard
+
+
+#############################################
+# Order-only phony target for clipboard
+
+build cmake_object_order_depends_target_clipboard: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/clipboard.dir/clipboard.c.obj: C_COMPILER__clipboard_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/clipboard.c || cmake_object_order_depends_target_clipboard
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\clipboard.dir\clipboard.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\clipboard.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\clipboard.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\clipboard.dir\
+  TARGET_PDB = glfw-3.3.9\tests\clipboard.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj: C_COMPILER__clipboard_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/getopt.c || cmake_object_order_depends_target_clipboard
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\clipboard.dir\__\deps\getopt.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\clipboard.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\clipboard.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\clipboard.dir\
+  TARGET_PDB = glfw-3.3.9\tests\clipboard.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj: C_COMPILER__clipboard_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_clipboard
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\clipboard.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\clipboard.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\clipboard.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\clipboard.dir\
+  TARGET_PDB = glfw-3.3.9\tests\clipboard.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target clipboard
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\clipboard.exe
+
+build glfw-3.3.9/tests/clipboard.exe: C_EXECUTABLE_LINKER__clipboard_Debug glfw-3.3.9/tests/CMakeFiles/clipboard.dir/clipboard.c.obj glfw-3.3.9/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj glfw-3.3.9/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\clipboard.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\clipboard.dir\
+  TARGET_FILE = glfw-3.3.9\tests\clipboard.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libclipboard.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\clipboard.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target events
+
+
+#############################################
+# Order-only phony target for events
+
+build cmake_object_order_depends_target_events: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/events.dir/events.c.obj: C_COMPILER__events_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/events.c || cmake_object_order_depends_target_events
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\events.dir\events.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\events.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\events.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\events.dir\
+  TARGET_PDB = glfw-3.3.9\tests\events.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/events.dir/__/deps/getopt.c.obj: C_COMPILER__events_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/getopt.c || cmake_object_order_depends_target_events
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\events.dir\__\deps\getopt.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\events.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\events.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\events.dir\
+  TARGET_PDB = glfw-3.3.9\tests\events.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/events.dir/__/deps/glad_gl.c.obj: C_COMPILER__events_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_events
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\events.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\events.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\events.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\events.dir\
+  TARGET_PDB = glfw-3.3.9\tests\events.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target events
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\events.exe
+
+build glfw-3.3.9/tests/events.exe: C_EXECUTABLE_LINKER__events_Debug glfw-3.3.9/tests/CMakeFiles/events.dir/events.c.obj glfw-3.3.9/tests/CMakeFiles/events.dir/__/deps/getopt.c.obj glfw-3.3.9/tests/CMakeFiles/events.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\events.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\events.dir\
+  TARGET_FILE = glfw-3.3.9\tests\events.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libevents.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\events.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target msaa
+
+
+#############################################
+# Order-only phony target for msaa
+
+build cmake_object_order_depends_target_msaa: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/msaa.dir/msaa.c.obj: C_COMPILER__msaa_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/msaa.c || cmake_object_order_depends_target_msaa
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\msaa.dir\msaa.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\msaa.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\msaa.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\msaa.dir\
+  TARGET_PDB = glfw-3.3.9\tests\msaa.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/msaa.dir/__/deps/getopt.c.obj: C_COMPILER__msaa_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/getopt.c || cmake_object_order_depends_target_msaa
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\msaa.dir\__\deps\getopt.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\msaa.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\msaa.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\msaa.dir\
+  TARGET_PDB = glfw-3.3.9\tests\msaa.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/msaa.dir/__/deps/glad_gl.c.obj: C_COMPILER__msaa_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_msaa
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\msaa.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\msaa.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\msaa.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\msaa.dir\
+  TARGET_PDB = glfw-3.3.9\tests\msaa.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target msaa
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\msaa.exe
+
+build glfw-3.3.9/tests/msaa.exe: C_EXECUTABLE_LINKER__msaa_Debug glfw-3.3.9/tests/CMakeFiles/msaa.dir/msaa.c.obj glfw-3.3.9/tests/CMakeFiles/msaa.dir/__/deps/getopt.c.obj glfw-3.3.9/tests/CMakeFiles/msaa.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\msaa.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\msaa.dir\
+  TARGET_FILE = glfw-3.3.9\tests\msaa.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libmsaa.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\msaa.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target glfwinfo
+
+
+#############################################
+# Order-only phony target for glfwinfo
+
+build cmake_object_order_depends_target_glfwinfo: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.obj: C_COMPILER__glfwinfo_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/glfwinfo.c || cmake_object_order_depends_target_glfwinfo
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir\glfwinfo.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir\
+  TARGET_PDB = glfw-3.3.9\tests\glfwinfo.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.obj: C_COMPILER__glfwinfo_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/getopt.c || cmake_object_order_depends_target_glfwinfo
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir\__\deps\getopt.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir\
+  TARGET_PDB = glfw-3.3.9\tests\glfwinfo.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.obj: C_COMPILER__glfwinfo_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_glfwinfo
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir\
+  TARGET_PDB = glfw-3.3.9\tests\glfwinfo.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.obj: C_COMPILER__glfwinfo_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_vulkan.c || cmake_object_order_depends_target_glfwinfo
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir\__\deps\glad_vulkan.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir\
+  TARGET_PDB = glfw-3.3.9\tests\glfwinfo.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target glfwinfo
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\glfwinfo.exe
+
+build glfw-3.3.9/tests/glfwinfo.exe: C_EXECUTABLE_LINKER__glfwinfo_Debug glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.obj glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.obj glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.obj glfw-3.3.9/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\glfwinfo.dir\
+  TARGET_FILE = glfw-3.3.9\tests\glfwinfo.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libglfwinfo.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\glfwinfo.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target iconify
+
+
+#############################################
+# Order-only phony target for iconify
+
+build cmake_object_order_depends_target_iconify: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/iconify.dir/iconify.c.obj: C_COMPILER__iconify_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/iconify.c || cmake_object_order_depends_target_iconify
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\iconify.dir\iconify.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\iconify.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\iconify.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\iconify.dir\
+  TARGET_PDB = glfw-3.3.9\tests\iconify.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj: C_COMPILER__iconify_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/getopt.c || cmake_object_order_depends_target_iconify
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\iconify.dir\__\deps\getopt.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\iconify.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\iconify.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\iconify.dir\
+  TARGET_PDB = glfw-3.3.9\tests\iconify.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj: C_COMPILER__iconify_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_iconify
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\iconify.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\iconify.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\iconify.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\iconify.dir\
+  TARGET_PDB = glfw-3.3.9\tests\iconify.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target iconify
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\iconify.exe
+
+build glfw-3.3.9/tests/iconify.exe: C_EXECUTABLE_LINKER__iconify_Debug glfw-3.3.9/tests/CMakeFiles/iconify.dir/iconify.c.obj glfw-3.3.9/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj glfw-3.3.9/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\iconify.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\iconify.dir\
+  TARGET_FILE = glfw-3.3.9\tests\iconify.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libiconify.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\iconify.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target monitors
+
+
+#############################################
+# Order-only phony target for monitors
+
+build cmake_object_order_depends_target_monitors: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/monitors.dir/monitors.c.obj: C_COMPILER__monitors_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/monitors.c || cmake_object_order_depends_target_monitors
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\monitors.dir\monitors.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\monitors.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\monitors.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\monitors.dir\
+  TARGET_PDB = glfw-3.3.9\tests\monitors.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/monitors.dir/__/deps/getopt.c.obj: C_COMPILER__monitors_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/getopt.c || cmake_object_order_depends_target_monitors
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\monitors.dir\__\deps\getopt.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\monitors.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\monitors.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\monitors.dir\
+  TARGET_PDB = glfw-3.3.9\tests\monitors.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/monitors.dir/__/deps/glad_gl.c.obj: C_COMPILER__monitors_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_monitors
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\monitors.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\monitors.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\monitors.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\monitors.dir\
+  TARGET_PDB = glfw-3.3.9\tests\monitors.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target monitors
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\monitors.exe
+
+build glfw-3.3.9/tests/monitors.exe: C_EXECUTABLE_LINKER__monitors_Debug glfw-3.3.9/tests/CMakeFiles/monitors.dir/monitors.c.obj glfw-3.3.9/tests/CMakeFiles/monitors.dir/__/deps/getopt.c.obj glfw-3.3.9/tests/CMakeFiles/monitors.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\monitors.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\monitors.dir\
+  TARGET_FILE = glfw-3.3.9\tests\monitors.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libmonitors.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\monitors.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target reopen
+
+
+#############################################
+# Order-only phony target for reopen
+
+build cmake_object_order_depends_target_reopen: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/reopen.dir/reopen.c.obj: C_COMPILER__reopen_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/reopen.c || cmake_object_order_depends_target_reopen
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\reopen.dir\reopen.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\reopen.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\reopen.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\reopen.dir\
+  TARGET_PDB = glfw-3.3.9\tests\reopen.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.obj: C_COMPILER__reopen_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_reopen
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\reopen.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\reopen.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\reopen.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\reopen.dir\
+  TARGET_PDB = glfw-3.3.9\tests\reopen.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target reopen
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\reopen.exe
+
+build glfw-3.3.9/tests/reopen.exe: C_EXECUTABLE_LINKER__reopen_Debug glfw-3.3.9/tests/CMakeFiles/reopen.dir/reopen.c.obj glfw-3.3.9/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\reopen.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\reopen.dir\
+  TARGET_FILE = glfw-3.3.9\tests\reopen.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libreopen.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\reopen.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cursor
+
+
+#############################################
+# Order-only phony target for cursor
+
+build cmake_object_order_depends_target_cursor: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/cursor.dir/cursor.c.obj: C_COMPILER__cursor_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/cursor.c || cmake_object_order_depends_target_cursor
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\cursor.dir\cursor.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\cursor.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\cursor.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\cursor.dir\
+  TARGET_PDB = glfw-3.3.9\tests\cursor.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj: C_COMPILER__cursor_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_cursor
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\cursor.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\cursor.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\cursor.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\cursor.dir\
+  TARGET_PDB = glfw-3.3.9\tests\cursor.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cursor
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\cursor.exe
+
+build glfw-3.3.9/tests/cursor.exe: C_EXECUTABLE_LINKER__cursor_Debug glfw-3.3.9/tests/CMakeFiles/cursor.dir/cursor.c.obj glfw-3.3.9/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\cursor.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\cursor.dir\
+  TARGET_FILE = glfw-3.3.9\tests\cursor.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libcursor.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\cursor.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target empty
+
+
+#############################################
+# Order-only phony target for empty
+
+build cmake_object_order_depends_target_empty: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/empty.dir/empty.c.obj: C_COMPILER__empty_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/empty.c || cmake_object_order_depends_target_empty
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\empty.dir\empty.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\empty.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\empty.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\empty.dir\
+  TARGET_PDB = glfw-3.3.9\tests\empty.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.obj: C_COMPILER__empty_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/tinycthread.c || cmake_object_order_depends_target_empty
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\empty.dir\__\deps\tinycthread.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\empty.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\empty.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\empty.dir\
+  TARGET_PDB = glfw-3.3.9\tests\empty.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/empty.dir/__/deps/glad_gl.c.obj: C_COMPILER__empty_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_empty
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\empty.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\empty.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\empty.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\empty.dir\
+  TARGET_PDB = glfw-3.3.9\tests\empty.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target empty
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\empty.exe
+
+build glfw-3.3.9/tests/empty.exe: C_EXECUTABLE_LINKER__empty_Debug glfw-3.3.9/tests/CMakeFiles/empty.dir/empty.c.obj glfw-3.3.9/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.obj glfw-3.3.9/tests/CMakeFiles/empty.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\empty.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\empty.dir\
+  TARGET_FILE = glfw-3.3.9\tests\empty.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libempty.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\empty.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gamma
+
+
+#############################################
+# Order-only phony target for gamma
+
+build cmake_object_order_depends_target_gamma: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.obj: C_COMPILER__gamma_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/gamma.c || cmake_object_order_depends_target_gamma
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\gamma.dir\gamma.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\gamma.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\gamma.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\gamma.dir\
+  TARGET_PDB = glfw-3.3.9\tests\gamma.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj: C_COMPILER__gamma_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_gamma
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\gamma.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\gamma.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\gamma.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\gamma.dir\
+  TARGET_PDB = glfw-3.3.9\tests\gamma.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gamma
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\gamma.exe
+
+build glfw-3.3.9/tests/gamma.exe: C_EXECUTABLE_LINKER__gamma_Debug glfw-3.3.9/tests/CMakeFiles/gamma.dir/gamma.c.obj glfw-3.3.9/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\gamma.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\gamma.dir\
+  TARGET_FILE = glfw-3.3.9\tests\gamma.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libgamma.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\gamma.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target icon
+
+
+#############################################
+# Order-only phony target for icon
+
+build cmake_object_order_depends_target_icon: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.obj: C_COMPILER__icon_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/icon.c || cmake_object_order_depends_target_icon
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\icon.dir\icon.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\icon.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\icon.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\icon.dir\
+  TARGET_PDB = glfw-3.3.9\tests\icon.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj: C_COMPILER__icon_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_icon
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\icon.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\icon.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\icon.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\icon.dir\
+  TARGET_PDB = glfw-3.3.9\tests\icon.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target icon
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\icon.exe
+
+build glfw-3.3.9/tests/icon.exe: C_EXECUTABLE_LINKER__icon_Debug glfw-3.3.9/tests/CMakeFiles/icon.dir/icon.c.obj glfw-3.3.9/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\icon.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\icon.dir\
+  TARGET_FILE = glfw-3.3.9\tests\icon.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libicon.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\icon.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target inputlag
+
+
+#############################################
+# Order-only phony target for inputlag
+
+build cmake_object_order_depends_target_inputlag: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/inputlag.dir/inputlag.c.obj: C_COMPILER__inputlag_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/inputlag.c || cmake_object_order_depends_target_inputlag
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\inputlag.dir\inputlag.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\inputlag.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\inputlag.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\inputlag.dir\
+  TARGET_PDB = glfw-3.3.9\tests\inputlag.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.obj: C_COMPILER__inputlag_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/getopt.c || cmake_object_order_depends_target_inputlag
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\inputlag.dir\__\deps\getopt.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\inputlag.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\inputlag.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\inputlag.dir\
+  TARGET_PDB = glfw-3.3.9\tests\inputlag.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/inputlag.dir/__/deps/glad_gl.c.obj: C_COMPILER__inputlag_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_inputlag
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\inputlag.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\inputlag.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\inputlag.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\inputlag.dir\
+  TARGET_PDB = glfw-3.3.9\tests\inputlag.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target inputlag
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\inputlag.exe
+
+build glfw-3.3.9/tests/inputlag.exe: C_EXECUTABLE_LINKER__inputlag_Debug glfw-3.3.9/tests/CMakeFiles/inputlag.dir/inputlag.c.obj glfw-3.3.9/tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.obj glfw-3.3.9/tests/CMakeFiles/inputlag.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\inputlag.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\inputlag.dir\
+  TARGET_FILE = glfw-3.3.9\tests\inputlag.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libinputlag.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\inputlag.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target joysticks
+
+
+#############################################
+# Order-only phony target for joysticks
+
+build cmake_object_order_depends_target_joysticks: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/joysticks.dir/joysticks.c.obj: C_COMPILER__joysticks_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/joysticks.c || cmake_object_order_depends_target_joysticks
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\joysticks.dir\joysticks.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\joysticks.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\joysticks.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\joysticks.dir\
+  TARGET_PDB = glfw-3.3.9\tests\joysticks.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/joysticks.dir/__/deps/glad_gl.c.obj: C_COMPILER__joysticks_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_joysticks
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\joysticks.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\joysticks.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\joysticks.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\joysticks.dir\
+  TARGET_PDB = glfw-3.3.9\tests\joysticks.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target joysticks
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\joysticks.exe
+
+build glfw-3.3.9/tests/joysticks.exe: C_EXECUTABLE_LINKER__joysticks_Debug glfw-3.3.9/tests/CMakeFiles/joysticks.dir/joysticks.c.obj glfw-3.3.9/tests/CMakeFiles/joysticks.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\joysticks.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\joysticks.dir\
+  TARGET_FILE = glfw-3.3.9\tests\joysticks.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libjoysticks.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\joysticks.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target opacity
+
+
+#############################################
+# Order-only phony target for opacity
+
+build cmake_object_order_depends_target_opacity: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/opacity.dir/opacity.c.obj: C_COMPILER__opacity_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/opacity.c || cmake_object_order_depends_target_opacity
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\opacity.dir\opacity.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\opacity.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\opacity.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\opacity.dir\
+  TARGET_PDB = glfw-3.3.9\tests\opacity.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.obj: C_COMPILER__opacity_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_opacity
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\opacity.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\opacity.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\opacity.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\opacity.dir\
+  TARGET_PDB = glfw-3.3.9\tests\opacity.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target opacity
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\opacity.exe
+
+build glfw-3.3.9/tests/opacity.exe: C_EXECUTABLE_LINKER__opacity_Debug glfw-3.3.9/tests/CMakeFiles/opacity.dir/opacity.c.obj glfw-3.3.9/tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\opacity.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\opacity.dir\
+  TARGET_FILE = glfw-3.3.9\tests\opacity.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libopacity.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\opacity.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tearing
+
+
+#############################################
+# Order-only phony target for tearing
+
+build cmake_object_order_depends_target_tearing: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/tearing.dir/tearing.c.obj: C_COMPILER__tearing_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/tearing.c || cmake_object_order_depends_target_tearing
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\tearing.dir\tearing.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\tearing.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\tearing.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\tearing.dir\
+  TARGET_PDB = glfw-3.3.9\tests\tearing.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj: C_COMPILER__tearing_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_tearing
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\tearing.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\tearing.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\tearing.dir\
+  TARGET_PDB = glfw-3.3.9\tests\tearing.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tearing
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\tearing.exe
+
+build glfw-3.3.9/tests/tearing.exe: C_EXECUTABLE_LINKER__tearing_Debug glfw-3.3.9/tests/CMakeFiles/tearing.dir/tearing.c.obj glfw-3.3.9/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\tearing.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\tearing.dir\
+  TARGET_FILE = glfw-3.3.9\tests\tearing.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libtearing.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\tearing.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target threads
+
+
+#############################################
+# Order-only phony target for threads
+
+build cmake_object_order_depends_target_threads: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/threads.dir/threads.c.obj: C_COMPILER__threads_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/threads.c || cmake_object_order_depends_target_threads
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\threads.dir\threads.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\threads.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\threads.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\threads.dir\
+  TARGET_PDB = glfw-3.3.9\tests\threads.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj: C_COMPILER__threads_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/tinycthread.c || cmake_object_order_depends_target_threads
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\threads.dir\__\deps\tinycthread.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\threads.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\threads.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\threads.dir\
+  TARGET_PDB = glfw-3.3.9\tests\threads.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/threads.dir/__/deps/glad_gl.c.obj: C_COMPILER__threads_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_threads
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\threads.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\threads.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\threads.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\threads.dir\
+  TARGET_PDB = glfw-3.3.9\tests\threads.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target threads
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\threads.exe
+
+build glfw-3.3.9/tests/threads.exe: C_EXECUTABLE_LINKER__threads_Debug glfw-3.3.9/tests/CMakeFiles/threads.dir/threads.c.obj glfw-3.3.9/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj glfw-3.3.9/tests/CMakeFiles/threads.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\threads.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\threads.dir\
+  TARGET_FILE = glfw-3.3.9\tests\threads.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libthreads.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\threads.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target timeout
+
+
+#############################################
+# Order-only phony target for timeout
+
+build cmake_object_order_depends_target_timeout: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/timeout.dir/timeout.c.obj: C_COMPILER__timeout_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/timeout.c || cmake_object_order_depends_target_timeout
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\timeout.dir\timeout.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\timeout.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\timeout.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\timeout.dir\
+  TARGET_PDB = glfw-3.3.9\tests\timeout.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/timeout.dir/__/deps/glad_gl.c.obj: C_COMPILER__timeout_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_timeout
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\timeout.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\timeout.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\timeout.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\timeout.dir\
+  TARGET_PDB = glfw-3.3.9\tests\timeout.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target timeout
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\timeout.exe
+
+build glfw-3.3.9/tests/timeout.exe: C_EXECUTABLE_LINKER__timeout_Debug glfw-3.3.9/tests/CMakeFiles/timeout.dir/timeout.c.obj glfw-3.3.9/tests/CMakeFiles/timeout.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\timeout.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\timeout.dir\
+  TARGET_FILE = glfw-3.3.9\tests\timeout.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libtimeout.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\timeout.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target title
+
+
+#############################################
+# Order-only phony target for title
+
+build cmake_object_order_depends_target_title: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/title.dir/title.c.obj: C_COMPILER__title_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/title.c || cmake_object_order_depends_target_title
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\title.dir\title.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\title.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\title.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\title.dir\
+  TARGET_PDB = glfw-3.3.9\tests\title.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/title.dir/__/deps/glad_gl.c.obj: C_COMPILER__title_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_title
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\title.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\title.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\title.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\title.dir\
+  TARGET_PDB = glfw-3.3.9\tests\title.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target title
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\title.exe
+
+build glfw-3.3.9/tests/title.exe: C_EXECUTABLE_LINKER__title_Debug glfw-3.3.9/tests/CMakeFiles/title.dir/title.c.obj glfw-3.3.9/tests/CMakeFiles/title.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\title.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\title.dir\
+  TARGET_FILE = glfw-3.3.9\tests\title.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libtitle.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\title.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target triangle-vulkan
+
+
+#############################################
+# Order-only phony target for triangle-vulkan
+
+build cmake_object_order_depends_target_triangle-vulkan: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.obj: C_COMPILER__triangle-vulkan_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/triangle-vulkan.c || cmake_object_order_depends_target_triangle-vulkan
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\triangle-vulkan.dir\triangle-vulkan.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\triangle-vulkan.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\triangle-vulkan.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\triangle-vulkan.dir\
+  TARGET_PDB = glfw-3.3.9\tests\triangle-vulkan.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj: C_COMPILER__triangle-vulkan_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_vulkan.c || cmake_object_order_depends_target_triangle-vulkan
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\triangle-vulkan.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\triangle-vulkan.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\triangle-vulkan.dir\
+  TARGET_PDB = glfw-3.3.9\tests\triangle-vulkan.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target triangle-vulkan
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\triangle-vulkan.exe
+
+build glfw-3.3.9/tests/triangle-vulkan.exe: C_EXECUTABLE_LINKER__triangle-vulkan_Debug glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.obj glfw-3.3.9/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\triangle-vulkan.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\triangle-vulkan.dir\
+  TARGET_FILE = glfw-3.3.9\tests\triangle-vulkan.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libtriangle-vulkan.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\triangle-vulkan.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target windows
+
+
+#############################################
+# Order-only phony target for windows
+
+build cmake_object_order_depends_target_windows: phony || cmake_object_order_depends_target_glfw
+
+build glfw-3.3.9/tests/CMakeFiles/windows.dir/windows.c.obj: C_COMPILER__windows_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/windows.c || cmake_object_order_depends_target_windows
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\windows.dir\windows.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\windows.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\windows.dir
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\windows.dir\
+  TARGET_PDB = glfw-3.3.9\tests\windows.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/windows.dir/__/deps/getopt.c.obj: C_COMPILER__windows_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/getopt.c || cmake_object_order_depends_target_windows
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\windows.dir\__\deps\getopt.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\windows.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\windows.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\windows.dir\
+  TARGET_PDB = glfw-3.3.9\tests\windows.pdb
+
+build glfw-3.3.9/tests/CMakeFiles/windows.dir/__/deps/glad_gl.c.obj: C_COMPILER__windows_unscanned_Debug C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps/glad_gl.c || cmake_object_order_depends_target_windows
+  DEP_FILE = glfw-3.3.9\tests\CMakeFiles\windows.dir\__\deps\glad_gl.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/subto/CLionProjects/GameLib/include -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/deps -IC:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/include
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\windows.dir
+  OBJECT_FILE_DIR = glfw-3.3.9\tests\CMakeFiles\windows.dir\__\deps
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\windows.dir\
+  TARGET_PDB = glfw-3.3.9\tests\windows.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target windows
+
+
+#############################################
+# Link the executable glfw-3.3.9\tests\windows.exe
+
+build glfw-3.3.9/tests/windows.exe: C_EXECUTABLE_LINKER__windows_Debug glfw-3.3.9/tests/CMakeFiles/windows.dir/windows.c.obj glfw-3.3.9/tests/CMakeFiles/windows.dir/__/deps/getopt.c.obj glfw-3.3.9/tests/CMakeFiles/windows.dir/__/deps/glad_gl.c.obj | glfw-3.3.9/src/libglfw3.a || glfw-3.3.9/src/libglfw3.a
+  FLAGS = -g
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = glfw-3.3.9/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = glfw-3.3.9\tests\CMakeFiles\windows.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = glfw-3.3.9\tests\CMakeFiles\windows.dir\
+  TARGET_FILE = glfw-3.3.9\tests\windows.exe
+  TARGET_IMPLIB = glfw-3.3.9\tests\libwindows.dll.a
+  TARGET_PDB = glfw-3.3.9\tests\windows.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build glfw-3.3.9/tests/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\subto\CLionProjects\GameLib\cmake-build-debug\glfw-3.3.9\tests && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build glfw-3.3.9/tests/edit_cache: phony glfw-3.3.9/tests/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build glfw-3.3.9/tests/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\subto\CLionProjects\GameLib\cmake-build-debug\glfw-3.3.9\tests && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\subto\CLionProjects\GameLib -BC:\Users\subto\CLionProjects\GameLib\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build glfw-3.3.9/tests/rebuild_cache: phony glfw-3.3.9/tests/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build glfw-3.3.9/tests/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build glfw-3.3.9/tests/CMakeFiles/install.util: CUSTOM_COMMAND glfw-3.3.9/tests/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\subto\CLionProjects\GameLib\cmake-build-debug\glfw-3.3.9\tests && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build glfw-3.3.9/tests/install: phony glfw-3.3.9/tests/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build glfw-3.3.9/tests/CMakeFiles/install/local.util: CUSTOM_COMMAND glfw-3.3.9/tests/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\subto\CLionProjects\GameLib\cmake-build-debug\glfw-3.3.9\tests && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build glfw-3.3.9/tests/install/local: phony glfw-3.3.9/tests/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build glfw-3.3.9/tests/CMakeFiles/install/strip.util: CUSTOM_COMMAND glfw-3.3.9/tests/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\subto\CLionProjects\GameLib\cmake-build-debug\glfw-3.3.9\tests && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build glfw-3.3.9/tests/install/strip: phony glfw-3.3.9/tests/CMakeFiles/install/strip.util
+
+# =============================================================================
 # Target aliases.
 
 build GameLib: phony GameLib.exe
 
+build boing: phony glfw-3.3.9/examples/boing.exe
+
+build boing.exe: phony glfw-3.3.9/examples/boing.exe
+
+build clipboard: phony glfw-3.3.9/tests/clipboard.exe
+
+build clipboard.exe: phony glfw-3.3.9/tests/clipboard.exe
+
+build cursor: phony glfw-3.3.9/tests/cursor.exe
+
+build cursor.exe: phony glfw-3.3.9/tests/cursor.exe
+
+build empty: phony glfw-3.3.9/tests/empty.exe
+
+build empty.exe: phony glfw-3.3.9/tests/empty.exe
+
+build events: phony glfw-3.3.9/tests/events.exe
+
+build events.exe: phony glfw-3.3.9/tests/events.exe
+
+build gamma: phony glfw-3.3.9/tests/gamma.exe
+
+build gamma.exe: phony glfw-3.3.9/tests/gamma.exe
+
+build gears: phony glfw-3.3.9/examples/gears.exe
+
+build gears.exe: phony glfw-3.3.9/examples/gears.exe
+
 build glfw: phony glfw-3.3.9/src/libglfw3.a
 
+build glfwinfo: phony glfw-3.3.9/tests/glfwinfo.exe
+
+build glfwinfo.exe: phony glfw-3.3.9/tests/glfwinfo.exe
+
+build heightmap: phony glfw-3.3.9/examples/heightmap.exe
+
+build heightmap.exe: phony glfw-3.3.9/examples/heightmap.exe
+
+build icon: phony glfw-3.3.9/tests/icon.exe
+
+build icon.exe: phony glfw-3.3.9/tests/icon.exe
+
+build iconify: phony glfw-3.3.9/tests/iconify.exe
+
+build iconify.exe: phony glfw-3.3.9/tests/iconify.exe
+
+build inputlag: phony glfw-3.3.9/tests/inputlag.exe
+
+build inputlag.exe: phony glfw-3.3.9/tests/inputlag.exe
+
+build joysticks: phony glfw-3.3.9/tests/joysticks.exe
+
+build joysticks.exe: phony glfw-3.3.9/tests/joysticks.exe
+
 build libglfw3.a: phony glfw-3.3.9/src/libglfw3.a
+
+build monitors: phony glfw-3.3.9/tests/monitors.exe
+
+build monitors.exe: phony glfw-3.3.9/tests/monitors.exe
+
+build msaa: phony glfw-3.3.9/tests/msaa.exe
+
+build msaa.exe: phony glfw-3.3.9/tests/msaa.exe
+
+build offscreen: phony glfw-3.3.9/examples/offscreen.exe
+
+build offscreen.exe: phony glfw-3.3.9/examples/offscreen.exe
+
+build opacity: phony glfw-3.3.9/tests/opacity.exe
+
+build opacity.exe: phony glfw-3.3.9/tests/opacity.exe
+
+build particles: phony glfw-3.3.9/examples/particles.exe
+
+build particles.exe: phony glfw-3.3.9/examples/particles.exe
+
+build reopen: phony glfw-3.3.9/tests/reopen.exe
+
+build reopen.exe: phony glfw-3.3.9/tests/reopen.exe
+
+build sharing: phony glfw-3.3.9/examples/sharing.exe
+
+build sharing.exe: phony glfw-3.3.9/examples/sharing.exe
+
+build simple: phony glfw-3.3.9/examples/simple.exe
+
+build simple.exe: phony glfw-3.3.9/examples/simple.exe
+
+build splitview: phony glfw-3.3.9/examples/splitview.exe
+
+build splitview.exe: phony glfw-3.3.9/examples/splitview.exe
+
+build tearing: phony glfw-3.3.9/tests/tearing.exe
+
+build tearing.exe: phony glfw-3.3.9/tests/tearing.exe
+
+build threads: phony glfw-3.3.9/tests/threads.exe
+
+build threads.exe: phony glfw-3.3.9/tests/threads.exe
+
+build timeout: phony glfw-3.3.9/tests/timeout.exe
+
+build timeout.exe: phony glfw-3.3.9/tests/timeout.exe
+
+build title: phony glfw-3.3.9/tests/title.exe
+
+build title.exe: phony glfw-3.3.9/tests/title.exe
+
+build triangle-vulkan: phony glfw-3.3.9/tests/triangle-vulkan.exe
+
+build triangle-vulkan.exe: phony glfw-3.3.9/tests/triangle-vulkan.exe
 
 build uninstall: phony glfw-3.3.9/uninstall
 
 build update_mappings: phony glfw-3.3.9/src/update_mappings
+
+build wave: phony glfw-3.3.9/examples/wave.exe
+
+build wave.exe: phony glfw-3.3.9/examples/wave.exe
+
+build windows: phony glfw-3.3.9/tests/windows.exe
+
+build windows.exe: phony glfw-3.3.9/tests/windows.exe
 
 # =============================================================================
 # Folder targets.
@@ -570,7 +2447,14 @@ build all: phony GameLib.exe glfw-3.3.9/all
 #############################################
 # Folder: C:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9
 
-build glfw-3.3.9/all: phony glfw-3.3.9/src/all
+build glfw-3.3.9/all: phony glfw-3.3.9/src/all glfw-3.3.9/examples/all glfw-3.3.9/tests/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/examples
+
+build glfw-3.3.9/examples/all: phony glfw-3.3.9/examples/boing.exe glfw-3.3.9/examples/gears.exe glfw-3.3.9/examples/heightmap.exe glfw-3.3.9/examples/offscreen.exe glfw-3.3.9/examples/particles.exe glfw-3.3.9/examples/sharing.exe glfw-3.3.9/examples/simple.exe glfw-3.3.9/examples/splitview.exe glfw-3.3.9/examples/wave.exe
 
 # =============================================================================
 
@@ -580,20 +2464,27 @@ build glfw-3.3.9/all: phony glfw-3.3.9/src/all
 build glfw-3.3.9/src/all: phony glfw-3.3.9/src/libglfw3.a
 
 # =============================================================================
+
+#############################################
+# Folder: C:/Users/subto/CLionProjects/GameLib/cmake-build-debug/glfw-3.3.9/tests
+
+build glfw-3.3.9/tests/all: phony glfw-3.3.9/tests/clipboard.exe glfw-3.3.9/tests/events.exe glfw-3.3.9/tests/msaa.exe glfw-3.3.9/tests/glfwinfo.exe glfw-3.3.9/tests/iconify.exe glfw-3.3.9/tests/monitors.exe glfw-3.3.9/tests/reopen.exe glfw-3.3.9/tests/cursor.exe glfw-3.3.9/tests/empty.exe glfw-3.3.9/tests/gamma.exe glfw-3.3.9/tests/icon.exe glfw-3.3.9/tests/inputlag.exe glfw-3.3.9/tests/joysticks.exe glfw-3.3.9/tests/opacity.exe glfw-3.3.9/tests/tearing.exe glfw-3.3.9/tests/threads.exe glfw-3.3.9/tests/timeout.exe glfw-3.3.9/tests/title.exe glfw-3.3.9/tests/triangle-vulkan.exe glfw-3.3.9/tests/windows.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/subto/CLionProjects/GameLib/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/cmake_uninstall.cmake.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/glfw3.pc.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/glfw3Config.cmake.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/glfw_config.h.in CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/subto/CLionProjects/GameLib/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/cmake_uninstall.cmake.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/glfw3.pc.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/glfw3Config.cmake.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/glfw_config.h.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/subto/CLionProjects/GameLib/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/cmake_uninstall.cmake.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/glfw3.pc.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/glfw3Config.cmake.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/glfw_config.h.in CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckLibraryExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.2/bin/cmake/win/x64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/subto/CLionProjects/GameLib/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/cmake_uninstall.cmake.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/examples/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/CMakeLists.txt C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/glfw3.pc.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/glfw3Config.cmake.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/src/glfw_config.h.in C$:/Users/subto/CLionProjects/GameLib/glfw-3.3.9/tests/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################
