@@ -10,18 +10,18 @@
 
 class ComplexPool {
 private:
-    std::unordered_map<std::type_info,ObjectPool<std::any>*> poolMap;
+    std::unordered_map<std::string,ObjectPool<std::any>*> poolMap;
 public:
     template<typename T>
     T* get() {
         //Make sure this can return null
-        ObjectPool<T>* objectPool = std::any_cast<ObjectPool<T>*>(poolMap[typeid(T)]);
+        ObjectPool<T>* objectPool = std::any_cast<ObjectPool<T>*>(poolMap[typeid(T).name()]);
         if(objectPool == nullptr) objectPool = new ObjectPool<T>;
         return objectPool->get();
     }
     template<typename T>
     bool put(T& object) {
-        return poolMap[typeid(T)]->put(object);
+        return poolMap[typeid(T).name()]->put(object);
     }
 };
 
