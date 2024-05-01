@@ -21,6 +21,9 @@ void Entity::destroy() {
             delete component; //Bug here? Check to make sure this is correct
         }
         componentVector.clear();
-        delete this; //Breakpoint
+}
+
+void Entity::dontCrash() {
+    pool.dontCrash();
 }
 

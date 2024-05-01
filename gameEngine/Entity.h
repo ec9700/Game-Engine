@@ -30,6 +30,8 @@ public:
 
     void destroy();
 
+    static void dontCrash();
+
     template<typename T>
     T* addComponent() {
         T* component = pool.get<T>();
