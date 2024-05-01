@@ -47,7 +47,6 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 
 int main() {
 
-
     const unsigned int windowWidth = 800;
     const unsigned int windowHeight = 600;
 
