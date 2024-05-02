@@ -22,7 +22,9 @@ add_executable(GameLib main.cpp
         gameEngine/GameManager.cpp
         gameEngine/GameManager.h
         gameEngine/inputManager.cpp
-        gameEngine/inputManager.h)
+        gameEngine/inputManager.h
+        gameEngine/vector2.cpp
+        gameEngine/vector2.h)
 
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")

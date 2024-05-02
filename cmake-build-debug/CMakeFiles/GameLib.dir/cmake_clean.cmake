@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj.d"
   "CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj"
   "CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj.d"
+  "CMakeFiles/GameLib.dir/gameEngine/vector2.cpp.obj"
+  "CMakeFiles/GameLib.dir/gameEngine/vector2.cpp.obj.d"
   "CMakeFiles/GameLib.dir/glad.c.obj"
   "CMakeFiles/GameLib.dir/glad.c.obj.d"
   "CMakeFiles/GameLib.dir/main.cpp.obj"

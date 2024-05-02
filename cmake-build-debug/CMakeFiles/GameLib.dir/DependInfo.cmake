@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ck6100/Documents/Game-Engine/gameEngine/ShaderCollection.cpp" "CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj" "gcc" "CMakeFiles/GameLib.dir/gameEngine/ShaderCollection.cpp.obj.d"
   "C:/Users/ck6100/Documents/Game-Engine/gameEngine/Texture.cpp" "CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj" "gcc" "CMakeFiles/GameLib.dir/gameEngine/Texture.cpp.obj.d"
   "C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.cpp" "CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj" "gcc" "CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj.d"
+  "C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.cpp" "CMakeFiles/GameLib.dir/gameEngine/vector2.cpp.obj" "gcc" "CMakeFiles/GameLib.dir/gameEngine/vector2.cpp.obj.d"
   "C:/Users/ck6100/Documents/Game-Engine/main.cpp" "CMakeFiles/GameLib.dir/main.cpp.obj" "gcc" "CMakeFiles/GameLib.dir/main.cpp.obj.d"
   "C:/Users/ck6100/Documents/Game-Engine/stb_image.cpp" "CMakeFiles/GameLib.dir/stb_image.cpp.obj" "gcc" "CMakeFiles/GameLib.dir/stb_image.cpp.obj.d"
   )

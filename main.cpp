@@ -153,12 +153,12 @@ int main() {
     }
 
 
+    auto* input = new inputManager(window);
+
     while(!glfwWindowShouldClose(window)) {
 
         double deltaTime = glfwGetTime() - lastTime;
         lastTime = glfwGetTime();
-
-        auto* input = new inputManager(window);
 
         if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
             glfwSetWindowShouldClose(window, true);
@@ -206,7 +206,7 @@ int main() {
         if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
             camera.position.z -= moveSpeed * deltaTime;
         }
-        if (input->getInputPressed(input->keyCodeSpace)) {
+        if (input->getInputJustReleased(input->keyCodeSpace)) {
             camera.position.y -= moveSpeed * deltaTime;
         }
         if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {

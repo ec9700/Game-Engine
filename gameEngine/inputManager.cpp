@@ -9,7 +9,7 @@
 class inputManager {
     private:
         GLFWwindow* window;
-        bool keysHeld[222];
+        bool lastInput[GLFW_KEY_LAST]{};
     public:
         int keyCodeSpace=32;
 
@@ -23,22 +23,25 @@ class inputManager {
         bool getInput(int keyCode){
             return glfwGetKey(window,keyCode)==GLFW_PRESS;
         }
-        bool getInputPressed(int keyCode){
-            bool returnValue=glfwGetKey(window,keyCode)==GLFW_PRESS;
-            if(getInputReleased(keyCode))
+        bool getInputJustPressed(int keyCode){
+            bool pressed=getInput(keyCode);
+            bool returnValue=false;
+            if(pressed&&!lastInput[keyCode])
             {
-                keysHeld[keyCode]=false;
+                returnValue=true;
             }
-            if(keysHeld[keyCode])
-            {
-                returnValue=false;
-            }
-            else {
-                keysHeld[keyCode] = true;
-            }
+            lastInput[keyCode] = pressed;
             return returnValue;
         }
-        bool getInputReleased(int keyCode){
-            return glfwGetKey(window,keyCode)==GLFW_RELEASE;
+        bool getInputJustReleased(int keyCode){
+            bool pressed=getInput(keyCode);
+            bool returnValue=false;
+            if(!pressed&&lastInput[keyCode])
+            {
+                returnValue=true;
+            }
+            lastInput[keyCode] = pressed;
+            return returnValue;
         }
+
 }; // inputManager

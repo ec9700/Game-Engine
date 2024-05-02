@@ -781,6 +781,30 @@ gameEngine/inputManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.s
 .PHONY : gameEngine/inputManager.cpp.s
 
+gameEngine/vector2.obj: gameEngine/vector2.cpp.obj
+.PHONY : gameEngine/vector2.obj
+
+# target to build an object file
+gameEngine/vector2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/gameEngine/vector2.cpp.obj
+.PHONY : gameEngine/vector2.cpp.obj
+
+gameEngine/vector2.i: gameEngine/vector2.cpp.i
+.PHONY : gameEngine/vector2.i
+
+# target to preprocess a source file
+gameEngine/vector2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/gameEngine/vector2.cpp.i
+.PHONY : gameEngine/vector2.cpp.i
+
+gameEngine/vector2.s: gameEngine/vector2.cpp.s
+.PHONY : gameEngine/vector2.s
+
+# target to generate assembly for a file
+gameEngine/vector2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameLib.dir\build.make CMakeFiles/GameLib.dir/gameEngine/vector2.cpp.s
+.PHONY : gameEngine/vector2.cpp.s
+
 glad.obj: glad.c.obj
 .PHONY : glad.obj
 
@@ -922,6 +946,9 @@ help:
 	@echo ... gameEngine/inputManager.obj
 	@echo ... gameEngine/inputManager.i
 	@echo ... gameEngine/inputManager.s
+	@echo ... gameEngine/vector2.obj
+	@echo ... gameEngine/vector2.i
+	@echo ... gameEngine/vector2.s
 	@echo ... glad.obj
 	@echo ... glad.i
 	@echo ... glad.s

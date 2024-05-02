@@ -1707,6 +1707,12 @@
 		<Unit filename="C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.h">
 			<Option target="GameLib"/>
 		</Unit>
+		<Unit filename="C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.cpp">
+			<Option target="GameLib"/>
+		</Unit>
+		<Unit filename="C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.h">
+			<Option target="GameLib"/>
+		</Unit>
 		<Unit filename="C:/Users/ck6100/Documents/Game-Engine/glad.c">
 			<Option target="GameLib"/>
 		</Unit>
