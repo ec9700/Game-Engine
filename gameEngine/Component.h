@@ -6,11 +6,22 @@
 #define GAMELIB_COMPONENT_H
 
 
+#include "Entity.h"
+#include "GameManager.h"
+
 class Component {
-public:
-    virtual void initial() = 0;
-    virtual void update() = 0;
-    virtual void dispose() = 0;
+protected:
+    virtual void initial(Entity& parent) = 0;
+    virtual void update(Entity &parent, double& deltaTime) = 0;
+    virtual void reset(Entity& parent) = 0;
+
+    virtual ~Component() = default;
+
+    Component() = default;
+
+    friend Entity;
+    friend GameManager;
+
 };
 
 

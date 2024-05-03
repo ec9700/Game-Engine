@@ -260,7 +260,7 @@ of the framebuffer is changed independently of the window size.
 @anchor GLFW_STENCIL_BITS
 __GLFW_RED_BITS__, __GLFW_GREEN_BITS__, __GLFW_BLUE_BITS__, __GLFW_ALPHA_BITS__,
 __GLFW_DEPTH_BITS__ and __GLFW_STENCIL_BITS__ specify the desired bit depths of
-the various componentList of the default framebuffer.  A value of `GLFW_DONT_CARE`
+the various componentVector of the default framebuffer.  A value of `GLFW_DONT_CARE`
 means the application has no preference.
 
 @anchor GLFW_ACCUM_RED_BITS
@@ -269,7 +269,7 @@ means the application has no preference.
 @anchor GLFW_ACCUM_ALPHA_BITS
 __GLFW_ACCUM_RED_BITS__, __GLFW_ACCUM_GREEN_BITS__, __GLFW_ACCUM_BLUE_BITS__ and
 __GLFW_ACCUM_ALPHA_BITS__ specify the desired bit depths of the various
-componentList of the accumulation buffer.  A value of `GLFW_DONT_CARE` means the
+componentVector of the accumulation buffer.  A value of `GLFW_DONT_CARE` means the
 application has no preference.
 
 Accumulation buffers are a legacy OpenGL feature and should not be used in new

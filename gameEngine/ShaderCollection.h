@@ -12,42 +12,13 @@ class Texture;
 class ShaderCollection {
 public:
     unsigned int shaderProgramID;
-    ShaderCollection(Shader vertexShader, Shader fragmentShader) {
-          this->vertexShader = &vertexShader;
-          this->fragmentShader = &fragmentShader;
+    ShaderCollection(Shader vertexShader, Shader fragmentShader);
 
-          shaderProgramID = glCreateProgram();
+    void use();
 
-        glAttachShader(shaderProgramID, vertexShader.shaderID);
-        glAttachShader(shaderProgramID, fragmentShader.shaderID);
-        glLinkProgram(shaderProgramID);
-
-        int success;
-        glGetProgramiv(shaderProgramID, GL_LINK_STATUS, &success);
-        if(!success) {
-            char infoLog[512];
-            glGetShaderInfoLog(shaderProgramID, 512, NULL, infoLog);
-            std::cout << "LINKING FAILED FOR SHADER COLLECTION "<<shaderProgramID<<"\n"<<infoLog;
-        }
-
-    }
-
-    void use() {
-        glUseProgram(shaderProgramID);
-    }
-
-    void setUniform(const std::string &name, bool value) const
-    {
-        glUniform1i(glGetUniformLocation(shaderProgramID, name.c_str()), (int)value);
-    }
-    void setUniform(const std::string &name, int value) const
-    {
-        glUniform1i(glGetUniformLocation(shaderProgramID, name.c_str()), value);
-    }
-    void setUniform(const std::string &name, float value) const
-    {
-        glUniform1f(glGetUniformLocation(shaderProgramID, name.c_str()), value);
-    }
+    void setUniform(const std::string &name, bool value) const;
+    void setUniform(const std::string &name, int value) const;
+    void setUniform(const std::string &name, float value) const;
 
 private:
     Shader *vertexShader, *fragmentShader;

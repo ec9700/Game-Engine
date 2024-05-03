@@ -6825,7 +6825,7 @@ static stbi_uc *stbi__gif_load_next(stbi__context *s, stbi__gif *g, int *comp, i
       } else {
          // This is a non-disposal case eithe way, so just
          // leave the pixels as is, and they will become the new background
-         // 1: do not dispose
+         // 1: do not reset
          // 0:  not specified.
       }
 

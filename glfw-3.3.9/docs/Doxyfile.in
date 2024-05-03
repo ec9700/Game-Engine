@@ -1731,7 +1731,7 @@ MATHJAX_VERSION        = MathJax_2
 # version 2 (see:
 # http://docs.mathjax.org/en/v2.7-latest/output.html) and MathJax version 3
 # (see:
-# http://docs.mathjax.org/en/latest/web/componentList/output.html).
+# http://docs.mathjax.org/en/latest/web/componentVector/output.html).
 # Possible values are: HTML-CSS (which is slower, but has the best
 # compatibility. This is the name for Mathjax version 2, for MathJax version 3
 # this will be translated into chtml), NativeMML (i.e. MathML. Only supported

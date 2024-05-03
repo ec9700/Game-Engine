@@ -13,22 +13,7 @@ class Shader {
 public:
     unsigned int shaderID;
 
-    Shader(char *shaderSource, GLenum shaderType) {
-        this->shaderType = shaderType;
-        shaderID = glCreateShader(shaderType);
-
-        glShaderSource(shaderID, 1, &shaderSource, NULL);
-        glCompileShader(shaderID);
-
-        int success;
-        glGetShaderiv(shaderID, GL_COMPILE_STATUS, &success);
-        if(!success) {
-            char infoLog[512];
-            glGetShaderInfoLog(shaderID, 512, NULL, infoLog);
-            std::cout << "FAILED TO COMPILE SHADER "<<shaderType<<" "<<shaderID<<"\n"<<infoLog;
-        }
-
-    }
+    Shader(char *shaderSource, GLenum shaderType);
 
 private:
     GLenum shaderType;
