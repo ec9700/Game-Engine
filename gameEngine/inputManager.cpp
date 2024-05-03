@@ -43,5 +43,6 @@ class inputManager {
             lastInput[keyCode] = pressed;
             return returnValue;
         }
+        //make a funny wunny mouse controls
 
 }; // inputManager

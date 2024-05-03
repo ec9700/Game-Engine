@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ck6100\Documents\Game-Engine
+CMAKE_SOURCE_DIR = C:\Users\carson\Documents\Game-Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\carson\Documents\Game-Engine\cmake-build-debug
 
 # Utility rule file for update_mappings.
 
@@ -66,8 +66,8 @@ include glfw-3.3.9/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include glfw-3.3.9/src/CMakeFiles/update_mappings.dir/progress.make
 
 glfw-3.3.9/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /d C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\src && "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/ck6100/Documents/Game-Engine/glfw-3.3.9/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\carson\Documents\Game-Engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /d C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\src && "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/carson/Documents/Game-Engine/glfw-3.3.9/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: glfw-3.3.9/src/CMakeFiles/update_mappings
 update_mappings: glfw-3.3.9/src/CMakeFiles/update_mappings.dir/build.make
@@ -78,10 +78,10 @@ glfw-3.3.9/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : glfw-3.3.9/src/CMakeFiles/update_mappings.dir/build
 
 glfw-3.3.9/src/CMakeFiles/update_mappings.dir/clean:
-	cd /d C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\src && $(CMAKE_COMMAND) -P CMakeFiles\update_mappings.dir\cmake_clean.cmake
+	cd /d C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\src && $(CMAKE_COMMAND) -P CMakeFiles\update_mappings.dir\cmake_clean.cmake
 .PHONY : glfw-3.3.9/src/CMakeFiles/update_mappings.dir/clean
 
 glfw-3.3.9/src/CMakeFiles/update_mappings.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ck6100\Documents\Game-Engine C:\Users\ck6100\Documents\Game-Engine\glfw-3.3.9\src C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\src C:\Users\ck6100\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\src\CMakeFiles\update_mappings.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\carson\Documents\Game-Engine C:\Users\carson\Documents\Game-Engine\glfw-3.3.9\src C:\Users\carson\Documents\Game-Engine\cmake-build-debug C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\src C:\Users\carson\Documents\Game-Engine\cmake-build-debug\glfw-3.3.9\src\CMakeFiles\update_mappings.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw-3.3.9/src/CMakeFiles/update_mappings.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ck6100/Documents/Game-Engine
+# Install script for directory: C:/Users/carson/Documents/Game-Engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/ck6100/Documents/Game-Engine/cmake-build-debug/glfw-3.3.9/cmake_install.cmake")
+  include("C:/Users/carson/Documents/Game-Engine/cmake-build-debug/glfw-3.3.9/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/ck6100/Documents/Game-Engine/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/carson/Documents/Game-Engine/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
