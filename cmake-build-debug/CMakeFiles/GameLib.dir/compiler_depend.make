@@ -409,6 +409,7 @@ CMakeFiles/GameLib.dir/gameEngine/Components/CameraControl.cpp.obj: C:/Users/ck6
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
@@ -434,6 +435,7 @@ CMakeFiles/GameLib.dir/gameEngine/Components/CameraControl.cpp.obj: C:/Users/ck6
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
@@ -470,6 +472,7 @@ CMakeFiles/GameLib.dir/gameEngine/Components/CameraControl.cpp.obj: C:/Users/ck6
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
@@ -515,6 +518,7 @@ CMakeFiles/GameLib.dir/gameEngine/Components/CameraControl.cpp.obj: C:/Users/ck6
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
+  C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
@@ -617,6 +621,9 @@ CMakeFiles/GameLib.dir/gameEngine/Components/CameraControl.cpp.obj: C:/Users/ck6
   C:/Users/ck6100/Documents/Game-Engine/gameEngine/Texture.h \
   C:/Users/ck6100/Documents/Game-Engine/gameEngine/VectorMethods.h \
   C:/Users/ck6100/Documents/Game-Engine/gameEngine/Window.h \
+  C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.cpp \
+  C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.h \
+  C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.h \
   C:/Users/ck6100/Documents/Game-Engine/include/GLFW/glfw3.h \
   C:/Users/ck6100/Documents/Game-Engine/include/KHR/khrplatform.h \
   C:/Users/ck6100/Documents/Game-Engine/include/STB/stb_image.h \
@@ -3801,7 +3808,8 @@ CMakeFiles/GameLib.dir/gameEngine/inputManager.cpp.obj: C:/Users/ck6100/Document
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/ck6100/Documents/Game-Engine/include/GLFW/glfw3.h \
-  C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.h
+  C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.h \
+  C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.h
 
 CMakeFiles/GameLib.dir/gameEngine/vector2.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.cpp \
   C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.h
@@ -4487,7 +4495,8 @@ CMakeFiles/GameLib.dir/main.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/main.
   C:/Users/ck6100/Documents/Game-Engine/gameEngine/VectorMethods.h \
   C:/Users/ck6100/Documents/Game-Engine/gameEngine/Window.h \
   C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.cpp \
-  C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.h
+  C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.h \
+  C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.h
 
 CMakeFiles/GameLib.dir/stb_image.cpp.obj: C:/Users/ck6100/Documents/Game-Engine/stb_image.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
@@ -5639,6 +5648,14 @@ C:/Users/ck6100/Documents/Game-Engine/gameEngine/Components/CameraControl.cpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/lwpintrin.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc:
+
+C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fxsrintrin.h:
+
+C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h:
+
 C:/Users/ck6100/Documents/Game-Engine/gameEngine/Components/CameraControl.h:
 
 C:/Users/ck6100/Documents/Game-Engine/gameEngine/Components/Spin.cpp:
@@ -5659,17 +5676,9 @@ C:/Users/ck6100/Documents/Game-Engine/gameEngine/VectorMethods.cpp:
 
 C:/Users/ck6100/Documents/Game-Engine/gameEngine/Window.cpp:
 
-C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc:
-
-C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fxsrintrin.h:
-
 C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/commdlg.h:
 
 C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.cpp:
-
-C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/concurrencysal.h:
 

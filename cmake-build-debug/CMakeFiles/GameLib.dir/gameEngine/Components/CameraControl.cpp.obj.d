@@ -403,4 +403,13 @@ CMakeFiles/GameLib.dir/gameEngine/Components/CameraControl.cpp.obj: \
  C:/Users/ck6100/Documents/Game-Engine/include/glm/detail/func_integer.inl \
  C:/Users/ck6100/Documents/Game-Engine/gameEngine/ComplexPool.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/any \
- C:/Users/ck6100/Documents/Game-Engine/gameEngine/GameManager.h
+ C:/Users/ck6100/Documents/Game-Engine/gameEngine/GameManager.h \
+ C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.h \
+ C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.cpp \
+ C:/Users/ck6100/Documents/Game-Engine/gameEngine/inputManager.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
+ C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.h \
+ C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.h

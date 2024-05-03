@@ -35,6 +35,6 @@ CMake Deprecation Warning:
 -- Performing Test _GLFW_HAS_64ASLR
 -- Performing Test _GLFW_HAS_64ASLR - Success
 -- Using Win32 for window creation
--- Configuring done (7.7s)
+-- Configuring done (7.5s)
 -- Generating done (0.5s)
 -- Build files have been written to: C:/Users/ck6100/Documents/Game-Engine/cmake-build-debug

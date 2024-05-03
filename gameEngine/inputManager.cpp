@@ -6,6 +6,7 @@
 #include "GLFW/glfw3.h"
 #include <iostream>
 #include <list>
+#include "vector2.h"
 class inputManager {
     private:
         GLFWwindow* window;
@@ -42,6 +43,12 @@ class inputManager {
             }
             lastInput[keyCode] = pressed;
             return returnValue;
+        }
+        vector2 getMousePosition(){
+            double mouseX, mouseY;
+            glfwGetCursorPos(window, &mouseX, &mouseY);
+            auto* returnValue=new vector2(mouseX,mouseY);
+            return* returnValue;
         }
         //make a funny wunny mouse controls
 

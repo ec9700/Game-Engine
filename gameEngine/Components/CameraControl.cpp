@@ -4,13 +4,19 @@
 
 #include "CameraControl.h"
 #include "../GameManager.h"
-
+#include "../inputManager.h"
+#include "../inputManager.cpp"
+#include "../vector2.h"
+inputManager input=*new inputManager(GameManager::window.windowInstance);
+vector2 mousePositionLast=*new vector2(0,0);
 void CameraControl::initial(Entity& parent) {
 
 }
 
 void CameraControl::update(Entity &parent, double& deltaTime) {
 //Camera Look (KP = numpad)
+    auto mousePosition=input.getMousePosition();
+    parent.rotation.x+=(mousePosition.x-mousePositionLast.x);
     int rotateSpeed = 90;
     if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_LEFT) == GLFW_PRESS) {
         parent.rotation.y -= rotateSpeed * deltaTime;
@@ -65,6 +71,8 @@ void CameraControl::update(Entity &parent, double& deltaTime) {
         parent.position.y = 0;
         parent.position.z = 0;
     }
+    mousePositionLast.x=mousePosition.x;
+    mousePositionLast.y=mousePosition.y;
 }
 
 void CameraControl::reset(Entity& parent) {
