@@ -9,9 +9,9 @@
 #include "../Component.h"
 
 class Spin : public Component {
-    void initial(Entity parent) override;
-    void update(Entity &parent, double deltaTime) override;
-    void dispose(Entity parent) override;
+    void initial(Entity& parent) override;
+    void update(Entity &parent, double& deltaTime) override;
+    void reset(Entity& parent) override;
 };
 
 

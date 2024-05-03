@@ -15,7 +15,7 @@
 #include "ShaderCollection.h"
 #include "GLFW/glfw3.h"
 #include "Entity.h"
-
+class Entity;
 class RenderManager {
 private:
     //unsigned static int EBO;
@@ -25,12 +25,12 @@ private:
 
 
 public:
-    static Entity *camera;
+    static Entity* camera;
 
     static void initialize();
 
     //Original Parameter: float (&vertices)[] instead of float* vertices
-    static void render(const Entity &entity, ShaderCollection shaderCollection, std::vector<float> vertices,unsigned long sizeOfVertices);
+    static void render(const Entity &entity, ShaderCollection shaderCollection, std::vector<float> vertices);
 
     static void dispose();
 

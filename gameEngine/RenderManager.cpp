@@ -33,11 +33,11 @@ void RenderManager::initialize() {
     glEnable(GL_DEPTH_TEST);
 }
 
-void RenderManager::render(const Entity &entity, ShaderCollection shaderCollection, std::vector<float> vertices,unsigned long sizeOfVertices) {
+void RenderManager::render(const Entity &entity, ShaderCollection shaderCollection, std::vector<float> vertices) {
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D, entity.texture.textureData);
 
-    int x = glfwGetTime()/2;
+    int x = glfwGetTime()*100;
     //Magic number: +900
     //Explanation ^^^: If this number isn't added onto the vertices' size, it won't display all vertices. FIGURE OUT WHY!!!! 200 per triangle
     glBufferData(GL_ARRAY_BUFFER, vertices.size()+900, vertices.data(), GL_STATIC_DRAW);
