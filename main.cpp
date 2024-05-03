@@ -142,6 +142,7 @@ int main() {
 
 
 
+
     //renderManager.initialize(vertices,sizeof(vertices)); //<<<< HERE!!!!!!
 
     double lastTime = 0;

@@ -17,22 +17,28 @@ public:
     T* get() {
         //Make sure this can return null
         std::string name = typeid(T).name();
-        /*if (poolMap.find(name) == poolMap.end()) {
-            poolMap[name] = new std::any(new ObjectPool<T>());
-        }*/
-        ObjectPool<T>* objectPool = std::any_cast<ObjectPool<T>>(poolMap[typeid(T).name()]);
-        if(objectPool == nullptr) objectPool = new ObjectPool<T>;
-        return objectPool->get();
+        if (poolMap.find(name) == poolMap.end()) {
+            std::any* x = new std::any(new ObjectPool<T>());
+            poolMap[name] = x;
+        }
+        //ObjectPool<T>* objectPool = std::any_cast<ObjectPool<T>>(poolMap[typeid(T).name()]);
+        //if(objectPool == nullptr) objectPool = new ObjectPool<T>;
+        //ObjectPool<T>* x = std::any_cast<ObjectPool<T>>(poolMap[name]);
+
+        return std::any_cast<ObjectPool<T>>(poolMap[name])->get();
+        //NULL ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     }
     template<typename T>
-    bool put(T object) {
+    bool put(T *object) {
         //return poolMap[typeid(T).name()]->put(object);
-        //return std::any_cast<ObjectPool<T>*>(poolMap[typeid(T).name()])->put(object);
+        std::any* any = poolMap[typeid(T).name()];
+        ObjectPool<T>* temp = std::any_cast<ObjectPool<T>>(any);
+        return temp->put(object);
     }
 
-    bool dontCrash() {
+    /*void dontCrash() {
 
-    }
+    }*/
 };
 
 
