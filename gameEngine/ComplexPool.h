@@ -25,12 +25,12 @@ public:
         return objectPool->get();
     }
     template<typename T>
-    bool put(T object) {
+    void put(T object) {
         //return poolMap[typeid(T).name()]->put(object);
         //return std::any_cast<ObjectPool<T>*>(poolMap[typeid(T).name()])->put(object);
     }
 
-    bool dontCrash() {
+    void dontCrash() {
 
     }
 };
