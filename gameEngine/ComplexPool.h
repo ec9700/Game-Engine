@@ -29,11 +29,7 @@ public:
         //NULL ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     }
     template<typename T>
-<<<<<<< HEAD
-    void put(T object) {
-=======
     bool put(T *object) {
->>>>>>> broken-component-system
         //return poolMap[typeid(T).name()]->put(object);
         std::string type = typeid(*object).name();
         std::any any = poolMap[type];
@@ -41,9 +37,6 @@ public:
         return temp->put(object);
     }
 
-<<<<<<< HEAD
-    void dontCrash() {
-=======
     /*void dontCrash() {
 >>>>>>> broken-component-system
 
