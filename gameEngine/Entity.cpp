@@ -17,8 +17,10 @@ Entity* Entity::newEntity() {
 void Entity::destroy() {
         VectorMethods::removeObject(GameManager::entityVector, this); //Remove object from GameManager to stop update
         for(Component* component : componentVector) {
+            std::string type = typeid(*component).name();
             component->reset(*this);
-            delete component; //Bug here? Check to make sure this is correct
+            //pool.put( component);
+            delete component;
         }
         componentVector.clear();
         pool.put(this);
