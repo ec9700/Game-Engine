@@ -6,6 +6,7 @@
 #define GAMELIB_OBJECTPOOL_H
 
 #include <vector>
+#include <iostream>
 #include "VectorMethods.h"
 
 template<typename T, size_t L=0>
@@ -45,7 +46,7 @@ public:
         return object;
     };
 
-    bool put(T& object) {
+    bool put(T *object) {
         int index = VectorMethods::getIndexOf(usedObjects,object);
         if(index == -1) return false;
         VectorMethods::removeObjectAt(usedObjects,index);

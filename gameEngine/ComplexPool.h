@@ -11,28 +11,43 @@
 class ComplexPool {
 private:
     //std::unordered_map<std::string,ObjectPool<std::any,0>*> poolMap;
-    std::unordered_map<std::string,std::any*> poolMap;
+    std::unordered_map<std::string,std::any> poolMap;
 public:
     template<typename T>
     T* get() {
         //Make sure this can return null
         std::string name = typeid(T).name();
-        /*if (poolMap.find(name) == poolMap.end()) {
-            poolMap[name] = new std::any(new ObjectPool<T>());
-        }*/
-        ObjectPool<T>* objectPool = std::any_cast<ObjectPool<T>>(poolMap[typeid(T).name()]);
-        if(objectPool == nullptr) objectPool = new ObjectPool<T>;
-        return objectPool->get();
+        if (poolMap.find(name) == poolMap.end()) {
+            //If not contains
+            poolMap[name] = std::any(new ObjectPool<T>());
+        }
+        //ObjectPool<T>* objectPool = std::any_cast<ObjectPool<T>>(poolMap[typeid(T).name()]);
+        //if(objectPool == nullptr) objectPool = new ObjectPool<T>;
+        //ObjectPool<T>* z =
+
+        return std::any_cast<ObjectPool<T>*>(poolMap[name])->get();
+        //NULL ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     }
     template<typename T>
+<<<<<<< HEAD
     void put(T object) {
+=======
+    bool put(T *object) {
+>>>>>>> broken-component-system
         //return poolMap[typeid(T).name()]->put(object);
-        //return std::any_cast<ObjectPool<T>*>(poolMap[typeid(T).name()])->put(object);
+        std::string type = typeid(*object).name();
+        std::any any = poolMap[type];
+        ObjectPool<T>* temp = std::any_cast<ObjectPool<T>*>(any);
+        return temp->put(object);
     }
 
+<<<<<<< HEAD
     void dontCrash() {
+=======
+    /*void dontCrash() {
+>>>>>>> broken-component-system
 
-    }
+    }*/
 };
 
 
