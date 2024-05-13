@@ -6,17 +6,39 @@
 #include "GLFW/glfw3.h"
 #include <iostream>
 #include <list>
+#include <map>
+#include <utility>
+#include <vector>
+#include <string>
 #include "vector2.h"
+using namespace std;
 class inputManager {
     private:
         GLFWwindow* window;
         bool lastInput[GLFW_KEY_LAST]{};
+        map<string, vector<int>> keys;
     public:
         int keyCodeSpace=32;
+
+
 
         inputManager(GLFWwindow* window){
             this->window=window;
 
+        }
+        void setKeyMap(string name,vector<int> id){
+            keys[name]=std::move(id);
+        }
+        bool getKeyMap(string name){
+            vector inputKeys=keys[name];
+            for(int i=0;i<inputKeys.size();i++)
+            {
+                if(getInput(inputKeys[i]))
+                {
+                    return true;
+                }
+            }
+            return false;
         }
         int getKeyCode(char character){
             return (int)character;
