@@ -9,7 +9,7 @@
 #include "../vector2.h"
 inputManager input=*new inputManager();
 vector2 mousePositionLast=*new vector2(0,0);
-double mouseSensitivity=0.1;
+double mouseSensitivity=10;
 double mouseLimits=80;
 
 void CameraControl::initial(Entity& parent) {
@@ -20,9 +20,11 @@ void CameraControl::update(Entity &parent, double& deltaTime) {
     //mouse movement
     input.lockMouse(true);
     input.setWindow(GameManager::window.windowInstance);
+
     auto mousePosition=input.getMousePosition();
-    parent.rotation.y+=(mousePosition.x-mousePositionLast.x)*mouseSensitivity;
-    parent.rotation.x+=(mousePosition.y-mousePositionLast.y)*mouseSensitivity;
+
+    parent.rotation.y+=(mousePosition.x-mousePositionLast.x) * mouseSensitivity * deltaTime;
+    parent.rotation.x+=(mousePosition.y-mousePositionLast.y) * mouseSensitivity * deltaTime;
 
     if(parent.rotation.x<=-mouseLimits)
     {
