@@ -7,16 +7,32 @@
 #include "../inputManager.h"
 #include "../inputManager.cpp"
 #include "../vector2.h"
-inputManager input=*new inputManager(GameManager::window.windowInstance);
+inputManager input=*new inputManager();
 vector2 mousePositionLast=*new vector2(0,0);
+double mouseSensitivity=0.1;
+double mouseLimits=80;
+
 void CameraControl::initial(Entity& parent) {
 
 }
 
 void CameraControl::update(Entity &parent, double& deltaTime) {
-//Camera Look (KP = numpad)
+    //mouse movement
+    input.lockMouse(true);
+    input.setWindow(GameManager::window.windowInstance);
     auto mousePosition=input.getMousePosition();
-    parent.rotation.x+=(mousePosition.x-mousePositionLast.x);
+    parent.rotation.y+=(mousePosition.x-mousePositionLast.x)*mouseSensitivity;
+    parent.rotation.x+=(mousePosition.y-mousePositionLast.y)*mouseSensitivity;
+
+    if(parent.rotation.x<=-mouseLimits)
+    {
+        parent.rotation.x=-mouseLimits;
+    }
+    if(parent.rotation.x>=mouseLimits)
+    {
+        parent.rotation.x=mouseLimits;
+    }
+
     int rotateSpeed = 90;
     if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_LEFT) == GLFW_PRESS) {
         parent.rotation.y -= rotateSpeed * deltaTime;
@@ -71,6 +87,7 @@ void CameraControl::update(Entity &parent, double& deltaTime) {
         parent.position.y = 0;
         parent.position.z = 0;
     }
+    //rest the last mouse position!
     mousePositionLast.x=mousePosition.x;
     mousePositionLast.y=mousePosition.y;
 }

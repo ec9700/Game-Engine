@@ -21,10 +21,11 @@ class inputManager {
         int keyCodeSpace=32;
 
 
+        inputManager(){
 
+        }
         inputManager(GLFWwindow* window){
             this->window=window;
-
         }
         void setKeyMap(string name,vector<int> id){
             keys[name]=std::move(id);
@@ -65,6 +66,19 @@ class inputManager {
             }
             lastInput[keyCode] = pressed;
             return returnValue;
+        }
+        void setWindow(GLFWwindow* windowInstance)
+        {
+            window=windowInstance;
+        }
+        void lockMouse(bool shouldLock){
+            if(shouldLock) {
+                glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+            }
+            else
+            {
+                glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
+            }
         }
         vector2 getMousePosition(){
             double mouseX, mouseY;
