@@ -35,6 +35,8 @@ void CameraControl::update(Entity &parent, double& deltaTime) {
         parent.rotation.x=mouseLimits;
     }
 
+    input.setKeyMap("Up", {GLFW_KEY_SPACE,GLFW_KEY_ENTER});
+
     int rotateSpeed = 90;
     if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_LEFT) == GLFW_PRESS) {
         parent.rotation.y -= rotateSpeed * deltaTime;
@@ -77,7 +79,7 @@ void CameraControl::update(Entity &parent, double& deltaTime) {
     if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_S) == GLFW_PRESS) {
         parent.position.z -= moveSpeed * deltaTime;
     }
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_SPACE) == GLFW_PRESS) {
+    if (input.getKeyMap("Up")) {
         parent.position.y -= moveSpeed * deltaTime;
     }
     if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {
