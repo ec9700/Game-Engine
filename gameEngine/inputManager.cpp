@@ -12,25 +12,22 @@
 #include <string>
 #include "vector2.h"
 using namespace std;
-class inputManager {
+static class inputManager {
     private:
-        GLFWwindow* window;
-        bool lastInput[GLFW_KEY_LAST]{};
-        map<string, vector<int>> keys;
+        static GLFWwindow* window;
+        static bool lastInput[GLFW_KEY_LAST];
+        static map<string, vector<int>> keys;
     public:
-        int keyCodeSpace=32;
-
-
         inputManager(){
 
         }
         inputManager(GLFWwindow* window){
             this->window=window;
         }
-        void setKeyMap(string name,vector<int> id){
+        static void setKeyMap(string name,vector<int> id){
             keys[name]=std::move(id);
         }
-        bool getKeyMap(string name){
+        static bool getKeyMap(string name){
             vector inputKeys=keys[name];
             for(int i=0;i<inputKeys.size();i++)
             {
@@ -41,13 +38,13 @@ class inputManager {
             }
             return false;
         }
-        int getKeyCode(char character){
+        static int getKeyCode(char character){
             return (int)character;
         }
-        bool getInput(int keyCode){
+        static bool getInput(int keyCode){
             return glfwGetKey(window,keyCode)==GLFW_PRESS;
         }
-        bool getInputJustPressed(int keyCode){
+        static bool getInputJustPressed(int keyCode){
             bool pressed=getInput(keyCode);
             bool returnValue=false;
             if(pressed&&!lastInput[keyCode])
@@ -57,7 +54,7 @@ class inputManager {
             lastInput[keyCode] = pressed;
             return returnValue;
         }
-        bool getInputJustReleased(int keyCode){
+        static bool getInputJustReleased(int keyCode){
             bool pressed=getInput(keyCode);
             bool returnValue=false;
             if(!pressed&&lastInput[keyCode])
@@ -67,11 +64,11 @@ class inputManager {
             lastInput[keyCode] = pressed;
             return returnValue;
         }
-        void setWindow(GLFWwindow* windowInstance)
+        static void setWindow(GLFWwindow* windowInstance)
         {
             window=windowInstance;
         }
-        void lockMouse(bool shouldLock){
+        static void lockMouse(bool shouldLock){
             if(shouldLock) {
                 glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
             }
@@ -80,7 +77,7 @@ class inputManager {
                 glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
             }
         }
-        vector2 getMousePosition(){
+        static vector2 getMousePosition(){
             double mouseX, mouseY;
             glfwGetCursorPos(window, &mouseX, &mouseY);
             auto* returnValue=new vector2(mouseX,mouseY);
