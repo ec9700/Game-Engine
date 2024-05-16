@@ -33,6 +33,8 @@ add_executable(GameLib main.cpp
         gameEngine/VectorMethods.h
         gameEngine/ObjectPool.cpp
         gameEngine/ObjectPool.h
+        gameEngine/TextureManager.cpp
+        gameEngine/TextureManager.h
 )
 
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")

@@ -8,6 +8,7 @@
 
 #include "STB/stb_image.h"
 
+#include "TextureManager.h"
 #include <iostream>
 #include "glad/glad.h"
 
