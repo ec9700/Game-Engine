@@ -4,13 +4,39 @@
 
 #include "CameraControl.h"
 #include "../GameManager.h"
+#include "../inputManager.h"
+#include "../inputManager.cpp"
+#include "../vector2.h"
+inputManager input=*new inputManager();
+vector2 mousePositionLast=*new vector2(0,0);
+double mouseSensitivity=10;
+double mouseLimits=80;
 
 void CameraControl::initial(Entity& parent) {
 
 }
 
 void CameraControl::update(Entity &parent, double& deltaTime) {
-//Camera Look (KP = numpad)
+    //mouse movement
+    input.lockMouse(true);
+    input.setWindow(GameManager::window.windowInstance);
+
+    auto mousePosition=input.getMousePosition();
+
+    parent.rotation.y+=(mousePosition.x-mousePositionLast.x) * mouseSensitivity * deltaTime;
+    parent.rotation.x+=(mousePosition.y-mousePositionLast.y) * mouseSensitivity * deltaTime;
+
+    if(parent.rotation.x<=-mouseLimits)
+    {
+        parent.rotation.x=-mouseLimits;
+    }
+    if(parent.rotation.x>=mouseLimits)
+    {
+        parent.rotation.x=mouseLimits;
+    }
+
+    input.setKeyMap("Up", {GLFW_KEY_SPACE,GLFW_KEY_ENTER});
+
     int rotateSpeed = 90;
     if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_LEFT) == GLFW_PRESS) {
         parent.rotation.y -= rotateSpeed * deltaTime;
@@ -53,7 +79,7 @@ void CameraControl::update(Entity &parent, double& deltaTime) {
     if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_S) == GLFW_PRESS) {
         parent.position.z -= moveSpeed * deltaTime;
     }
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_SPACE) == GLFW_PRESS) {
+    if (input.getKeyMap("Up")) {
         parent.position.y -= moveSpeed * deltaTime;
     }
     if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {
@@ -65,6 +91,9 @@ void CameraControl::update(Entity &parent, double& deltaTime) {
         parent.position.y = 0;
         parent.position.z = 0;
     }
+    //rest the last mouse position!
+    mousePositionLast.x=mousePosition.x;
+    mousePositionLast.y=mousePosition.y;
 }
 
 void CameraControl::reset(Entity& parent) {

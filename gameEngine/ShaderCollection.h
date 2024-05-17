@@ -7,6 +7,7 @@
 
 
 #include "Shader.h"
+class Texture;
 
 class ShaderCollection {
 public:

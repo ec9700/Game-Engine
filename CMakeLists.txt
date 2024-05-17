@@ -21,6 +21,10 @@ add_executable(GameLib main.cpp
         gameEngine/Component.h
         gameEngine/GameManager.cpp
         gameEngine/GameManager.h
+        gameEngine/inputManager.cpp
+        gameEngine/inputManager.h
+        gameEngine/vector2.cpp
+        gameEngine/vector2.h
         gameEngine/Components/Spin.cpp
         gameEngine/Components/Spin.h
         gameEngine/Components/CameraControl.cpp
