@@ -27,6 +27,15 @@ void CameraControl::update(Entity &parent, double& deltaTime) {
     parent.rotation.y+=(mousePosition.x-mousePositionLast.x) * mouseSensitivity * deltaTime;
     parent.rotation.x+=(mousePosition.y-mousePositionLast.y) * mouseSensitivity * deltaTime;
 
+    while(parent.rotation.y>=360)
+    {
+        parent.rotation.y-=360;
+    }
+    while(parent.rotation.y<=0)
+    {
+        parent.rotation.y+=360;
+    }
+
     if(parent.rotation.x<=-mouseLimits)
     {
         parent.rotation.x=-mouseLimits;
@@ -49,9 +58,46 @@ void CameraControl::update(Entity &parent, double& deltaTime) {
     //Camera Movement
     int moveSpeed = 5;
 
-    double xSpeed = cos(parent.rotation.x)*moveSpeed;
+    double angle=parent.rotation.y;
+    double zSpeed;
+    double xSpeed;
 
-    double zSpeed = sin(parent.rotation.x)*moveSpeed;
+    if(angle==90)
+    {
+        angle+=0.001;
+    }
+    if(angle==270)
+    {
+        angle+=0.001;
+    }
+
+    if(angle>=0&&angle<90)
+    {
+        zSpeed = abs(sqrt(pow(moveSpeed,2) / (1 + tan(parent.rotation.y))));
+
+        xSpeed = abs(sqrt(pow(moveSpeed,2) - pow(zSpeed,2)));
+    }
+    else if(angle>=90&&angle<180)
+    {
+        zSpeed = abs(sqrt(pow(moveSpeed,2) / (1 + tan(180-parent.rotation.y))))*-1;
+
+        xSpeed = abs(sqrt(pow(moveSpeed,2) - pow(zSpeed,2)));
+    }
+    else if(angle>=180&&angle<270)
+    {
+        zSpeed = abs(sqrt(pow(moveSpeed,2) / (1 + tan(parent.rotation.y-180))))*-1;
+
+        xSpeed = abs(sqrt(pow(moveSpeed,2) - pow(zSpeed,2)))*-1;
+    }
+    else if(angle>=270&&angle<360)
+    {
+        zSpeed = abs(sqrt(pow(moveSpeed,2) / (1 + tan(360-parent.rotation.y))));
+
+        xSpeed = abs(sqrt(pow(moveSpeed,2) - pow(zSpeed,2)))*-1;
+    }
+
+
+
 
     if(glfwGetKey(GameManager::window.windowInstance,GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS) moveSpeed *= 2;
 
@@ -62,7 +108,8 @@ void CameraControl::update(Entity &parent, double& deltaTime) {
         parent.position.x += moveSpeed * deltaTime;
     }
     if (input.getKeyMap("Forward")) {
-        parent.position.z += moveSpeed * deltaTime;
+        parent.position.z += zSpeed * deltaTime;
+        parent.position.x += xSpeed * deltaTime;
     }
     if (input.getKeyMap("Backward")) {
         parent.position.z -= moveSpeed * deltaTime;
