@@ -16,7 +16,6 @@ void HitboxComponent::initial(Entity &parent) {
 void HitboxComponent::update(Entity &parent, double &deltaTime) {
     for(HitboxData* hitboxData : hitboxAreaCheckMap[this->data.layerName]) {
         if(data.isOverlapping(*hitboxData)) hitboxData->onHit(&parent);
-
     }
 }
 

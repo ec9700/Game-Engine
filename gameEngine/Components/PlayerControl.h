@@ -12,6 +12,8 @@ class PlayerControl : Component {
     void initial(Entity& parent) override;
     void update(Entity &parent, double& deltaTime) override;
     void reset(Entity& parent) override;
+
+    friend Entity;
 };
 
 

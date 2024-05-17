@@ -11,6 +11,8 @@
 #include "../HitboxData.h"
 
 class HitboxComponent : Component {
+public:
+    HitboxData data;
 private:
     void initial(Entity& parent) override;
     /**
@@ -23,7 +25,6 @@ private:
      * A @ref std::unordered_map storing layerNames and @ref HitboxData. Each @ref HitboxComponent checks @ref ::hitboxAreaCheckMap every frame to check for overlap
      */
     static std::unordered_map<std::string,std::vector<HitboxData*>> hitboxAreaCheckMap;
-    HitboxData data;
 
     friend Entity;
     friend GameManager;

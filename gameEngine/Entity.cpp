@@ -71,23 +71,8 @@ void Entity::setSize(float x, float y, float z) {
     this->size.z = z;
 }
 
-void Entity::testArea(std::string layerName, glm::vec3 position, glm::vec3 size, void (*onHit)(Entity*)) {
-    HitboxData* hitboxData = new HitboxData;
-    hitboxData->position = position;
-    hitboxData->size = size;
-    hitboxData->layerName = layerName;
-    hitboxData->onHit = onHit;
-
-    hitboxAreaChecks.push_back(hitboxData);
-    HitboxComponent::hitboxAreaCheckMap[layerName].push_back(hitboxData);
-}
-
-void Entity::testArea(std::string layerName, float x, float y, float z, float width, float height, float depth, void (*onHit)(Entity *)) {
-    testArea(layerName, glm::vec3(x,y,z), glm::vec3(width,height,depth),onHit);
-}
-
 void Entity::testArea(std::string layerName, void (*onHit)(Entity *)) {
-    testArea(layerName, this->position, this->size,onHit);
+    testArea(layerName, onHit, this->position, this->size);
 }
 
 void Entity::rotate(glm::vec3 xyz) {
@@ -112,6 +97,32 @@ void Entity::setPosition(glm::vec3 xyz) {
 void Entity::setSize(glm::vec3 xyz) {
     setSize(xyz.x,xyz.y,xyz.z);
 }
+
+void Entity::testArea(std::string layerName, void (*onHit)(Entity *), glm::vec3 position, glm::vec3 size) {
+    HitboxData* hitboxData = new HitboxData;
+    hitboxData->position = position;
+    hitboxData->size = size;
+    hitboxData->layerName = layerName;
+    hitboxData->onHit = onHit;
+
+    hitboxAreaChecks.push_back(hitboxData);
+    HitboxComponent::hitboxAreaCheckMap[layerName].push_back(hitboxData);
+}
+
+void
+Entity::testArea(std::string layerName, void (*onHit)(Entity *), float x, float y, float z, float width, float height, float depth) {
+    testArea(layerName,onHit, glm::vec3(x,y,z), glm::vec3(width,height,depth));
+}
+
+void Entity::testAdjacentArea(std::string layerName, void (*onHit)(Entity *), glm::vec3 position, glm::vec3 size) {
+    testArea(layerName, onHit, position+this->position, size);
+}
+
+void Entity::testAdjacentArea(std::string layerName, void (*onHit)(Entity *), float x, float y, float z, float width, float height, float depth) {
+    testAdjacentArea(layerName, onHit, glm::vec3(x, y, z), glm::vec3(width, height, depth));
+}
+
+
 
 /*void Entity::dontCrash() {
     pool.dontCrash();

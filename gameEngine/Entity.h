@@ -43,7 +43,7 @@ public:
      * @param size @ref glm::vec3 Size of defined box
      * @param onHit @code void (*onHit)(Entity*)@endcode Function to call on overlap
      */
-    void testArea(std::string layerName, glm::vec3 position, glm::vec3 size, void (*onHit)(Entity*) );
+    void testArea(std::string layerName,void (*onHit)(Entity*), glm::vec3 position, glm::vec3 size=glm::vec3(1,1,1) );
     /**
      * Tests if any @ref HitboxComponent of name @p layerName overlaps with a box defined by @p x,@p y,@p z, and @p width,@p height,@p depth, calling @p onHit if true
      * @param layerName @ref std::string Name of hitbox to check for
@@ -55,13 +55,32 @@ public:
      * @param depth @ref float width of defined box
      * @param onHit @code void (*onHit)(Entity*)@endcode Function to call on overlap
      */
-    void testArea(std::string layerName, float x, float y, float z, float width, float height, float depth, void (*onHit)(Entity*) );
+    void testArea(std::string layerName, void (*onHit)(Entity*), float x, float y, float z, float width=1, float height=1, float depth=1 );
     /**
      * Tests if any @ref HitboxComponent of name @p layerName overlaps with a box defined by the @code position@endcode and @code size@endcode properties @ref Entity calling @p onHit if true
      * @param layerName @ref std::string Name of hitbox to check for
      * @param onHit @code void (*onHit)(Entity*)@endcode Function to call on overlap
      */
     void testArea(std::string layerName, void (*onHit)(Entity*) );
+
+    /**
+     * Tests if any @ref HitboxComponent of name @p layerName overlaps with a box defined by @p position and @p size relative to this @ref Entity position, calling @p onHit if true
+     * @param layerName @ref std::string Name of hitbox to check for
+     * @param position @ref glm::vec3 Position of defined box
+     * @param size @ref glm::vec3 Size of defined box
+     * @param onHit @code void (*onHit)(Entity*)@endcode Function to call on overlap
+     */
+    void testAdjacentArea(std::string layerName, void (*onHit)(Entity*), glm::vec3 position, glm::vec3 size= glm::vec3(
+            1, 1, 1));
+
+    /**
+     * Tests if any @ref HitboxComponent of name @p layerName overlaps with a box defined by @p position and @p size relative to this @ref Entity position, calling @p onHit if true
+     * @param layerName @ref std::string Name of hitbox to check for
+     * @param position @ref glm::vec3 Position of defined box
+     * @param size @ref glm::vec3 Size of defined box
+     * @param onHit @code void (*onHit)(Entity*)@endcode Function to call on overlap
+     */
+    void testAdjacentArea(std::string layerName,void (*onHit)(Entity*),  float x, float y, float z, float width=1, float height=1, float depth=1 );
 
     /**
      * Rotates this @ref Entity by @p x,@p y, and @p z

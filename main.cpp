@@ -10,6 +10,8 @@
 #include "gameEngine/Components/Spin.h"
 #include "gameEngine/Components/RenderComponent.h"
 #include "gameEngine/Components/CameraControl.h"
+#include "gameEngine/Components/HitboxComponent.h"
+#include "gameEngine/Components/PlayerControl.h"
 #include <vector>
 
 const char* vertexShaderSource = "#version 330 core\n"
@@ -136,6 +138,10 @@ int main() {
 
     Texture texture( relativePath.append("/Textures/thing.jpg").c_str() );
 
+    relativePath = __FILE__;
+    relativePath.erase(relativePath.size()-fileName.length(),fileName.length());
+    Texture ground( relativePath.append("/Textures/container.jpg").c_str() );
+
 
     //RenderManager renderManager = RenderManager();
     GameManager::initial(window);
@@ -150,6 +156,7 @@ int main() {
     Entity* camera = Entity::newEntity();
     RenderManager::camera = camera;
     camera->addComponent<CameraControl>();
+    //`camera->addComponent<PlayerControl>();
 
     //Entities
     int max = 100;
@@ -166,7 +173,19 @@ int main() {
         renderComponent->setVertices(vertices);
     }
 
-    auto* input = new InputManager(window);
+    //-----------------GROUND--------------
+    /*Entity* entity = Entity::newEntity();
+    RenderComponent* renderComponent = entity->addComponent<RenderComponent>();
+    renderComponent->setShaderCollection(shaderCollection);
+    renderComponent->setVertices(vertices);
+    entity->texture = ground;
+    entity->position.y = 30;
+    entity->size = glm::vec3(30,1,30);
+    HitboxComponent* hitbox = entity->addComponent<HitboxComponent>();
+    hitbox->data.size = entity->size;
+    hitbox->data.layerName = "ground";*/
+
+    //auto* input = new InputManager(window);
     //unsigned long frameCount;
     while(!glfwWindowShouldClose(GameManager::window.windowInstance)) {
         _sleep(1); //Ignore that this is deprecated, temporary fix for limiting frames

@@ -9,7 +9,6 @@
 vector2 mousePositionLast=*new vector2(0,0);
 double mouseSensitivity=10;
 double mouseLimits=80;
-int moveSpeed = 5;
 
 void CameraControl::initial(Entity& parent) {
     GameManager::inputManager.addKeyToMap("left",GLFW_KEY_A);
@@ -48,7 +47,8 @@ void CameraControl::update(Entity &parent, double& deltaTime) {
     }
 
     //Camera Movement
-    if(glfwGetKey(GameManager::window.windowInstance,GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS) moveSpeed *= 2;
+    int moveSpeed = 5;
+    if(glfwGetKey(GameManager::window.windowInstance,GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS) moveSpeed *= 5;
 
     parent.position.x += moveSpeed * deltaTime * GameManager::inputManager.getInputDirection("left","right");
     parent.position.z += moveSpeed * deltaTime * GameManager::inputManager.getInputDirection("forward","backward");
