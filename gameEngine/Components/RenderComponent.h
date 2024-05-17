@@ -21,6 +21,7 @@ public:
     void reset(Entity& parent) override;
     void setShaderCollection(ShaderCollection &shaderCollection);
     void setVertices(std::vector<float> &vertices);
+    friend Entity;
 
 };
 

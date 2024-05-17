@@ -18,15 +18,26 @@ class Component;
 class GameManager;
 
 class Entity {
+
+
+
 private:
     static ComplexPool pool;
     std::vector<Component*> componentVector;
     Entity() = default;
 public:
     glm::vec3 position = glm::vec3(0,0,0);
-    glm::vec3 scale = glm::vec3(1,1,1);
+    glm::vec3 size = glm::vec3(1,1,1);
     glm::vec3 rotation = glm::vec3(0,0,0);
     Texture texture = nullptr;
+
+    void rotate(float x, float y, float z);
+    void move(float x, float y, float z);
+    void scale(float x, float y, float z);
+
+    void setRotation(float x, float y, float z);
+    void setPosition(float x, float y, float z);
+    void setSize(float x, float y, float z);
 
     void destroy();
 
@@ -35,6 +46,7 @@ public:
     T* addComponent() {
         T* component = pool.get<T>();
         componentVector.push_back(component);
+        component->initial(*this);
         return component;
     }
 

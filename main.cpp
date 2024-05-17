@@ -154,10 +154,10 @@ int main() {
     int max = 100;
 
     for(int i=0; i<max; i++) {
-        Entity* entity = Entity::newEntity(); //fixme Figure out how to create new entity
-        entity->texture = texture;
+        Entity* entity = Entity::newEntity();
+        entity->texture = texture; //fixme Move texture to renderComponent
         entity->position.y = -max/2 + i;
-        entity->scale = glm::vec3(1,1,1);
+        entity->size = glm::vec3(1,1,1);
         entity->addComponent<Spin>();
 
         RenderComponent* renderComponent = entity->addComponent<RenderComponent>();
@@ -168,9 +168,6 @@ int main() {
     //unsigned long frameCount;
     while(!glfwWindowShouldClose(GameManager::window.windowInstance)) {
         _sleep(1); //Ignore that this is deprecated, temporary fix for limiting frames
-
-        double deltaTime = glfwGetTime() - lastTime;
-        lastTime = glfwGetTime();
 
         if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
             glfwSetWindowShouldClose(GameManager::window.windowInstance, true);

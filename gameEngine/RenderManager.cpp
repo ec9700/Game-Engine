@@ -52,7 +52,7 @@ void RenderManager::render(const Entity &entity, ShaderCollection shaderCollecti
     model = glm::rotate(model, glm::radians(entity.rotation.x), glm::vec3(1.0f, 0.0f, 0.0f));
     model = glm::rotate(model, glm::radians(entity.rotation.y), glm::vec3(0.0f, 1.0f, 0.0f));
     model = glm::rotate(model, glm::radians(entity.rotation.z), glm::vec3(0.0f, 0.0f, 1.0f));
-    model = glm::scale(model, entity.scale);
+    model = glm::scale(model, entity.size);
 
 
     /*view = glm::lookAt(camera.position,
@@ -62,7 +62,7 @@ void RenderManager::render(const Entity &entity, ShaderCollection shaderCollecti
     view = glm::rotate(view, glm::radians(camera->rotation.y), glm::vec3(0.0f, 1.0f, 0.0f));
     view = glm::rotate(view, glm::radians(camera->rotation.z), glm::vec3(0.0f, 0.0f, 1.0f));
     view = glm::translate(view, camera->position);
-    view = glm::scale(view, camera->scale);
+    view = glm::scale(view, camera->size);
 
     projection = glm::perspective(glm::radians(45.0f), (float)GameManager::window.windowWidth / (float)GameManager::window.windowHeight, 0.1f, 100.0f);
 

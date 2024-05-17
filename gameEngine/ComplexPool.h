@@ -29,11 +29,15 @@ public:
         //NULL ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     }
     template<typename T>
-    bool put(T *object) {
+    bool put(T* object) {
         //return poolMap[typeid(T).name()]->put(object);
+        //<std::remove_pointer<std::remove_reference<decltype(*component)>::type>::type>
         std::string type = typeid(*object).name();
         std::any any = poolMap[type];
-        ObjectPool<T>* temp = std::any_cast<ObjectPool<T>*>(any);
+
+        //ObjectPool pool = std::any_cast<ObjectPool*>(any);
+
+        ObjectPool<T>* temp = std::any_cast<ObjectPool<T>*>(any); //fixme <---- Can't get this without type
         return temp->put(object);
     }
 

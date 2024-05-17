@@ -12,8 +12,9 @@ class Spin : public Component {
     void initial(Entity& parent) override;
     void update(Entity &parent, double& deltaTime) override;
     void reset(Entity& parent) override;
-
-    void blankMethod();
+public:
+    void speed(float amount);
+    friend Entity;
 };
 
 
