@@ -10,6 +10,7 @@
 #include "gameEngine/Components/RenderComponent.h"
 #include "gameEngine/Components/CameraControl.h"
 #include <vector>
+#include "gameEngine/TextureManager.h"
 
 const char* vertexShaderSource = "#version 330 core\n"
                                  "layout (location = 0) in vec3 aPos;\n"
@@ -128,12 +129,15 @@ int main() {
             -0.5f, 0.5f, -0.5f, 1, 0, 0, 0,1,
     };
 
-    std::string fileName = __FILE_NAME__;
+    TextureManager::addTexture("container", "container.jpg");
+    TextureManager::addTexture("HolaYall", "HolaYall.png");
+    TextureManager::addTexture("hy", "hy.png");
+    TextureManager::addTexture("jumper", "jumper.png");
+    TextureManager::addTexture("smile.png");
+    TextureManager::addTexture("test.jpg");
+    TextureManager::addTexture("thing.jpg");
+    TextureManager::addTexture("transparent.png");
 
-    std::string relativePath = __FILE__;
-    relativePath.erase(relativePath.size()-fileName.length(),fileName.length());
-
-    Texture texture( relativePath.append("/Textures/thing.jpg").c_str() );
 
 
     //RenderManager renderManager = RenderManager();
@@ -155,7 +159,7 @@ int main() {
 
     for(int i=0; i<max; i++) {
         Entity* entity = Entity::newEntity(); //fixme Figure out how to create new entity
-        entity->texture = texture;
+        entity->texture = *TextureManager::findByName("test");
         entity->position.y = -max/2 + i;
         entity->scale = glm::vec3(1,1,1);
         entity->addComponent<Spin>();
