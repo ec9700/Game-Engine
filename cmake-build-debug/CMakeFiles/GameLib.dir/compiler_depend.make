@@ -524,6 +524,7 @@ CMakeFiles/GameLib.dir/gameEngine/Components/CameraControl.cpp.obj: C:/Users/ck6
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
+  C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/math.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
   C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
@@ -5583,9 +5584,9 @@ C:/Users/ck6100/Documents/Game-Engine/include/glm/ext/vector_int3.hpp:
 
 C:/Users/ck6100/Documents/Game-Engine/include/glm/ext/vector_int4_sized.hpp:
 
-C:/Users/ck6100/Documents/Game-Engine/include/glm/ext/vector_relational.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h:
+
+C:/Users/ck6100/Documents/Game-Engine/include/glm/ext/vector_relational.hpp:
 
 C:/Users/ck6100/Documents/Game-Engine/include/glm/ext/vector_relational.inl:
 
@@ -5689,6 +5690,12 @@ C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multimap.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/pshpack4.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/math.h:
+
 C:/Users/ck6100/Documents/Game-Engine/gameEngine/vector2.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pmmintrin.h:
@@ -5786,12 +5793,6 @@ C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/dpapi.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/x86intrin.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/math.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/x86_64-w64-mingw32/include/pshpack4.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2023.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xopintrin.h:
 

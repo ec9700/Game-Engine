@@ -7,6 +7,7 @@
 #include "../inputManager.h"
 #include "../inputManager.cpp"
 #include "../vector2.h"
+#include<math.h>
 inputManager input=*new inputManager();
 vector2 mousePositionLast=*new vector2(0,0);
 double mouseSensitivity=10;
@@ -35,48 +36,35 @@ void CameraControl::update(Entity &parent, double& deltaTime) {
         parent.rotation.x=mouseLimits;
     }
 
-    input.setKeyMap("Up", {GLFW_KEY_SPACE,GLFW_KEY_ENTER});
+    input.setKeyMap("Forward", {input.getKeyCode('W')});
 
-    int rotateSpeed = 90;
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_LEFT) == GLFW_PRESS) {
-        parent.rotation.y -= rotateSpeed * deltaTime;
-    }
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_RIGHT) == GLFW_PRESS) {
-        parent.rotation.y += rotateSpeed * deltaTime;
-    }
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_UP) == GLFW_PRESS) {
-        parent.rotation.x -= rotateSpeed * deltaTime;
-    }
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_DOWN) == GLFW_PRESS) {
-        parent.rotation.x += rotateSpeed * deltaTime;
-    }
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_KP_1) == GLFW_PRESS) {
-        parent.rotation.z -= rotateSpeed * deltaTime;
-    }
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_KP_2) == GLFW_PRESS) {
-        parent.rotation.z += rotateSpeed * deltaTime;
-    }
-    //Reset rotation
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_KP_9) == GLFW_PRESS) {
-        parent.rotation.x = 0;
-        parent.rotation.y = 0;
-        parent.rotation.z = 0;
-    }
+    input.setKeyMap("Backward", {input.getKeyCode('S')});
+
+    input.setKeyMap("Left", {input.getKeyCode('A')});
+
+    input.setKeyMap("Right", {input.getKeyCode('D')});
+
+    input.setKeyMap("Up", {GLFW_KEY_SPACE,GLFW_KEY_ENTER});
 
     //Camera Movement
     int moveSpeed = 5;
+
+    double xSpeed = cos(parent.rotation.x)*moveSpeed;
+
+    double zSpeed = sin(parent.rotation.x)*moveSpeed;
+
     if(glfwGetKey(GameManager::window.windowInstance,GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS) moveSpeed *= 2;
 
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_D) == GLFW_PRESS) {
+    if (input.getKeyMap("Right")) {
         parent.position.x -= moveSpeed * deltaTime;
     }
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_A) == GLFW_PRESS) {
+    if (input.getKeyMap("Left")) {
         parent.position.x += moveSpeed * deltaTime;
     }
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_W) == GLFW_PRESS) {
+    if (input.getKeyMap("Forward")) {
         parent.position.z += moveSpeed * deltaTime;
     }
-    if (glfwGetKey(GameManager::window.windowInstance, GLFW_KEY_S) == GLFW_PRESS) {
+    if (input.getKeyMap("Backward")) {
         parent.position.z -= moveSpeed * deltaTime;
     }
     if (input.getKeyMap("Up")) {
