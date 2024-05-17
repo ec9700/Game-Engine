@@ -21,8 +21,8 @@ add_executable(GameLib main.cpp
         gameEngine/Component.h
         gameEngine/GameManager.cpp
         gameEngine/GameManager.h
-        gameEngine/inputManager.cpp
-        gameEngine/inputManager.h
+        gameEngine/InputManager.cpp
+        gameEngine/InputManager.h
         gameEngine/vector2.cpp
         gameEngine/vector2.h
         gameEngine/Components/Spin.cpp
@@ -37,6 +37,12 @@ add_executable(GameLib main.cpp
         gameEngine/VectorMethods.h
         gameEngine/ObjectPool.cpp
         gameEngine/ObjectPool.h
+        gameEngine/Components/HitboxComponent.cpp
+        gameEngine/Components/HitboxComponent.h
+        gameEngine/HitboxData.cpp
+        gameEngine/HitboxData.h
+        gameEngine/Components/PlayerControl.cpp
+        gameEngine/Components/PlayerControl.h
 )
 
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")

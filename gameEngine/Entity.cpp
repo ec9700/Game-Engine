@@ -6,6 +6,8 @@
 #include "Component.h"
 #include "VectorMethods.h"
 #include "Components/RenderComponent.h"
+#include "HitboxData.h"
+#include "Components/HitboxComponent.h"
 
 ComplexPool Entity::pool;
 
@@ -67,6 +69,48 @@ void Entity::setSize(float x, float y, float z) {
     this->size.x = x;
     this->size.y = y;
     this->size.z = z;
+}
+
+void Entity::testArea(std::string layerName, glm::vec3 position, glm::vec3 size, void (*onHit)(Entity*)) {
+    HitboxData* hitboxData = new HitboxData;
+    hitboxData->position = position;
+    hitboxData->size = size;
+    hitboxData->layerName = layerName;
+    hitboxData->onHit = onHit;
+
+    hitboxAreaChecks.push_back(hitboxData);
+    HitboxComponent::hitboxAreaCheckMap[layerName].push_back(hitboxData);
+}
+
+void Entity::testArea(std::string layerName, float x, float y, float z, float width, float height, float depth, void (*onHit)(Entity *)) {
+    testArea(layerName, glm::vec3(x,y,z), glm::vec3(width,height,depth),onHit);
+}
+
+void Entity::testArea(std::string layerName, void (*onHit)(Entity *)) {
+    testArea(layerName, this->position, this->size,onHit);
+}
+
+void Entity::rotate(glm::vec3 xyz) {
+    rotate(xyz.x,xyz.y,xyz.z);
+}
+
+void Entity::move(glm::vec3 xyz) {
+    move(xyz.x,xyz.y,xyz.z);
+}
+
+void Entity::scale(glm::vec3 xyz) {
+    scale(xyz.x,xyz.y,xyz.z);
+}
+
+void Entity::setRotation(glm::vec3 xyz) {
+    setRotation(xyz.x,xyz.y,xyz.z);
+}
+
+void Entity::setPosition(glm::vec3 xyz) {
+    setPosition(xyz.x,xyz.y,xyz.z);
+}
+void Entity::setSize(glm::vec3 xyz) {
+    setSize(xyz.x,xyz.y,xyz.z);
 }
 
 /*void Entity::dontCrash() {

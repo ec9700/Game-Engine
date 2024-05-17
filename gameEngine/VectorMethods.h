@@ -13,12 +13,31 @@ class VectorMethods {
 private:
     VectorMethods();
 public:
+    /**
+     * Gets the index of @p object of type @p T in @p vector
+     * @tparam T Type of @p object
+     * @param vector @ref std::vector to check in
+     * @param object @p T Object to get index of
+     * @return @ref int Index of @p object, returning -1 on failure
+     */
     template<typename T>
     static int getIndexOf(std::vector<T> vector,T object);
 
+    /**
+     * Removes an @p object of type @p T from @p vector
+     * @tparam T Type of @p object
+     * @param vector @ref std::vector to remove object in
+     * @param object @p T Object to remove from @p vector
+     */
     template<typename T>
     static void removeObject(std::vector<T> &vector, T object);
 
+    /**
+     * Removes an object at @p index
+     * @tparam T type of @p vector
+     * @param vector @ref std::vector Vector to remove object in
+     * @param index @ref int Index of object to remove
+     */
     template<typename T>
     static void removeObjectAt(std::vector<T>& vector, int index);
 };

@@ -13,6 +13,11 @@ private:
     //std::unordered_map<std::string,ObjectPool<std::any,0>*> poolMap;
     std::unordered_map<std::string,std::any> poolMap;
 public:
+    /**
+     * Gets an object from a @ref ObjectPool::pooledObjects of type @code T@endcode, creating a new one if none exist
+     * @tparam T Type of object to get
+     * @return Object of type @code T@endcode
+     */
     template<typename T>
     T* get() {
         //Make sure this can return null
@@ -21,30 +26,27 @@ public:
             //If not contains
             poolMap[name] = std::any(new ObjectPool<T>());
         }
-        //ObjectPool<T>* objectPool = std::any_cast<ObjectPool<T>>(poolMap[typeid(T).name()]);
-        //if(objectPool == nullptr) objectPool = new ObjectPool<T>;
-        //ObjectPool<T>* z =
 
         return std::any_cast<ObjectPool<T>*>(poolMap[name])->get();
         //NULL ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     }
+    /**
+     * Puts an object of type @code T@endcode into a @ref ObjectPool::pooledObjects to returned by @ref ObjectPool::get() and reused
+     * @tparam T Type of object to put back
+     * @param object Object of type @code T@endcode to put back
+     * @return @ref bool True if successful, otherwise false
+     * @see ObjectPool::get()
+     */
     template<typename T>
     bool put(T* object) {
-        //return poolMap[typeid(T).name()]->put(object);
-        //<std::remove_pointer<std::remove_reference<decltype(*component)>::type>::type>
+        //fixme Turns out types can only be assigned at compile time, making returning object with a type only known at runtime impossible
         std::string type = typeid(*object).name();
         std::any any = poolMap[type];
-
-        //ObjectPool pool = std::any_cast<ObjectPool*>(any);
 
         ObjectPool<T>* temp = std::any_cast<ObjectPool<T>*>(any); //fixme <---- Can't get this without type
         return temp->put(object);
     }
 
-    /*void dontCrash() {
->>>>>>> broken-component-system
-
-    }*/
 };
 
 

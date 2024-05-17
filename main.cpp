@@ -5,8 +5,7 @@
 #include "gameEngine/Texture.h"
 #include "gameEngine/Entity.h"
 #include "gameEngine/RenderManager.h"
-#include "gameEngine/inputManager.h"
-#include "gameEngine/inputManager.cpp"
+#include "gameEngine/InputManager.h"
 #include "gameEngine/GameManager.h"
 #include "gameEngine/Components/Spin.h"
 #include "gameEngine/Components/RenderComponent.h"
@@ -167,7 +166,7 @@ int main() {
         renderComponent->setVertices(vertices);
     }
 
-    auto* input = new inputManager(window);
+    auto* input = new InputManager(window);
     //unsigned long frameCount;
     while(!glfwWindowShouldClose(GameManager::window.windowInstance)) {
         _sleep(1); //Ignore that this is deprecated, temporary fix for limiting frames

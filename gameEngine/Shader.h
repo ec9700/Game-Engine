@@ -12,7 +12,11 @@
 class Shader {
 public:
     unsigned int shaderID;
-
+    //fixme CHANGE SHADER SOURCE TO SHADER FILE PATH
+    /**
+     * @param shaderSource Shader code to use
+     * @param shaderType @ref GLenum Type of shader to user
+     */
     Shader(char *shaderSource, GLenum shaderType);
 
 private:

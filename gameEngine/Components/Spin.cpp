@@ -5,7 +5,6 @@
 #include "Spin.h"
 
 void Spin::initial(Entity& parent) {
-//fixme Call this
 
 }
 void Spin::update(Entity &parent, double& deltaTime) {

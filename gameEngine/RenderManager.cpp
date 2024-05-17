@@ -61,7 +61,13 @@ void RenderManager::render(const Entity &entity, ShaderCollection shaderCollecti
     view = glm::rotate(view, glm::radians(camera->rotation.x), glm::vec3(1.0f, 0.0f, 0.0f));
     view = glm::rotate(view, glm::radians(camera->rotation.y), glm::vec3(0.0f, 1.0f, 0.0f));
     view = glm::rotate(view, glm::radians(camera->rotation.z), glm::vec3(0.0f, 0.0f, 1.0f));
-    view = glm::translate(view, camera->position);
+
+    //fixme X and Z directions are inverted, temporary fix for testing and presentation
+    glm::vec3 correctPosition = camera->position;
+    correctPosition.x *= -1;
+    correctPosition.z *= -1;
+
+    view = glm::translate(view, correctPosition);
     view = glm::scale(view, camera->size);
 
     projection = glm::perspective(glm::radians(45.0f), (float)GameManager::window.windowWidth / (float)GameManager::window.windowHeight, 0.1f, 100.0f);

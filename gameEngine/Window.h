@@ -15,6 +15,7 @@ public:
 
     GLFWwindow* windowInstance;
 
+    //fixme Apprently this does nothing. Make it create window
     void initial();
 };
 

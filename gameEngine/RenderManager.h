@@ -27,11 +27,23 @@ private:
 public:
     static Entity* camera;
 
+    /**
+     * Sets up @ref RenderManager, cannot be used without calling this first.<br>
+     * Automatically called by @ref GameManager::inital()
+     */
     static void initialize();
 
-    //Original Parameter: float (&vertices)[] instead of float* vertices
+    /**
+     * Renders an entity
+     * @param entity @ref Entity to use position, size, and rotation to render
+     * @param shaderCollection @ref ShaderCollection to render with
+     * @param vertices @ref std::vector<int> Vertex data
+     */
     static void render(const Entity &entity, ShaderCollection shaderCollection, std::vector<float> vertices);
 
+    /**
+     * Disposes and deletes allocated objects. Automatically called by @ref GameManager::dispose
+     */
     static void dispose();
 
 

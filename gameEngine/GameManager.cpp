@@ -4,16 +4,20 @@
 
 #include "GameManager.h"
 #include "Component.h"
+#include "Components/HitboxComponent.h"
 
 std::vector<Entity*> GameManager::entityVector;
 ShaderCollection* GameManager::shaderCollection;
 Window GameManager::window;
+InputManager GameManager::inputManager;
 static double lastTime;
 
 void GameManager::initial(GLFWwindow *window) {
 
     GameManager::window.initial();
     GameManager::window.windowInstance = window;
+
+    inputManager.setWindow(GameManager::window.windowInstance);
 
     RenderManager::initialize();
 }
@@ -29,6 +33,14 @@ void GameManager::update() {
 
     for(int i=0; i<entityVector.size(); i++) {
         for(Component *component : entityVector[i]->componentVector) {
+            //HitboxComponent check clear
+            for(int hitboxIndex=0; hitboxIndex<entityVector[i]->hitboxAreaChecks.size(); hitboxIndex++) {
+                HitboxData* hitboxData = entityVector[i]->hitboxAreaChecks[hitboxIndex];
+                std::remove(HitboxComponent::hitboxAreaCheckMap[hitboxData->layerName].begin(), HitboxComponent::hitboxAreaCheckMap[hitboxData->layerName].end(), hitboxData);
+                delete hitboxData;
+            }
+            entityVector[i]->hitboxAreaChecks.clear();
+            //Update components
             component->update(*entityVector[i],deltaTime);
         }
 

@@ -15,6 +15,9 @@ class Texture {
 
 public:
     unsigned int textureData{};
+    /**
+     * @param fileName File to load texture from
+     */
     Texture(const char *fileName);
 
 
